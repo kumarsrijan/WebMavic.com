@@ -31,40 +31,40 @@ function Partner5() {
             <div className="partner-wrap">
               <ul>
                 <li>
-                  <img src="assets/img/home-5/wp-logo.png" alt="" />
+                  <img style={{ objectFit: "contain" }} height={84.3} width={84.3} src="new-assets/wp-logo.png" alt="" />
                 </li>
                 <li>
-                  <img src="assets/img/home-5/webflow-logo.png" alt="" />
+                  <img style={{ "objectFit": "contain" }} height={84.3} width={84.3} src="assets/img/home-5/webflow-logo.png" alt="" />
                 </li>
                 <li>
-                  <img src="assets/img/home-5/react-logo.png" alt="" />
+                  <img style={{ "objectFit": "contain" }} height={84.3} width={84.3} src="new-assets/react-logo.png" alt="" />
                 </li>
                 <li>
-                  <img src="assets/img/home-5/node-logo.png" alt="" />
+                  <img style={{ "objectFit": "contain" }} height={84.3} width={84.3} src="new-assets/node-logo.png" alt="" />
                 </li>
                 <li>
-                  <img src="assets/img/home-5/firebase-logo.png" alt="" />
+                  <img style={{ "objectFit": "contain" }} height={84.3} width={84.3} src="new-assets/firebase-logo.png" alt="" />
                 </li>
                 <li>
-                  <img src="assets/img/home-5/partner-06.svg" alt="" />
+                  <img style={{ "objectFit": "contain" }} height={84.3} width={84.3} src="new-assets/mongo-logo.png" alt="" />
                 </li>
                 <li>
-                  <img src="assets/img/home-5/partner-07.svg" alt="" />
+                  <img style={{ "objectFit": "contain" }} height={84.3} width={84.3} src="new-assets/html-logo.png" alt="" />
                 </li>
                 <li>
-                  <img src="assets/img/home-5/partner-08.svg" alt="" />
+                  <img style={{ "objectFit": "contain" }} height={84.3} width={84.3} src="new-assets/npm-logo.png" alt="" />
                 </li>
                 <li>
-                  <img src="assets/img/home-5/partner-09.svg" alt="" />
+                  <img style={{ "objectFit": "contain" }} height={84.3} width={84.3} src="new-assets/css-logo.png" alt="" />
                 </li>
                 <li>
-                  <img src="assets/img/home-5/partner-10.svg" alt="" />
+                  <img style={{ "objectFit": "contain" }} height={84.3} width={84.3} src="new-assets/vite-logo.png" alt="" />
                 </li>
                 <li>
-                  <img src="assets/img/home-5/partner-11.svg" alt="" />
+                  <img style={{ "objectFit": "contain" }} height={84.3} width={84.3} src="new-assets/js-logo.png" alt="" />
                 </li>
                 <li>
-                  <img src="assets/img/home-5/partner-12.svg" alt="" />
+                  <img style={{ "objectFit": "contain" }} height={84.3} width={84.3} src="new-assets/npm-logo.png" alt="" />
                 </li>
               </ul>
             </div>
