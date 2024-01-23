@@ -27,7 +27,7 @@ function Faqpage() {
                       aria-controls="home"
                       aria-selected="true"
                     >
-                      Progress
+                      General
                     </button>
                   </li>
                   <li className="nav-item" role="presentation">
@@ -73,6 +73,7 @@ function Faqpage() {
                           <input type="text" />
                         </div>
                       </div>
+
                       <div className="col-lg-12 mb-20">
                         <div className="form-inner">
                           <label>Email</label>
@@ -122,7 +123,7 @@ function Faqpage() {
                           aria-expanded="true"
                           aria-controls="collapseOne"
                         >
-                          Aliquam ligula nunc, vehicula at est quis.
+                          What kind of companies and businesses do we work with?
                         </button>
                       </h5>
                       <div
@@ -132,10 +133,12 @@ function Faqpage() {
                         data-bs-parent="#accordionExample"
                       >
                         <div className="accordion-body">
-                          Aptent taciti sociosqu ad litora torquent per conubia
-                          nostra, per inceptos himenaeos. Praesent nec neque at
-                          dolor venenatis consectetur eu quis ex. placerat felis
-                          non aliquam.
+                          We work for a wide variety of businesses ranging from
+                          small start-ups to medium sized established
+                          businesses. The industries and business areas we have
+                          worked with include coaching, investing, real estate,
+                          local businesses, brick and mortar, personal sites and
+                          service based entrepreneurs.
                         </div>
                       </div>
                     </div>
@@ -149,7 +152,8 @@ function Faqpage() {
                           aria-expanded="false"
                           aria-controls="collapseTwo"
                         >
-                          In hac habitasse platea dictumst Cras leo.
+                          When the site is over, will I able to update it myself
+                          ?
                         </button>
                       </h5>
                       <div
@@ -159,10 +163,11 @@ function Faqpage() {
                         data-bs-parent="#accordionExample"
                       >
                         <div className="accordion-body">
-                          Aptent taciti sociosqu ad litora torquent per conubia
-                          nostra, per inceptos himenaeos. Praesent nec neque at
-                          dolor venenatis consectetur eu quis ex. placerat felis
-                          non aliquam.
+                          Yes, indeed. In case of Web Design we like to give our
+                          clients the option of updating their websites. We’ll
+                          provide you with all of the necessary training and
+                          resources to make changes to your website easily
+                          without relying on a developer.
                         </div>
                       </div>
                     </div>
@@ -176,7 +181,7 @@ function Faqpage() {
                           aria-expanded="false"
                           aria-controls="collapseThree"
                         >
-                          ornare iaculis tellus. Phasellus venenatis.
+                          How soon can we get started?
                         </button>
                       </h5>
                       <div
@@ -186,10 +191,11 @@ function Faqpage() {
                         data-bs-parent="#accordionExample"
                       >
                         <div className="accordion-body">
-                          Aptent taciti sociosqu ad litora torquent per conubia
-                          nostra, per inceptos himenaeos. Praesent nec neque at
-                          dolor venenatis consectetur eu quis ex. placerat felis
-                          non aliquam.
+                          It totally depends on your launch deadline and our
+                          availability to take on a new project that month. We
+                          can discuss that on a call if you are ready to move
+                          forward with us. Book a “FREE CALL” with us and find
+                          out your perfect spot!
                         </div>
                       </div>
                     </div>
@@ -293,7 +299,7 @@ function Faqpage() {
                           aria-expanded="true"
                           aria-controls="collapseOne1"
                         >
-                          Aliquam ligula nunc, vehicula at est quis.
+                          What all Payment options do I have ?
                         </button>
                       </h5>
                       <div
@@ -464,7 +470,7 @@ function Faqpage() {
                           aria-expanded="true"
                           aria-controls="collapseOne2"
                         >
-                          Aliquam ligula nunc, vehicula at est quis.
+                          How many revisions do we offer .
                         </button>
                       </h5>
                       <div
@@ -490,9 +496,7 @@ function Faqpage() {
                           data-bs-target="#collapseTwo2"
                           aria-expanded="false"
                           aria-controls="collapseTwo2"
-                        >
-                          In hac habitasse platea dictumst Cras leo.
-                        </button>
+                        ></button>
                       </h5>
                       <div
                         id="collapseTwo2"

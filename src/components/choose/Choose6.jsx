@@ -72,7 +72,9 @@ function Choose6() {
                         >
                           <path d="M0 1H12M12 1V13M12 1L0.5 12" />
                         </svg>
-                        About More
+                        Let's Get
+                        <br />
+                        Started
                       </a>
                     </Link>
                   </div>

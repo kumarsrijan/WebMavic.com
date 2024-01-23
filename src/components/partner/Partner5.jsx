@@ -11,8 +11,8 @@ function Partner5() {
         >
           <div className="col-lg-12 d-flex align-items-center justify-content-between flex-wrap gap-2">
             <div className="section-title-5">
-              <span>Partnerships</span>
-              <h2>Our Network</h2>
+              <span>Technologies</span>
+              <h2>What tech stack do we use ?</h2>
             </div>
             <div className="section-content">
               <p>
@@ -31,40 +31,112 @@ function Partner5() {
             <div className="partner-wrap">
               <ul>
                 <li>
-                  <img style={{ objectFit: "contain" }} height={84.3} width={84.3} src="new-assets/wp-logo.png" alt="" />
+                  <img
+                    style={{ objectFit: "contain" }}
+                    height={84.3}
+                    width={84.3}
+                    src="new-assets/wp-logo.png"
+                    alt=""
+                  />
                 </li>
                 <li>
-                  <img style={{ "objectFit": "contain" }} height={84.3} width={84.3} src="assets/img/home-5/webflow-logo.png" alt="" />
+                  <img
+                    style={{ objectFit: "contain" }}
+                    height={84.3}
+                    width={84.3}
+                    src="assets/img/home-5/webflow-logo.png"
+                    alt=""
+                  />
                 </li>
                 <li>
-                  <img style={{ "objectFit": "contain" }} height={84.3} width={84.3} src="new-assets/react-logo.png" alt="" />
+                  <img
+                    style={{ objectFit: "contain" }}
+                    height={84.3}
+                    width={84.3}
+                    src="new-assets/react-logo.png"
+                    alt=""
+                  />
                 </li>
                 <li>
-                  <img style={{ "objectFit": "contain" }} height={84.3} width={84.3} src="new-assets/node-logo.png" alt="" />
+                  <img
+                    style={{ objectFit: "contain" }}
+                    height={84.3}
+                    width={84.3}
+                    src="new-assets/node-logo.png"
+                    alt=""
+                  />
                 </li>
                 <li>
-                  <img style={{ "objectFit": "contain" }} height={84.3} width={84.3} src="new-assets/firebase-logo.png" alt="" />
+                  <img
+                    style={{ objectFit: "contain" }}
+                    height={84.3}
+                    width={84.3}
+                    src="new-assets/firebase-logo.png"
+                    alt=""
+                  />
                 </li>
                 <li>
-                  <img style={{ "objectFit": "contain" }} height={84.3} width={84.3} src="new-assets/mongo-logo.png" alt="" />
+                  <img
+                    style={{ objectFit: "contain" }}
+                    height={84.3}
+                    width={84.3}
+                    src="new-assets/mongo-logo.png"
+                    alt=""
+                  />
                 </li>
                 <li>
-                  <img style={{ "objectFit": "contain" }} height={84.3} width={84.3} src="new-assets/html-logo.png" alt="" />
+                  <img
+                    style={{ objectFit: "contain" }}
+                    height={84.3}
+                    width={84.3}
+                    src="new-assets/html-logo.png"
+                    alt=""
+                  />
                 </li>
                 <li>
-                  <img style={{ "objectFit": "contain" }} height={84.3} width={84.3} src="new-assets/npm-logo.png" alt="" />
+                  <img
+                    style={{ objectFit: "contain" }}
+                    height={84.3}
+                    width={84.3}
+                    src="new-assets/css-logo.png"
+                    alt=""
+                  />
                 </li>
                 <li>
-                  <img style={{ "objectFit": "contain" }} height={84.3} width={84.3} src="new-assets/css-logo.png" alt="" />
+                  <img
+                    style={{ objectFit: "contain" }}
+                    height={84.3}
+                    width={84.3}
+                    src="new-assets/js-logo.png"
+                    alt=""
+                  />
                 </li>
                 <li>
-                  <img style={{ "objectFit": "contain" }} height={84.3} width={84.3} src="new-assets/vite-logo.png" alt="" />
+                  <img
+                    style={{ objectFit: "contain" }}
+                    height={84.3}
+                    width={84.3}
+                    src="new-assets/vite-logo.png"
+                    alt=""
+                  />
                 </li>
                 <li>
-                  <img style={{ "objectFit": "contain" }} height={84.3} width={84.3} src="new-assets/js-logo.png" alt="" />
+                  <img
+                    style={{ objectFit: "contain" }}
+                    height={84.3}
+                    width={84.3}
+                    src="new-assets/figma-logo.png"
+                    alt=""
+                  />
                 </li>
                 <li>
-                  <img style={{ "objectFit": "contain" }} height={84.3} width={84.3} src="new-assets/npm-logo.png" alt="" />
+                  <img
+                    style={{ objectFit: "contain" }}
+                    height={84.3}
+                    width={84.3}
+                    src="new-assets/photoshop-logo.png"
+                    alt=""
+                  />
                 </li>
               </ul>
             </div>

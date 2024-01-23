@@ -17,11 +17,13 @@ function About3() {
               data-wow-delay="200ms"
               data-wow-duration="1500ms"
             >
-              <h2>Our Approach</h2>
+              <h2>Distinguish Approach</h2>
               <p>
-                Services are professional offerings provided by businesses to
-                meet specific needs or solve problems for their customers.
-                Services can range from your budject.
+                Unlike others in the market, we prioritize understanding your
+                business and goals before starting a project. We genuinely care
+                about your business and the results we deliver, ensuring that
+                the work speaks to your customers in an authentic voice and
+                effectively drives sales.
               </p>
             </div>
             <div className="about-left">
@@ -55,7 +57,7 @@ function About3() {
                     <p>Services are professional w offerings provided.</p>
                   </li>
                   <li>
-                    <h5>Quality Reliability</h5>
+                    <h5>Attention to detail</h5>
                     <p>Services are professional w offerings provided.</p>
                   </li>
                 </ul>

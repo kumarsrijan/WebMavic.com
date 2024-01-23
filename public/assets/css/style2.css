@@ -7624,7 +7624,7 @@ video {
   border-radius: 200px 200px 0px 0px;
   padding: 20px 20px 30px;
   position: relative;
-  transition: 0.5s;
+  transition: 2s;
 }
 @media (max-width: 1199px) {
   .home5-team-section .single-team {
