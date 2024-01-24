@@ -11768,26 +11768,44 @@ footer .footer-btm .footer-btn-content .footer-social ul li a:hover {
 .contact-page-wrap .contact-form-wrap .contact-form form label {
   font-family: var(--font-saira);
   font-weight: 500;
-  font-size: 14px;
+  font-size: 18px;
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--white-color);
   margin-bottom: 8px;
+  transition: 0.5s all ease-in-out;
 }
+
 .contact-page-wrap .contact-form-wrap .contact-form form input,
+.contact-page-wrap .contact-form-wrap .contact-form form select,
+.contact-page-wrap .contact-form-wrap .contact-form .radio-container,
 .contact-page-wrap .contact-form-wrap .contact-form form textarea {
   width: 100%;
   background: rgba(255, 255, 255, 0.04);
-  border: 1px solid rgba(255, 255, 255, 0.05);
+  border: 5px solid rgba(255, 255, 255, 0.05);
   border-radius: 5px;
-  height: 41px;
+  height: 51px;
   font-family: var(--font-saira);
   font-weight: 400;
-  font-size: 14px;
+  font-size: 18px;
   letter-spacing: 0.02em;
-  color: #dedada;
+  color: var(--theme-color);
   padding: 10px 15px;
 }
+
+.contact-page-wrap
+  .contact-form-wrap
+  .contact-form
+  form
+  input[type="radio"]:checked
+  + label {
+  font-size: 18px;
+  background: var(--theme-color);
+  border: 1px solid var(--black-color);
+  border-radius: 3px;
+}
+
+,
 .contact-page-wrap .contact-form-wrap .contact-form form textarea {
   height: 140px;
 }

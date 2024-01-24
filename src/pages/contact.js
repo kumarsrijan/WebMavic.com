@@ -53,7 +53,7 @@ function Contactpage() {
                     </div>
                   </div>
                 </div>
-                <div className="follow-area">
+                {/* <div className="follow-area">
                   <h5 className="blog-widget-title">Follow Us</h5>
                   <p className="para">Follow us on Social Network</p>
                   <div className="blog-widget-body">
@@ -80,7 +80,7 @@ function Contactpage() {
                       </li>
                     </ul>
                   </div>
-                </div>
+                </div> */}
               </div>
             </div>
             <div className="col-lg-6">
@@ -93,22 +93,65 @@ function Contactpage() {
                     <div className="row">
                       <div className="col-md-6 mb-20">
                         <div className="form-inner">
-                          <label>first name</label>
+                          <label> name :</label>
                           <input type="text" />
                         </div>
                       </div>
                       <div className="col-md-6 mb-20">
                         <div className="form-inner">
-                          <label>Last name</label>
-                          <input type="text" />
+                          <label>WhatsApp Number:</label>
+                          <input type="number" />
                         </div>
                       </div>
-                      <div className="col-lg-12 mb-20">
+                      <div className="col-md-6 mb-20">
                         <div className="form-inner">
-                          <label>Company/Organization</label>
+                          <label>Company Name :</label>
                           <input type="text" />
                         </div>
                       </div>
+                      <div className="col-md-6 mb-20">
+                        <div className="form-inner">
+                          <label>Is your company GST registered?</label>
+
+                          <div className="radio-container">
+                            <input
+                              className="radio "
+                              name="gst-check"
+                              type="radio"
+                              value="Yes"
+                              id="gst-yes"
+                              style={{ display: "none" }}
+                            />
+                            <label
+                              className="col-md-6 mb-20"
+                              htmlFor="gst-yes"
+                              style={{
+                                textAlign: `center`,
+                              }}
+                            >
+                              Yes
+                            </label>
+                            <input
+                              className="radio"
+                              name="gst-check"
+                              type="radio"
+                              value="No"
+                              id="gst-no"
+                              style={{ display: "none" }}
+                            />
+                            <label
+                              className="col-md-6 mb-20"
+                              htmlFor="gst-no"
+                              style={{
+                                textAlign: `center`,
+                              }}
+                            >
+                              No
+                            </label>
+                          </div>
+                        </div>
+                      </div>
+
                       <div className="col-lg-12 mb-20">
                         <div className="form-inner">
                           <label>Email</label>
@@ -118,7 +161,13 @@ function Contactpage() {
                       <div className="col-lg-12 mb-20">
                         <div className="form-inner">
                           <label>Phone</label>
-                          <input type="email" />
+                          <input type="number" />
+                        </div>
+                      </div>
+                      <div className="col-lg-12 mb-20">
+                        <div className="form-inner">
+                          <label>Services You Need ?</label>
+                          <input type="number" />
                         </div>
                       </div>
                       <div className="col-lg-12 mb-20">
