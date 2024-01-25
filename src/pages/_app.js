@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import useMagneticHover from "@/hooks/useMagneticHover";
 import Script from "next/script";
-import 'tailwindcss/tailwind.css';
+
 import "../../public/assets/css/bootstrap-icons.css";
 import "@fortawesome/fontawesome-free/css/all.min.css";
 import "../../public/assets/css/bootstrap.min.css";

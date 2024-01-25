@@ -6792,6 +6792,7 @@ video {
 }
 .home5-services-section .solution-card {
   background: #171717;
+  min-height: 530px;
   border: 1px solid rgba(255, 255, 255, 0.07);
   border-radius: 5px;
   padding: 30px 30px;
