@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import useMagneticHover from "@/hooks/useMagneticHover";
 import Script from "next/script";
-
+import 'tailwindcss/tailwind.css';
 import "../../public/assets/css/bootstrap-icons.css";
 import "@fortawesome/fontawesome-free/css/all.min.css";
 import "../../public/assets/css/bootstrap.min.css";
@@ -16,10 +16,10 @@ import Preloader from "@/components/common/Preloader";
 export default function App({ Component, pageProps }) {
   const [loading, setLoading] = useState(false);
   useEffect(() => {
-    setLoading(false);
+    setLoading(true);
     setTimeout(() => {
-      setLoading(true);
-    }, 3000);
+      setLoading(false);
+    }, 2000);
   }, []);
   useMagneticHover();
   useEffect(() => {
@@ -28,6 +28,8 @@ export default function App({ Component, pageProps }) {
   return (
     <>
       {loading ? (
+        <Preloader />
+      ) : (
         <>
           <Component {...pageProps} />
           <Script id="wow" src="/js/wow.min.js"></Script>
@@ -36,8 +38,6 @@ export default function App({ Component, pageProps }) {
             strategy="lazyOnload"
           >{`new WOW().init();`}</Script>
         </>
-      ) : (
-        <Preloader />
       )}
     </>
   );
