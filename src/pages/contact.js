@@ -103,13 +103,13 @@ function Contactpage() {
                           <input type="number" />
                         </div>
                       </div>
-                      <div className="col-md-6 mb-20">
+                      <div className="col-lg-12 mb-20">
                         <div className="form-inner">
                           <label>Company Name :</label>
                           <input type="text" />
                         </div>
                       </div>
-                      <div className="col-md-6 mb-20">
+                      <div className="col-lg-12 mb-20">
                         <div className="form-inner">
                           <label>Is your company GST registered?</label>
 
