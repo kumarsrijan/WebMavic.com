@@ -114,6 +114,7 @@ p {
   margin: 0;
   color: #272727;
   line-height: 1.8;
+  font-size: 1.5rem;
 }
 
 a,
@@ -3211,10 +3212,10 @@ video {
   p {
   font-family: var(--font-saira);
   font-weight: 300;
-  font-size: 15px;
+  font-size: 20px;
   line-height: 35px;
   letter-spacing: 0.03em;
-  color: #e4e4e4;
+  color: var(--theme-color);
   margin-bottom: 0;
 }
 .main-container
@@ -6623,7 +6624,7 @@ video {
   font-family: "Saira";
   font-style: normal;
   font-weight: 300;
-  font-size: 15px;
+  font-size: 20px;
   line-height: 32px;
   letter-spacing: 0.03em;
   color: #b5b5b5;
@@ -6841,7 +6842,7 @@ video {
 .home5-services-section .solution-card .solution-content p {
   font-family: var(--font-saira);
   font-weight: 300;
-  font-size: 14px;
+  font-size: 18px;
   line-height: 30px;
   letter-spacing: 0.03em;
   color: #b5b5b5;
@@ -6925,7 +6926,7 @@ video {
 .home5-process-area .single-process .content p {
   font-family: var(--font-saira);
   font-weight: 300;
-  font-size: 15px;
+  font-size: 18px;
   line-height: 30px;
   letter-spacing: 0.03em;
   color: #b5b5b5;
@@ -7212,7 +7213,7 @@ video {
 .home5-testimonial-area .testimolial-left p {
   font-family: var(--font-saira);
   font-weight: 300;
-  font-size: 15px;
+  font-size: 20px;
   line-height: 32px;
   letter-spacing: 0.03em;
   color: #b5b5b5;
