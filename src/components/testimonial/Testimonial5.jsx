@@ -40,9 +40,9 @@ function Testimonial5() {
               <h2>Happy Client</h2>
               <div className="testimolial-left">
                 <p>
-                  Integer purus odio, placerat nec rhoncus in, ullamcorperon nec
-                  doloroei. aptent taciti sociosqu ad litora torquent pero
-                  conubia nostra persento.
+                  This is what our clients say about us.
+                  <br />
+                  Don't trust our words, trust them
                 </p>
                 <div className="customar-review">
                   <h6>Review On</h6>

@@ -72,11 +72,11 @@ function HomepageThree() {
           <Service5 />
           <WhatWeDo5 />
           <Partner5 />
-          <CaseStudy5 />
+          {/* <CaseStudy5 /> */}
           <Testimonial5 />
           {/* <Award5 /> */}
           <Home5Team />
-          <Home5Blog />
+          {/* <Home5Blog /> */}
           <Footer5 />
         </div>
       </div>
