@@ -6,9 +6,36 @@ function team3() {
   return (
     <Layout>
       <Breadcrumb pageList="Team" title="Meet Our Expertis" pageName="TEAM" />
+      <div
+        style={{
+          width: "100%",
+          height: "400px",
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+          textAlign: "center",
+          padding: "0 2%",
+          background: "rgb(0,255,0)",
+          background:
+            "linear-gradient(180deg, rgba(0,255,0,1) 0%, rgba(0,255,0,0) 100%)",
+        }}
+      >
+        <p
+          style={{
+            color: "white",
+          }}
+        >
+          A good team is fundamental to any organization. Here at WebMavic, we
+          have created a team that is strong, efficient, and up-to-date with the
+          latest technology. Every team member here complements each other and
+          is like a part of the puzzle that completes the organization. We aim
+          to deliver the best to our customers and nothing less.
+        </p>
+      </div>
       <div className="home5-team-section sec-mar">
         <div className="container">
           <div className="row g-4 justify-content-center">
+            {/*  */}
             <div
               className="col-xl-3 col-lg-4 col-sm-6 wow animate fadeInUp"
               data-wow-delay="200ms"
@@ -52,6 +79,7 @@ function team3() {
                 </div>
               </div>
             </div>
+            {/*  */}
             <div
               className="col-xl-3 col-lg-4 col-sm-6 wow animate fadeInUp"
               data-wow-delay="300ms"
@@ -95,6 +123,7 @@ function team3() {
                 </div>
               </div>
             </div>
+            {/*  */}
             <div
               className="col-xl-3 col-lg-4 col-sm-6 wow animate fadeInUp"
               data-wow-delay="400ms"
@@ -138,6 +167,7 @@ function team3() {
                 </div>
               </div>
             </div>
+            {/*  */}
             <div
               className="col-xl-3 col-lg-4 col-sm-6 wow animate fadeInUp"
               data-wow-delay="500ms"
@@ -181,6 +211,7 @@ function team3() {
                 </div>
               </div>
             </div>
+            {/*  */}
             <div
               className="col-xl-3 col-lg-4 col-sm-6 wow animate fadeInUp"
               data-wow-delay="200ms"
@@ -224,6 +255,7 @@ function team3() {
                 </div>
               </div>
             </div>
+            {/*  */}
             <div
               className="col-xl-3 col-lg-4 col-sm-6 wow animate fadeInUp"
               data-wow-delay="300ms"
@@ -267,6 +299,7 @@ function team3() {
                 </div>
               </div>
             </div>
+            {/*  */}
             <div
               className="col-xl-3 col-lg-4 col-sm-6 wow animate fadeInUp"
               data-wow-delay="400ms"
@@ -310,6 +343,7 @@ function team3() {
                 </div>
               </div>
             </div>
+            {/*  */}
             <div
               className="col-xl-3 col-lg-4 col-sm-6 wow animate fadeInUp"
               data-wow-delay="500ms"
@@ -353,6 +387,7 @@ function team3() {
                 </div>
               </div>
             </div>
+            {/*  */}
           </div>
         </div>
       </div>
