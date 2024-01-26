@@ -1,6 +1,11 @@
 /*===========================
      01.COMMON CSS 
 ===========================*/
+@media (min-width: 991px) {
+	.sidebar-margin {
+		margin-left: 94px;
+	}
+}
 :root {
   --font-saira: "Saira", sans-serif;
   --white-color: #fff;

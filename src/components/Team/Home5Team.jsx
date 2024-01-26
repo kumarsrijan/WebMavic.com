@@ -11,9 +11,46 @@ function Home5Team() {
               className="col-lg-12 wow animate fadeInUp"
               data-wow-delay="200ms"
               data-wow-duration="1500ms"
+              style={{
+                display: "flex",
+                justifyContent: "space-between",
+              }}
             >
+              {/* Left */}
               <div className="collaborate-wrapper">
-                <div className="section-title-5">
+                <div
+                  className="section-title-5"
+                  style={{
+                    display: "flex",
+                    flexDirection: "column",
+                    justifyContent: "center",
+                    textAlign: "center",
+                  }}
+                >
+                  <span>LET’S COLLABORATE</span>
+                  <h2>
+                    Ready to <br />
+                    <span>work with us?</span>
+                  </h2>
+                  <div className="get-btn">
+                    <Link legacyBehavior href="/contact">
+                      <a className="primary-btn3">Get a quote</a>
+                    </Link>
+                  </div>
+                </div>
+              </div>
+
+              {/* Right */}
+              <div className="collaborate-wrapper">
+                <div
+                  className="section-title-5"
+                  style={{
+                    display: "flex",
+                    flexDirection: "column",
+                    justifyContent: "center",
+                    textAlign: "center",
+                  }}
+                >
                   <span>LET’S COLLABORATE</span>
                   <h2>
                     Ready to <br />

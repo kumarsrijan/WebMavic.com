@@ -1,11 +1,9 @@
 import { useState } from "react";
 import Footer5 from "../footer/Footer5";
-import Header from "../header/Header";
 import useBodyClass from "@/hooks/useBodyClass";
 import Head from "next/head";
 import Link from "next/link";
 import Sidebar from "../common/Sidebar";
-
 function Layout({ children }) {
   useBodyClass("home-dark2");
   const [isMenuOpen, setMenuOpen] = useState(false);
@@ -24,7 +22,13 @@ function Layout({ children }) {
         <link rel="icon" href="/assets/img/sm-logo.svg" />
       </Head>
       <Sidebar isMenuOpen={isMenuOpen} toggleMenu={toggleMenu} />
-      <div className="main-container">
+      <div
+        className="main-container"
+        style={{
+          display: "flex",
+          flexDirection: "column",
+        }}
+      >
         <div className="sidebar-wrapper">
           <div className="header-logo">
             <Link legacyBehavior href="/">
@@ -42,7 +46,7 @@ function Layout({ children }) {
             </Link>
           </div>
         </div>
-        {children}
+        <div className="sidebar-margin">{children}</div>
         <Footer5 />
       </div>
     </>
