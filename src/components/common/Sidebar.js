@@ -66,7 +66,7 @@ function Sidebar({ isMenuOpen, toggleMenu }) {
         <div className="sidebar-menu-area">
           <ul className="menu-list">
             <li className="menu-item">
-              <Link legacyBehavior href="/about">
+              <Link legacyBehavior href="/">
                 <a data-hover="home">home</a>
               </Link>
             </li>
@@ -92,32 +92,32 @@ function Sidebar({ isMenuOpen, toggleMenu }) {
                 }`}
               >
                 <li>
-                  <Link legacyBehavior href="/service">
+                  <Link legacyBehavior href="/web-design">
                     <a>Web Design</a>
                   </Link>
                 </li>
                 <li>
-                  <Link legacyBehavior href="/service2">
+                  <Link legacyBehavior href="/web-development">
                     <a>Web Development</a>
                   </Link>
                 </li>
                 <li>
-                  <Link legacyBehavior href="/service3">
+                  <Link legacyBehavior href="/software-development">
                     <a>Software Development</a>
                   </Link>
                 </li>
                 <li>
-                  <Link legacyBehavior href="/service4">
+                  <Link legacyBehavior href="/graphic-design">
                     <a>Graphic Design</a>
                   </Link>
                 </li>
                 <li>
-                  <Link legacyBehavior href="/service-details">
-                    <a>Copywritting</a>
+                  <Link legacyBehavior href="/copywriting">
+                    <a>Copywriting</a>
                   </Link>
                 </li>
                 <li>
-                  <Link legacyBehavior href="/service-details">
+                  <Link legacyBehavior href="/seo">
                     <a>S E O</a>
                   </Link>
                 </li>
@@ -125,7 +125,7 @@ function Sidebar({ isMenuOpen, toggleMenu }) {
             </li>
 
             <li className="menu-item">
-              <Link legacyBehavior href="/team3">
+              <Link legacyBehavior href="/team">
                 <a data-hover="The team">The team</a>
               </Link>
             </li>
@@ -135,7 +135,7 @@ function Sidebar({ isMenuOpen, toggleMenu }) {
               </Link>
             </li>
             <li className="menu-item">
-              <Link legacyBehavior href="/about">
+              <Link legacyBehavior href="/contact">
                 <a data-hover="Work With US">Work With Us</a>
               </Link>
             </li>

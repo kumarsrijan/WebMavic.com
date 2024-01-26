@@ -1,12 +1,15 @@
 import Breadcrumb from "@/components/common/Breadcrumb";
+import Marquee from "react-fast-marquee";
+import Link from "next/link";
 import Layout from "@/components/layout/Layout";
+
 import React from "react";
 
 function team3() {
   return (
     <Layout>
       <Breadcrumb pageList="Team" title="Meet Our Expertis" pageName="TEAM" />
-      <div
+      {/* <div
         style={{
           width: "100%",
           height: "400px",
@@ -15,9 +18,9 @@ function team3() {
           alignItems: "center",
           textAlign: "center",
           padding: "0 2%",
-          background: "rgb(0,255,0)",
+          background: "rgb(6, 216, 137)",
           background:
-            "linear-gradient(180deg, rgba(0,255,0,1) 0%, rgba(0,255,0,0) 100%)",
+            "linear-gradient(180deg, rgba(6, 216, 137, 1) 0%, rgba(0,255,0,0) 90%)",
         }}
       >
         <p
@@ -31,8 +34,72 @@ function team3() {
           is like a part of the puzzle that completes the organization. We aim
           to deliver the best to our customers and nothing less.
         </p>
+      </div> */}
+
+      <div
+        className="home3-contact-area sec-mar"
+        style={{
+          margin: 0,
+          background: "rgb(6, 216, 137)",
+          background:
+            "linear-gradient(180deg, rgba(6, 216, 137, 1) 0%, rgba(0,255,0,0) 90%)",
+        }}
+      >
+        <div className="container-fluid">
+          <div className="row">
+            <div className="col-lg-12">
+              {/* <div className="contact-wrapper text-center">
+                <Marquee className="marquee_text">
+                  We take care of your IT, So You Can Focus on Your Business.
+                </Marquee>
+                <div
+                  className="contact-btn magnetic-item  wow animate fadeInUp"
+                  data-wow-delay="200ms"
+                  data-wow-duration="1500ms"
+                >
+                  <Link legacyBehavior href="/#">
+                    <a>
+                      Contact With Us.
+                      <svg
+                        width={32}
+                        height={32}
+                        viewBox="0 0 13 13"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path d="M0 1H12M12 1V13M12 1L0.5 12" />
+                      </svg>
+                    </a>
+                  </Link>
+                </div>
+              </div> */}
+              <p
+                style={{
+                  color: "white",
+                  margin: "10%",
+                }}
+              >
+                A good team is fundamental to any organization. Here at
+                WebMavic, we have created a team that is strong, efficient, and
+                up-to-date with the latest technology. Every team member here
+                complements each other and is like a part of the puzzle that
+                completes the organization. We aim to deliver the best to our
+                customers and nothing less.
+              </p>
+            </div>
+          </div>
+        </div>
       </div>
-      <div className="home5-team-section sec-mar">
+
+      <div
+        className="home5-team-section sec-mar"
+        style={{
+          marginTop: "-1.5%",
+          marginLeft: "10%",
+          marginRight: "10%",
+          marginBottom: "10%",
+        }}
+      >
         <div className="container">
           <div className="row g-4 justify-content-center">
             {/*  */}
@@ -42,7 +109,7 @@ function team3() {
               data-wow-duration="1500ms"
             >
               <div className="single-team magnetic-item">
-                <div className="social-area">
+                {/* <div className="social-area">
                   <ul>
                     <li>
                       <a href="https://www.instagram.com/">
@@ -65,7 +132,7 @@ function team3() {
                       </a>
                     </li>
                   </ul>
-                </div>
+                </div> */}
                 <div className="team-img">
                   <img
                     className="img-fluid"
@@ -86,7 +153,7 @@ function team3() {
               data-wow-duration="1500ms"
             >
               <div className="single-team magnetic-item">
-                <div className="social-area">
+                {/* <div className="social-area">
                   <ul>
                     <li>
                       <a href="https://www.instagram.com/">
@@ -109,17 +176,17 @@ function team3() {
                       </a>
                     </li>
                   </ul>
-                </div>
+                </div> */}
                 <div className="team-img">
                   <img
                     className="img-fluid"
-                    src="assets/img/home-5/home5-team-02.png"
+                    src="assets/img/home-5/rakshit.jpg"
                     alt=""
                   />
                 </div>
                 <div className="team-content">
-                  <h4>Blaise Davian</h4>
-                  <span>Co-Founder, CEO</span>
+                  <h4>Rakshit Raj</h4>
+                  <span>Developer</span>
                 </div>
               </div>
             </div>
@@ -130,7 +197,7 @@ function team3() {
               data-wow-duration="1500ms"
             >
               <div className="single-team magnetic-item">
-                <div className="social-area">
+                {/* <div className="social-area">
                   <ul>
                     <li>
                       <a href="https://www.instagram.com/">
@@ -153,17 +220,17 @@ function team3() {
                       </a>
                     </li>
                   </ul>
-                </div>
+                </div> */}
                 <div className="team-img">
                   <img
                     className="img-fluid"
-                    src="assets/img/home-5/home5-team-03.png"
+                    src="assets/img/home-5/akib.jpg"
                     alt=""
                   />
                 </div>
                 <div className="team-content">
-                  <h4>Koen Maxton</h4>
-                  <span>Head of HR &amp; Manager</span>
+                  <h4>Aquib Alam</h4>
+                  <span>Developer</span>
                 </div>
               </div>
             </div>
@@ -174,7 +241,7 @@ function team3() {
               data-wow-duration="1500ms"
             >
               <div className="single-team magnetic-item">
-                <div className="social-area">
+                {/* <div className="social-area">
                   <ul>
                     <li>
                       <a href="https://www.instagram.com/">
@@ -197,22 +264,22 @@ function team3() {
                       </a>
                     </li>
                   </ul>
-                </div>
+                </div> */}
                 <div className="team-img">
                   <img
                     className="img-fluid"
-                    src="assets/img/home-5/home5-team-04.png"
+                    src="assets/img/home-5/ashish.jpg"
                     alt=""
                   />
                 </div>
                 <div className="team-content">
-                  <h4>Landry Palmer</h4>
-                  <span>Software Engineer</span>
+                  <h4>Ashish Anand</h4>
+                  <span>Designer</span>
                 </div>
               </div>
             </div>
             {/*  */}
-            <div
+            {/* <div
               className="col-xl-3 col-lg-4 col-sm-6 wow animate fadeInUp"
               data-wow-delay="200ms"
               data-wow-duration="1500ms"
@@ -254,9 +321,9 @@ function team3() {
                   <span>Software Engineer</span>
                 </div>
               </div>
-            </div>
+            </div> */}
             {/*  */}
-            <div
+            {/* <div
               className="col-xl-3 col-lg-4 col-sm-6 wow animate fadeInUp"
               data-wow-delay="300ms"
               data-wow-duration="1500ms"
@@ -298,9 +365,9 @@ function team3() {
                   <span>Software Engineer</span>
                 </div>
               </div>
-            </div>
+            </div> */}
             {/*  */}
-            <div
+            {/* <div
               className="col-xl-3 col-lg-4 col-sm-6 wow animate fadeInUp"
               data-wow-delay="400ms"
               data-wow-duration="1500ms"
@@ -342,9 +409,9 @@ function team3() {
                   <span>Software Engineer</span>
                 </div>
               </div>
-            </div>
+            </div> */}
             {/*  */}
-            <div
+            {/* <div
               className="col-xl-3 col-lg-4 col-sm-6 wow animate fadeInUp"
               data-wow-delay="500ms"
               data-wow-duration="1500ms"
@@ -386,7 +453,7 @@ function team3() {
                   <span>Software Engineer</span>
                 </div>
               </div>
-            </div>
+            </div> */}
             {/*  */}
           </div>
         </div>
