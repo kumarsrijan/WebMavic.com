@@ -2,9 +2,9 @@
      01.COMMON CSS 
 ===========================*/
 @media (min-width: 991px) {
-	.sidebar-margin {
-		margin-left: 94px;
-	}
+  .sidebar-margin {
+    margin-left: 94px;
+  }
 }
 :root {
   --font-saira: "Saira", sans-serif;
@@ -2522,7 +2522,7 @@ video {
   float: none;
   text-align: left;
   padding: 80px 0px 80px 0px;
-  margin-bottom: 0px;
+  margin-bottom: 200px;
   width: 100%;
   max-width: 500px;
   margin-left: 0;

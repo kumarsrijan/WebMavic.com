@@ -51,10 +51,10 @@ function Home5Team() {
                     textAlign: "center",
                   }}
                 >
-                  <span>LET’S COLLABORATE</span>
+                  <span>LET’S CLARIFY</span>
                   <h2>
-                    Ready to <br />
-                    <span>work with us?</span>
+                    Still havee <br />
+                    <span>doubts?</span>
                   </h2>
                   <div className="get-btn">
                     <Link legacyBehavior href="/contact">
