@@ -55,7 +55,7 @@ function Faqpage() {
                       aria-controls="contact"
                       aria-selected="false"
                     >
-                      Support
+                      Timeframe
                     </button>
                   </li>
                 </ul>
@@ -133,12 +133,12 @@ function Faqpage() {
                         data-bs-parent="#accordionExample"
                       >
                         <div className="accordion-body">
-                          We work for a wide variety of businesses ranging from
-                          small start-ups to medium sized established
-                          businesses. The industries and business areas we have
-                          worked with include coaching, investing, real estate,
-                          local businesses, brick and mortar, personal sites and
-                          service based entrepreneurs.
+                          We collaborate with visionary businesses and
+                          entrepreneurs seeking to transition their operations
+                          into the digital realm. Our clientele spans diverse
+                          enterprises, from small startups to established
+                          medium-sized businesses. We have experience across
+                          various sectors.
                         </div>
                       </div>
                     </div>
@@ -152,8 +152,7 @@ function Faqpage() {
                           aria-expanded="false"
                           aria-controls="collapseTwo"
                         >
-                          When the site is over, will I able to update it myself
-                          ?
+                          Who owns the product?
                         </button>
                       </h5>
                       <div
@@ -163,11 +162,10 @@ function Faqpage() {
                         data-bs-parent="#accordionExample"
                       >
                         <div className="accordion-body">
-                          Yes, indeed. In case of Web Design we like to give our
-                          clients the option of updating their websites. We’ll
-                          provide you with all of the necessary training and
-                          resources to make changes to your website easily
-                          without relying on a developer.
+                          Upon handing over your finaly product to you, we
+                          transfer full ownership, granting you complete rights
+                          to the intellectual property. You have absolute
+                          ownership of everything.
                         </div>
                       </div>
                     </div>
@@ -209,7 +207,7 @@ function Faqpage() {
                           aria-expanded="false"
                           aria-controls="collapseFour"
                         >
-                          Phasellus a placerat eros In hac habitasse.
+                          Can you provide examples of your previous work?
                         </button>
                       </h5>
                       <div
@@ -219,10 +217,11 @@ function Faqpage() {
                         data-bs-parent="#accordionExample"
                       >
                         <div className="accordion-body">
-                          Aptent taciti sociosqu ad litora torquent per conubia
-                          nostra, per inceptos himenaeos. Praesent nec neque at
-                          dolor venenatis consectetur eu quis ex. placerat felis
-                          non aliquam.
+                          Certainly! To view examples of our previous work
+                          tailored to the specific service you are interested
+                          in, kindly complete the contact form. Our team will
+                          promptly get in touch with you to share relevant
+                          samples and discuss your requirements in detail.
                         </div>
                       </div>
                     </div>
@@ -236,7 +235,8 @@ function Faqpage() {
                           aria-expanded="false"
                           aria-controls="collapseFive"
                         >
-                          Phasellus a placerat eros In hac habitasse.
+                          How many revisions are included in your design and
+                          development process?
                         </button>
                       </h5>
                       <div
@@ -246,10 +246,11 @@ function Faqpage() {
                         data-bs-parent="#accordionExample"
                       >
                         <div className="accordion-body">
-                          Aptent taciti sociosqu ad litora torquent per conubia
-                          nostra, per inceptos himenaeos. Praesent nec neque at
-                          dolor venenatis consectetur eu quis ex. placerat felis
-                          non aliquam.
+                          The number of revisions for each service is detailed
+                          on their respective pages. You can find specific
+                          information about the revision policy applicable to
+                          the design and development services you are interested
+                          in by visiting the relevant pages on our website.
                         </div>
                       </div>
                     </div>
@@ -263,7 +264,8 @@ function Faqpage() {
                           aria-expanded="false"
                           aria-controls="collapseSix"
                         >
-                          Phasellus a placerat eros In hac habitasse.
+                          Is there an additional cost for extra revisions beyond
+                          the mentioned number?
                         </button>
                       </h5>
                       <div
@@ -273,10 +275,13 @@ function Faqpage() {
                         data-bs-parent="#accordionExample"
                       >
                         <div className="accordion-body">
-                          Aptent taciti sociosqu ad litora torquent per conubia
-                          nostra, per inceptos himenaeos. Praesent nec neque at
-                          dolor venenatis consectetur eu quis ex. placerat felis
-                          non aliquam.
+                          Yes, there is an additional cost for extra revisions
+                          beyond the included number. However, we strive to
+                          ensure that our clients are satisfied with the initial
+                          revisions provided, and many find that the included
+                          number is sufficient. Our goal is to collaborate
+                          closely with you to meet your expectations without the
+                          need for excessive revisions.
                         </div>
                       </div>
                     </div>
@@ -309,10 +314,8 @@ function Faqpage() {
                         data-bs-parent="#accordionExample"
                       >
                         <div className="accordion-body">
-                          Aptent taciti sociosqu ad litora torquent per conubia
-                          nostra, per inceptos himenaeos. Praesent nec neque at
-                          dolor venenatis consectetur eu quis ex. placerat felis
-                          non aliquam.
+                          We provide multiple payment alternatives, including
+                          UPI, bank transfer, and payment gateway (Razorpay).
                         </div>
                       </div>
                     </div>
@@ -326,7 +329,7 @@ function Faqpage() {
                           aria-expanded="false"
                           aria-controls="collapseTwo1"
                         >
-                          In hac habitasse platea dictumst Cras leo.
+                          What are your payment terms?
                         </button>
                       </h5>
                       <div
@@ -336,10 +339,8 @@ function Faqpage() {
                         data-bs-parent="#accordionExample"
                       >
                         <div className="accordion-body">
-                          Aptent taciti sociosqu ad litora torquent per conubia
-                          nostra, per inceptos himenaeos. Praesent nec neque at
-                          dolor venenatis consectetur eu quis ex. placerat felis
-                          non aliquam.
+                          Our payement terms are 60% before starting the work
+                          and remaining 40% on the completion of the preoject.
                         </div>
                       </div>
                     </div>
@@ -353,7 +354,7 @@ function Faqpage() {
                           aria-expanded="false"
                           aria-controls="collapseThree1"
                         >
-                          ornare iaculis tellus. Phasellus venenatis.
+                          What is your cancellation policy?
                         </button>
                       </h5>
                       <div
@@ -363,10 +364,11 @@ function Faqpage() {
                         data-bs-parent="#accordionExample"
                       >
                         <div className="accordion-body">
-                          Aptent taciti sociosqu ad litora torquent per conubia
-                          nostra, per inceptos himenaeos. Praesent nec neque at
-                          dolor venenatis consectetur eu quis ex. placerat felis
-                          non aliquam.
+                          Our cancellation policy stipulates that the advance
+                          payment is eligible for a refund only if the
+                          development process has not commenced. Once the
+                          development work has started, the advance becomes
+                          non-refundable.
                         </div>
                       </div>
                     </div>
@@ -380,7 +382,7 @@ function Faqpage() {
                           aria-expanded="false"
                           aria-controls="collapseFour1"
                         >
-                          Phasellus a placerat eros In hac habitasse.
+                          Do you provide a GST invoice?
                         </button>
                       </h5>
                       <div
@@ -390,14 +392,14 @@ function Faqpage() {
                         data-bs-parent="#accordionExample"
                       >
                         <div className="accordion-body">
-                          Aptent taciti sociosqu ad litora torquent per conubia
-                          nostra, per inceptos himenaeos. Praesent nec neque at
-                          dolor venenatis consectetur eu quis ex. placerat felis
-                          non aliquam.
+                          Certainly! If you're inquiring whether we provide a
+                          GST (Goods and Services Tax) bill, the answer is yes.
+                          We ensure that all transactions are accompanied by a
+                          proper GST invoice for your records and compliance.
                         </div>
                       </div>
                     </div>
-                    <div className="accordion-item">
+                    {/* <div className="accordion-item">
                       <h5 className="accordion-header" id="headingFive1">
                         <button
                           className="accordion-button collapsed"
@@ -423,8 +425,8 @@ function Faqpage() {
                           non aliquam.
                         </div>
                       </div>
-                    </div>
-                    <div className="accordion-item">
+                    </div> */}
+                    {/* <div className="accordion-item">
                       <h5 className="accordion-header" id="headingSix1">
                         <button
                           className="accordion-button collapsed"
@@ -450,7 +452,7 @@ function Faqpage() {
                           non aliquam.
                         </div>
                       </div>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
                 <div
@@ -470,7 +472,8 @@ function Faqpage() {
                           aria-expanded="true"
                           aria-controls="collapseOne2"
                         >
-                          How many revisions do we offer .
+                          Can you provide a detailed timeline with milestones
+                          for my specific project?
                         </button>
                       </h5>
                       <div
@@ -480,10 +483,10 @@ function Faqpage() {
                         data-bs-parent="#accordionExample"
                       >
                         <div className="accordion-body">
-                          Aptent taciti sociosqu ad litora torquent per conubia
-                          nostra, per inceptos himenaeos. Praesent nec neque at
-                          dolor venenatis consectetur eu quis ex. placerat felis
-                          non aliquam.
+                          Yes, we can provide a detailed timeline with
+                          milestones for your specific project. Please refer to
+                          the respective service page on our website, where you
+                          will find a brief timeframe outlined for each service.
                         </div>
                       </div>
                     </div>
@@ -496,7 +499,10 @@ function Faqpage() {
                           data-bs-target="#collapseTwo2"
                           aria-expanded="false"
                           aria-controls="collapseTwo2"
-                        ></button>
+                        >
+                          How does the complexity of the project affect the
+                          timeline?
+                        </button>
                       </h5>
                       <div
                         id="collapseTwo2"
@@ -505,10 +511,12 @@ function Faqpage() {
                         data-bs-parent="#accordionExample"
                       >
                         <div className="accordion-body">
-                          Aptent taciti sociosqu ad litora torquent per conubia
-                          nostra, per inceptos himenaeos. Praesent nec neque at
-                          dolor venenatis consectetur eu quis ex. placerat felis
-                          non aliquam.
+                          The complexity of a project can impact the timeline
+                          based on various factors such as the intricacy of
+                          design elements, the scope of development, and
+                          specific customization requirements. More intricate
+                          projects may require additional time for planning,
+                          development, and testing.
                         </div>
                       </div>
                     </div>
@@ -522,7 +530,7 @@ function Faqpage() {
                           aria-expanded="false"
                           aria-controls="collapseThree2"
                         >
-                          ornare iaculis tellus. Phasellus venenatis.
+                          What is your process for working with clients?
                         </button>
                       </h5>
                       <div
@@ -532,10 +540,22 @@ function Faqpage() {
                         data-bs-parent="#accordionExample"
                       >
                         <div className="accordion-body">
-                          Aptent taciti sociosqu ad litora torquent per conubia
-                          nostra, per inceptos himenaeos. Praesent nec neque at
-                          dolor venenatis consectetur eu quis ex. placerat felis
-                          non aliquam.
+                          Our client collaboration process involves the
+                          following key steps:
+                          <br />
+                          1. Initial Consultation
+                          <br />
+                          2. Project Assessment
+                          <br />
+                          3. Proposal and Agreement
+                          <br />
+                          4.Design/Development Phase
+                          <br />
+                          5.Revisions and Refinement
+                          <br />
+                          6.Finalization and Delivery
+                          <br />
+                          7.Post-Launch Support
                         </div>
                       </div>
                     </div>
@@ -549,7 +569,8 @@ function Faqpage() {
                           aria-expanded="false"
                           aria-controls="collapseFour2"
                         >
-                          Phasellus a placerat eros In hac habitasse.
+                          Are there any dependencies on external factors that
+                          could influence the timeline?
                         </button>
                       </h5>
                       <div
@@ -559,14 +580,15 @@ function Faqpage() {
                         data-bs-parent="#accordionExample"
                       >
                         <div className="accordion-body">
-                          Aptent taciti sociosqu ad litora torquent per conubia
-                          nostra, per inceptos himenaeos. Praesent nec neque at
-                          dolor venenatis consectetur eu quis ex. placerat felis
-                          non aliquam.
+                          Yes, the timeline may be influenced by certain
+                          external factors. External dependencies such as
+                          third-party integrations, approvals from external
+                          entities, or the dalay in information required from
+                          you can impact the overall project schedule.
                         </div>
                       </div>
                     </div>
-                    <div className="accordion-item">
+                    {/* <div className="accordion-item">
                       <h5 className="accordion-header" id="headingFive2">
                         <button
                           className="accordion-button collapsed"
@@ -592,8 +614,8 @@ function Faqpage() {
                           non aliquam.
                         </div>
                       </div>
-                    </div>
-                    <div className="accordion-item">
+                    </div> */}
+                    {/* <div className="accordion-item">
                       <h5 className="accordion-header" id="headingSix2">
                         <button
                           className="accordion-button collapsed"
@@ -619,7 +641,7 @@ function Faqpage() {
                           non aliquam.
                         </div>
                       </div>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
               </div>
