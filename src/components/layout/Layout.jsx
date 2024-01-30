@@ -46,8 +46,25 @@ function Layout({ children }) {
             </Link>
           </div>
         </div>
-        <div className="sidebar-margin">{children}</div>
-        <Footer5 />
+        <div className="main-content">
+          <header className="header5 d-lg-none d-flex">
+            <div className="header-logo">
+              <Link legacyBehavior href="/">
+                <a>
+                  <img src="assets/img/logo.svg" alt="" />
+                </a>
+              </Link>
+            </div>
+            <div
+              className="sidebar-button mobile-menu-btn2"
+              onClick={toggleMenu}
+            >
+              <span />
+            </div>
+          </header>
+          {children}
+          <Footer5 />
+        </div>
       </div>
     </>
   );
