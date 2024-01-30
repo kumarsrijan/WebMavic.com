@@ -58,7 +58,7 @@ function Home5Team() {
                   </h2>
                   <div className="get-btn">
                     <Link legacyBehavior href="/contact">
-                      <a className="primary-btn3">Get a quote</a>
+                      <a className="primary-btn3">Read FAQs</a>
                     </Link>
                   </div>
                 </div>

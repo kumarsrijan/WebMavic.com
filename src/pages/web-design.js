@@ -7,9 +7,9 @@ function ServiceDetailsPage() {
   return (
     <Layout>
       <Breadcrumb
-        pageList="Servives Details"
-        title="Software Development"
-        pageName="SERVIVES DETAILS"
+        pageList="Services Details"
+        title="Web Design"
+        pageName="SERVIcES DETAILS"
       />
       <div className="service-details ">
         <div className="about-services sec-mar">
@@ -22,9 +22,7 @@ function ServiceDetailsPage() {
               >
                 <div className="about-content">
                   <div className="section-title-5">
-                    <h2>
-                      Software <br /> Development
-                    </h2>
+                    <h2>Web Design</h2>
                   </div>
                   <p>
                     Interdum et malesuada fames ac ante ipsum primis in

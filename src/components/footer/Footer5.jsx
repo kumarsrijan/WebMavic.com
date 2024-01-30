@@ -30,7 +30,7 @@ function Footer5() {
                   <div className="content">
                     <span>Call Any Time</span>
                     <h6>
-                      <a href="tel: 7492929268">74-929292-68</a>
+                      <a href="tel: 7979772017">7979-77-2017</a>
                     </h6>
                   </div>
                 </div>
@@ -218,7 +218,7 @@ function Footer5() {
               <div className="footer-btn-content">
                 <div className="copyright-area">
                   <p>
-                    ©Copyright 2023 <a href="#">WebMavic</a>
+                    ©Copyright 2024 <a href="#">WebMavic</a>
                   </p>
                 </div>
                 {/* <div className="footer-social">

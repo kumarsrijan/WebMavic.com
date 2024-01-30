@@ -49,13 +49,15 @@ function Choose6() {
                     <img src="assets/img/logo.svg" alt="" />
                   </div>
                   <h4>
-                    Best Creative IT Agency And Solutions <br />
-                    <span>Since 2005.</span>
+                    How it all started <br />
+                    <span>Our Story.</span>
                   </h4>
                   <p>
-                    Morbi interdum pellentesque nunc, luctus pretium nullagoneq
-                    luctus at. Aliquam cursus nunc arcu, condimentum
-                    efficiturunt tellus iaculis faucibus Quisque gravida.
+                    A team of engineers noticed a problem: other developers were
+                    using outdated tech without caring about SEO or
+                    user-friendly design. To fix this, they joined forces and
+                    started their own agency to bring fresh and modern solutions
+                    to the tech world.
                   </p>
                   <div className="sl">
                     <h2>#1</h2>
@@ -87,14 +89,17 @@ function Choose6() {
                       <div className="single-feature">
                         <div className="progress">
                           <h3>
-                            <span className="counter">70</span>%
+                            <span className="counter">30</span>%
                           </h3>
                         </div>
                         <div className="content">
                           <h4>Strategy</h4>
                           <p>
-                            Morbi interdum pellentesque nunc, luctuso pretium
-                            nullagoneq luctus at. Aliquam one cursus nunc arcu
+                            A well-defined strategy in any project provides a
+                            clear roadmap, ensuring efficient resource
+                            utilization, risk mitigation, and measurable
+                            progress, ultimately enhancing decision-making and
+                            stakeholder alignment.
                           </p>
                         </div>
                       </div>
@@ -103,14 +108,15 @@ function Choose6() {
                       <div className="single-feature">
                         <div className="progress">
                           <h3>
-                            <span className="counter">98</span>%
+                            <span className="counter">40</span>%
                           </h3>
                         </div>
                         <div className="content">
-                          <h4>Audience</h4>
+                          <h4>Design/Development</h4>
                           <p>
-                            Morbi interdum pellentesque nunc, luctuso pretium
-                            nullagoneq luctus at. Aliquam one cursus nunc arcu
+                            Design and development form the core of every
+                            project, and that's why we prioritize them with
+                            utmost attention and focus.
                           </p>
                         </div>
                       </div>
@@ -119,14 +125,14 @@ function Choose6() {
                       <div className="single-feature">
                         <div className="progress">
                           <h3>
-                            <span className="counter">85</span>%
+                            <span className="counter">30</span>%
                           </h3>
                         </div>
                         <div className="content">
-                          <h4>Keyword</h4>
+                          <h4>UI/UX</h4>
                           <p>
-                            Morbi interdum pellentesque nunc, luctuso pretium
-                            nullagoneq luctus at. Aliquam one cursus nunc arcu
+                            UI/UX breathes life into the project, setting it
+                            apart and enhancing its market presence.
                           </p>
                         </div>
                       </div>
