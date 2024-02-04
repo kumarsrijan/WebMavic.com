@@ -8,8 +8,8 @@ function ServiceDetailsPage() {
     <Layout>
       <Breadcrumb
         pageList="Servives Details"
-        title="Software Development"
-        pageName="SERVIVES DETAILS"
+        title="Search engine Optimization"
+        pageName="starts at 7999/-"
       />
       <div className="service-details ">
         <div className="about-services sec-mar">
@@ -23,7 +23,7 @@ function ServiceDetailsPage() {
                 <div className="about-content">
                   <div className="section-title-5">
                     <h2>
-                      Software <br /> Development
+                      Search Engine <br /> Optimization
                     </h2>
                   </div>
                   <p>

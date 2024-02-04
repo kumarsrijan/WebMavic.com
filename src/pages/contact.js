@@ -18,9 +18,11 @@ function Contactpage() {
                 <span>CONTACT WITH US</span>
                 <h2>LET’S WORK TOGETHER?</h2>
                 <p>
-                  I have worls-class, flexible support via live chat, email and
+                  We are 100% committed to taking your startup from zero to step
+                  hundred.
+                  {/* I have worls-class, flexible support via live chat, email and
                   hone. I guarantee that you’ll be able to have any issue
-                  resolved within 24 hours.
+                  resolved within 24 hours. */}
                 </p>
                 <div className="informations">
                   <div className="single-info">
@@ -39,8 +41,8 @@ function Contactpage() {
                       <i className="fas fa-phone-alt" />
                     </div>
                     <div className="info">
-                      <a href="tel:05661111985">+880 566 1111 985</a>
-                      <a href="tel:06571111576">+880 657 1111 576</a>
+                      <a href="tel:07979772017">+91 7979-77-2017</a>
+                      {/* <a href="tel:06571111576">+880 657 1111 576</a> */}
                     </div>
                   </div>
                   <div className="single-info">
@@ -48,7 +50,7 @@ function Contactpage() {
                       <i className="far fa-envelope" />
                     </div>
                     <div className="info">
-                      <a href="mailto: info@example.com">info@example.com</a>
+                      <a href="mailto: info@example.com">hello@webmavic.com</a>
                       <a href="mailto: info@support.com">info@support.com</a>
                     </div>
                   </div>

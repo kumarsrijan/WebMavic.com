@@ -10,7 +10,12 @@ function Footer5() {
             <div className="col-lg-12">
               <div className="footer-top-content">
                 <div className="footer-logo">
-                  <img className="img-fluid" src="assets/img/logo.svg" alt="" />
+                  <img
+                    className="img-fluid"
+                    src="assets/img/webmavic-logo.png"
+                    alt=""
+                    style={{ width: "20vw" }}
+                  />
                 </div>
                 <div className="footer-contect">
                   <div className="icon">

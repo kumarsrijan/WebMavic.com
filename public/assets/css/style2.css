@@ -317,7 +317,7 @@ video {
   text-transform: uppercase;
   color: #b5b5b5;
   display: inline-block;
-  padding: 10px 40px;
+  padding: 5px 35px;
   border: 1px solid rgba(6, 216, 137, 0.5);
   position: relative;
   margin-bottom: 10px;
@@ -2521,7 +2521,7 @@ video {
 .main-nav-wrapper .main-nav2 .sidebar-menu-area > ul {
   float: none;
   text-align: left;
-  padding: 80px 0px 80px 0px;
+  padding: 0px 0px 80px 0px;
   margin-bottom: 200px;
   width: 100%;
   max-width: 500px;
@@ -7613,7 +7613,7 @@ video {
 .collaborate-section .get-btn a {
   border-radius: unset;
   font-size: 18px;
-  padding: 14px 40px;
+  padding: 10px 20px;
 }
 .collaborate-section .get-btn a::after {
   border-radius: unset;

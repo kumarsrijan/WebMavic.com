@@ -57,7 +57,7 @@ function Home5Team() {
                     <span>doubts?</span>
                   </h2>
                   <div className="get-btn">
-                    <Link legacyBehavior href="/contact">
+                    <Link legacyBehavior href="/faq">
                       <a className="primary-btn3">Read FAQs</a>
                     </Link>
                   </div>

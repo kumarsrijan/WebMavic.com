@@ -57,7 +57,7 @@ function Bannder5() {
         <div className="banner-title">
           <h1>
             HAVING A ROUGH TIME <br />{" "}
-            <span>BUILDING YOUR CREDIBILITY IN THE MARKET</span> website.
+            <span>BUILDING YOUR CREDIBILITY IN THE MARKET</span>
           </h1>
         </div>
         <div className="banner-content">
@@ -137,7 +137,7 @@ function Bannder5() {
             {" "}
             <h2 className="marquee_text">
               <img src="assets/img/home-5/star.svg" alt="" />
-              We are Design Agency
+              We deliver Results
               <img src="assets/img/home-5/star.svg" alt="" />
               Creative &amp; Clean Design
               <img src="assets/img/home-5/star.svg" alt="" />

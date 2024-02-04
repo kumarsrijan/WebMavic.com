@@ -57,7 +57,8 @@ function Sidebar({ isMenuOpen, toggleMenu }) {
                 <img
                   alt="image"
                   className="img-fluid"
-                  src="assets/img/logo.svg"
+                  src="assets/img/webmavic-logo.png"
+                  style={{ width: "30vw" }}
                 />
               </a>
             </Link>
@@ -102,8 +103,8 @@ function Sidebar({ isMenuOpen, toggleMenu }) {
                   </Link>
                 </li>
                 <li>
-                  <Link legacyBehavior href="/software-development">
-                    <a>Software Development</a>
+                  <Link legacyBehavior href="/app-development">
+                    <a>App Development</a>
                   </Link>
                 </li>
                 <li>
