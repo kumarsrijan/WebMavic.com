@@ -64,10 +64,10 @@ function Review6() {
             <div className="single-counter">
               <div className="content">
                 <div className="number">
-                  <h3 className="counter">5</h3>
-                  <span>Years</span>
+                  <h3 className="counter">48</h3>
+                  <span>Hours</span>
                 </div>
-                <p>Working With Passion</p>
+                <p>If required even deliver projects with 48.</p>
               </div>
             </div>
           </li>

@@ -112,6 +112,7 @@ function ServiceDetailsPage() {
                   </ul>
                 </div>
               </div>
+
               <div
                 className="col-lg-6 wow animate fadeInRight"
                 data-wow-delay="300ms"
@@ -121,6 +122,25 @@ function ServiceDetailsPage() {
                   <img
                     className="img-fluid"
                     src="assets/img/inner-pages/about-service-img.png"
+                    alt=""
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="service-sort-driscription-area sec-mar">
+          <div className="container">
+            <div className="row">
+              <div
+                className="col-lg-12 wow animate fadeInUp"
+                data-wow-delay="200ms"
+                data-wow-duration="1500ms"
+              >
+                <div className="driscription-img magnetic-item">
+                  <img
+                    className="img-fluid"
+                    src="assets/img/inner-pages/service-driscription-img-1.png"
                     alt=""
                   />
                 </div>
@@ -262,15 +282,15 @@ function ServiceDetailsPage() {
                 data-wow-delay="200ms"
                 data-wow-duration="1500ms"
               >
-                <div className="driscription-img magnetic-item">
+                {/* <div className="driscription-img magnetic-item">
                   <img
                     className="img-fluid"
                     src="assets/img/inner-pages/service-driscription-img-1.png"
                     alt=""
                   />
-                </div>
+                </div> */}
               </div>
-              <div className="driscription-content">
+              {/* <div className="driscription-content">
                 <div className="row">
                   <div
                     className="col-md-6 wow animate fadeInUp"
@@ -306,7 +326,7 @@ function ServiceDetailsPage() {
                     </p>
                   </div>
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
