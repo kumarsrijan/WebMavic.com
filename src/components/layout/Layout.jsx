@@ -4,6 +4,8 @@ import useBodyClass from "@/hooks/useBodyClass";
 import Head from "next/head";
 import Link from "next/link";
 import Sidebar from "../common/Sidebar";
+import Back from "./Back";
+
 function Layout({ children }) {
   useBodyClass("home-dark2");
   const [isMenuOpen, setMenuOpen] = useState(false);
@@ -69,6 +71,7 @@ function Layout({ children }) {
           </header>
           {children}
           <Footer5 />
+          <Back />
         </div>
       </div>
     </>

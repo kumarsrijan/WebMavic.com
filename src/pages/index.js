@@ -11,6 +11,7 @@ import Footer5 from "@/components/footer/Footer5";
 import Partner5 from "@/components/partner/Partner5";
 import Service5 from "@/components/services/Service5";
 import Testimonial5 from "@/components/testimonial/Testimonial5";
+import Back from "@/components/layout/Back";
 import useBodyClass from "@/hooks/useBodyClass";
 import Head from "next/head";
 import Link from "next/link";
@@ -85,6 +86,7 @@ function HomepageThree() {
           <Home5Team />
           {/* <Home5Blog /> */}
           <Footer5 />
+          <Back />
         </div>
       </div>
     </>
