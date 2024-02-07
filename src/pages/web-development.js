@@ -385,7 +385,8 @@ function ServiceDetailsPage() {
                           aria-expanded="true"
                           aria-controls="collapseOne"
                         >
-                          Aliquam ligula nunc, vehicula at est quis.
+                          How do you ensure the security of my website or web
+                          application?
                         </button>
                       </h6>
                       <div
@@ -395,10 +396,12 @@ function ServiceDetailsPage() {
                         data-bs-parent="#accordionExample"
                       >
                         <div className="accordion-body">
-                          Aptent taciti sociosqu ad litora torquent per conubia
-                          nostra, per inceptos himenaeos. Praesent nec neque at
-                          dolor venenatis consectetur eu quis ex. placerat felis
-                          non aliquam.
+                          We have put in place security measures to ensure the
+                          safety of your platform. These measures include SSL
+                          encryption, secure authentication and regular security
+                          audits. Moreover we stay updated on the security
+                          trends and updates to safeguard your platform against
+                          any vulnerabilities.
                         </div>
                       </div>
                     </div>
@@ -412,7 +415,7 @@ function ServiceDetailsPage() {
                           aria-expanded="false"
                           aria-controls="collapseTwo"
                         >
-                          In hac habitasse platea dictumst Cras leo.
+                          Can you integrate e-commerce features into my website?
                         </button>
                       </h6>
                       <div
@@ -422,10 +425,11 @@ function ServiceDetailsPage() {
                         data-bs-parent="#accordionExample"
                       >
                         <div className="accordion-body">
-                          Aptent taciti sociosqu ad litora torquent per conubia
-                          nostra, per inceptos himenaeos. Praesent nec neque at
-                          dolor venenatis consectetur eu quis ex. placerat felis
-                          non aliquam.
+                          Certainly! Our area of expertise lies in creating e
+                          commerce websites that offer a range of features,
+                          including payment gateways, product management,
+                          seamless order tracking and an enjoyable shopping
+                          experience, for users.
                         </div>
                       </div>
                     </div>
@@ -439,7 +443,8 @@ function ServiceDetailsPage() {
                           aria-expanded="false"
                           aria-controls="collapseThree"
                         >
-                          ornare iaculis tellus. Phasellus venenatis.
+                          How do I get started with your web development
+                          services?
                         </button>
                       </h6>
                       <div
@@ -449,10 +454,13 @@ function ServiceDetailsPage() {
                         data-bs-parent="#accordionExample"
                       >
                         <div className="accordion-body">
-                          Aptent taciti sociosqu ad litora torquent per conubia
-                          nostra, per inceptos himenaeos. Praesent nec neque at
-                          dolor venenatis consectetur eu quis ex. placerat felis
-                          non aliquam.
+                          Feel free to get in touch with us by visiting our
+                          contact page or filling out the inquiry form. We would
+                          be more, than happy to arrange a consultation where we
+                          can talk about your project requirements and goals.
+                          Additionally we'll provide you with a customized
+                          proposal and timeline tailored specifically to your
+                          web development needs.
                         </div>
                       </div>
                     </div>
@@ -466,7 +474,8 @@ function ServiceDetailsPage() {
                           aria-expanded="false"
                           aria-controls="collapseFour"
                         >
-                          Phasellus a placerat eros In hac habitasse.
+                          What level of ongoing support do you provide after the
+                          website or application is launched?
                         </button>
                       </h6>
                       <div
@@ -476,10 +485,97 @@ function ServiceDetailsPage() {
                         data-bs-parent="#accordionExample"
                       >
                         <div className="accordion-body">
-                          Aptent taciti sociosqu ad litora torquent per conubia
-                          nostra, per inceptos himenaeos. Praesent nec neque at
-                          dolor venenatis consectetur eu quis ex. placerat felis
-                          non aliquam.
+                          We provide support, maintenance and updates to
+                          guarantee the security, currentness and optimal
+                          performance of your website. Our support services
+                          encompass resolving any problems integrating
+                          functionalities and offering guidance.
+                        </div>
+                      </div>
+                    </div>
+                    <div className="accordion-item">
+                      <h6 className="accordion-header" id="headingFive">
+                        <button
+                          className="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#collapseFive"
+                          aria-expanded="false"
+                          aria-controls="collapseFive"
+                        >
+                          Do you offer custom web application development ?
+                        </button>
+                      </h6>
+                      <div
+                        id="collapseFive"
+                        className="accordion-collapse collapse"
+                        aria-labelledby="headingFive"
+                        data-bs-parent="#accordionExample"
+                      >
+                        <div className="accordion-body">
+                          Certainly our expertise lies in developing bespoke web
+                          applications. These customized solutions are designed
+                          to cater to the requirements of your business giving
+                          you an advantage and ensuring exceptional performance.
+                        </div>
+                      </div>
+                    </div>
+
+                    <div className="accordion-item">
+                      <h6 className="accordion-header" id="headingSix">
+                        <button
+                          className="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#collapseSix"
+                          aria-expanded="false"
+                          aria-controls="collapseSix"
+                        >
+                          How do you ensure cross-browser compatibility for my
+                          website?
+                        </button>
+                      </h6>
+                      <div
+                        id="collapseSix"
+                        className="accordion-collapse collapse"
+                        aria-labelledby="headingSix"
+                        data-bs-parent="#accordionExample"
+                      >
+                        <div className="accordion-body">
+                          We perform testing on browsers and devices to make
+                          sure your website works properly on various platforms.
+                          This involves resolving any compatibility problems
+                          that might occur.
+                        </div>
+                      </div>
+                    </div>
+
+                    <div className="accordion-item">
+                      <h6 className="accordion-header" id="headingSeven">
+                        <button
+                          className="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#collapseSeven"
+                          aria-expanded="false"
+                          aria-controls="collapseSeven"
+                        >
+                          Do you provide hosting services for websites or
+                          recommend specific hosting providers?
+                        </button>
+                      </h6>
+                      <div
+                        id="collapseSeven"
+                        className="accordion-collapse collapse"
+                        aria-labelledby="headingSeven"
+                        data-bs-parent="#accordionExample"
+                      >
+                        <div className="accordion-body">
+                          We can offer hosting recommendations based on your
+                          project requirements, and we also assist in setting up
+                          and configuring hosting services. Clients have the
+                          flexibility to choose their preferred hosting
+                          provider.
                         </div>
                       </div>
                     </div>

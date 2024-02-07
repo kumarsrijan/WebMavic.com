@@ -396,11 +396,11 @@ function Service5() {
                   </Link>
                 </h4>
                 <p>
-                  Boost your business with state of the art applications. Our
-                  app development services breathe life into your concepts
-                  providing groundbreaking solutions that are customized to meet
-                  your requirements. Enhance your presence with our proficiency,
-                  in crafting user focused applications.
+                  Whether you'r a startup looking to launch its first app or a
+                  large enterprise seeking to enhance its mobile presence, our
+                  agency is equipped to deliver exceptional app development
+                  services that drive innovation, engagement, and business
+                  growth.
                 </p>
                 <ul
                   style={{
