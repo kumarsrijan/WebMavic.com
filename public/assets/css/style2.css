@@ -72,6 +72,11 @@
   box-sizing: border-box;
 }
 
+::selection{
+  color: #fff;
+  background: var(--theme-color);
+}
+
 a:focus,
 input:focus,
 textarea:focus,
@@ -6504,8 +6509,8 @@ video {
 
 @media (min-width: 1400px) and (max-width: 1599px) {
   .home5-team-section {
-    padding-left: 70px;
-    padding-right: 70px;
+    padding-left: 50px;
+    padding-right: 50px;
   }
 }
 
@@ -6517,6 +6522,7 @@ video {
   list-style: none;
   justify-content: center;
   align-items: center;
+  width: 100%;
   gap:1rem;
 }
 

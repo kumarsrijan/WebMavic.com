@@ -58,7 +58,7 @@ function Bannder5() {
         <div className="banner-title">
           <h1>
             HAVING A ROUGH TIME BUILDING YOUR {" "}
-            <ReactTyped strings={["Credibility in the market","Website for the business","Graphics for banding"]} typeSpeed={40} backSpeed={50} loop></ReactTyped>
+            <ReactTyped style={{color:"var(--theme-color)"}} strings={["Credibility in the market","Website for the business","Graphics for banding"]} typeSpeed={40} backSpeed={50} loop></ReactTyped>
           </h1>
         </div>
         <div className="banner-content">
