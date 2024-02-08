@@ -19,8 +19,8 @@ export const teamData = [
     },
     {
         id : 4,
-        name : "Sonu Kr Sah",
+        name : "Rakshit Raj",
         role : "Developer",
-        avatar : "assets/img/home-5/home5-team-01.png"
+        avatar : "assets/img/home-5/rakshit.jpg"
     }
 ]
