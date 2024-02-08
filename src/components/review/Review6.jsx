@@ -3,7 +3,7 @@ import React from "react";
 function Review6() {
   return (
     <div className="review-and-counter-area">
-      <div className="customar-review">
+      {/* <div className="customar-review">
         <h6>Review On</h6>
         <ul>
           <li className="single-review">
@@ -57,7 +57,7 @@ function Review6() {
             </a>
           </li>
         </ul>
-      </div>
+      </div> */}
       <div className="counter-area">
         <ul>
           <li>
