@@ -72,7 +72,7 @@
   box-sizing: border-box;
 }
 
-::selection{
+::selection {
   color: #fff;
   background: var(--theme-color);
 }
@@ -121,6 +121,7 @@ ol {
 }
 
 p {
+  text-align: justify;
   margin: 0;
   color: #272727;
   line-height: 1.8;
@@ -442,8 +443,6 @@ video {
 /*=====================================
      23. Home page Three css 
 ========================================*/
-
-
 
 .primary-btn3 {
   font-family: var(--font-saira);
@@ -3674,8 +3673,6 @@ video {
   color: var(--black-color2);
 }
 
-
-
 .home4-experts-section .swiper-pagination22 {
   position: absolute;
   left: 50%;
@@ -4161,7 +4158,6 @@ video {
 .swiper-btn-group .swiper-btn:hover i {
   color: var(--white-color);
 }
-
 
 .home3-about-section {
   padding: 0px 13%;
@@ -5123,7 +5119,6 @@ video {
   stroke: var(--black-color2);
 }
 
-
 .home3-team-area .swiper-pagination22 {
   position: absolute;
   left: 50%;
@@ -5672,7 +5667,7 @@ video {
   padding: 0;
 }
 
-.services-wrapper{
+.services-wrapper {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -5686,7 +5681,7 @@ video {
   max-width: 390px;
   gap: 0.9rem;
   flex-direction: column;
-  justify-content:space-between;
+  justify-content: space-between;
   border: 1px solid rgba(255, 255, 255, 0.07);
   border-radius: 5px;
   padding: 30px 30px;
@@ -6514,8 +6509,7 @@ video {
   }
 }
 
-
-.teamlist{
+.teamlist {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -6523,13 +6517,12 @@ video {
   justify-content: center;
   align-items: center;
   width: 100%;
-  gap:1rem;
+  gap: 1rem;
 }
 
-.teamlist li{
+.teamlist li {
   cursor: pointer;
 }
-
 
 .home5-team-section .single-team {
   background: #121212;
@@ -6601,7 +6594,6 @@ video {
 .home5-team-section .single-team .team-img {
   border-radius: 200px 200px 0px 0px;
   margin-bottom: 30px;
-
 }
 .home5-team-section .single-team .team-img img {
   border-radius: 200px 200px 0px 0px;

@@ -82,7 +82,7 @@ function Header() {
           <div className="sidebar-log">
             <Link legacyBehavior href="/">
               <a>
-                <img src="assets/img/logo.svg" alt="" />
+                <img src="assets/img/webmavic-logo.png" alt="" />
               </a>
             </Link>
           </div>

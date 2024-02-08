@@ -46,7 +46,16 @@ function Choose6() {
                     />
                   </div>
                   <div className="icon">
-                    <img src="assets/img/logo.svg" alt="" />
+                    <img
+                      src="assets/img/webmavic-logo.png"
+                      alt=""
+                      style={{
+                        width: "400px", // Adjust the width as needed
+                        height: "auto", // Automatically adjusts height to maintain aspect ratio
+                        maxWidth: "100%", // Ensures the image does not exceed its container
+                        display: "block", // Prevents any unwanted whitespace around the image
+                      }}
+                    />
                   </div>
                   <h4>
                     How it all started <br />
