@@ -16,8 +16,7 @@ function Partner5() {
             </div>
             <div className="section-content">
               <p>
-                Morbi interdum pellentesque nunc, luctusongi pretium nulla
-                luctus at Aliquam.{" "}
+                We are concerned about the security of our customers.That's why we always keep updating and use best technologies in our products{" "}
               </p>
             </div>
           </div>

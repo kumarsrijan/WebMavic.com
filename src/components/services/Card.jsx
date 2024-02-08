@@ -2,7 +2,7 @@ import React from "react";
 import Link from "next/link";
 const Card = (props) => {
   return (
-    <div className="solution-card wow animate fadeInUp magnetic-item" data-wow-delay="200ms" data-wow-duration="1500ms"
+    <div className="solution-card magnetic-item wow animate fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms"
     >
        <div>
         <div className="icon">

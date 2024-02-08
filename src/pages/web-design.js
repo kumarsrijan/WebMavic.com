@@ -24,7 +24,7 @@ function ServiceDetailsPage() {
                   <div className="section-title-5">
                     <h2>Web Design</h2>
                   </div>
-                  <p>
+                  <p style={{textAlign:"justify"}}>
                     We specialize in delivering contemporary and refined designs
                     that seamlessly incorporate scalability. Overlooking
                     scalability in web development may impose future

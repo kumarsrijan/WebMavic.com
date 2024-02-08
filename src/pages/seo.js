@@ -26,7 +26,7 @@ function ServiceDetailsPage() {
                       Search Engine <br /> Optimization
                     </h2>
                   </div>
-                  <p>
+                  <p style={{textAlign:"justify"}}>
                     Interdum et malesuada fames ac ante ipsum primis in
                     faucibus. Etiam eu nibh neque ac, aliquet nunc. In eu ipsum
                     fringilla, accumsan purus vel, pellentesque purus at eros

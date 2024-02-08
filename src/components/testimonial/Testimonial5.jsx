@@ -44,7 +44,7 @@ function Testimonial5() {
                   <br />
                   Don't trust our words, trust them
                 </p>
-                <div className="customar-review">
+                {/* <div className="customar-review">
                   <h6>Review On</h6>
                   <ul>
                     <li>
@@ -101,7 +101,7 @@ function Testimonial5() {
                       </a>
                     </li>
                   </ul>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>

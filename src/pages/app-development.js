@@ -26,7 +26,7 @@ function ServiceDetailsPage() {
                       App <br /> Development
                     </h2>
                   </div>
-                  <p>
+                  <p style={{textAlign:"justify"}}>
                     At our agency we provide a range of app development services
                     that are specifically designed to cater to the requirements
                     of businesses and entrepreneurs. Our expertise lies in

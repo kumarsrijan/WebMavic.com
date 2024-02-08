@@ -24,7 +24,7 @@ function ServiceDetailsPage() {
                   <div className="section-title-5">
                     <h2>Graphic Design</h2>
                   </div>
-                  <p>
+                  <p style={{textAlign:"justify"}}>
                     Our graphic design service specializes in crafting visually
                     captivating designs that elevate brands and captivate
                     audiences across various mediums. We understand that

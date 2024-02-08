@@ -6718,7 +6718,7 @@ video {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 2rem;
+  gap: 1.5rem;
 }
 
 .home5-services-section .solution-card {

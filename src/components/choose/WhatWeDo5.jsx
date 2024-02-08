@@ -1,6 +1,6 @@
 import React from "react";
-import Marquee from "react-fast-marquee";
-function WhatWeDo5() {
+
+const WhatWeDo5 = () => {
   return (
     <div className="home5-process-area mb-130">
       <div className="container">
@@ -96,7 +96,7 @@ function WhatWeDo5() {
                 <h3>
                   One Stop solutons for your business needs{" "}
                   <span>
-                    By engineers ofBIT <span className="year">BIT.</span>
+                    By engineers {" "}of<span className="year">BIT.</span>
                   </span>
                 </h3>
               </div>

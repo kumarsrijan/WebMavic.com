@@ -1,6 +1,7 @@
 import React, { useMemo } from "react";
 import SwiperCore, { Autoplay, EffectFade, Pagination } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
+import { ReactTyped } from "react-typed";
 import Link from "next/link";
 import Marquee from "react-fast-marquee";
 SwiperCore.use([Pagination, Autoplay, EffectFade]);
@@ -56,8 +57,8 @@ function Bannder5() {
         </div> */}
         <div className="banner-title">
           <h1>
-            HAVING A ROUGH TIME <br />{" "}
-            <span>BUILDING YOUR CREDIBILITY IN THE MARKET</span>
+            HAVING A ROUGH TIME BUILDING YOUR {" "}
+            <ReactTyped strings={["Credibility in the market","Website for the business","Graphics for banding"]} typeSpeed={40} backSpeed={50} loop></ReactTyped>
           </h1>
         </div>
         <div className="banner-content">

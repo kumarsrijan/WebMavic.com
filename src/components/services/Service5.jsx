@@ -6,11 +6,7 @@ function Service5() {
   return (
     <div className="home5-services-section mb-130">
       <div className="container">
-        <div
-          className="row mb-55 wow animate fadeInUp"
-          data-wow-delay="200ms"
-          data-wow-duration="1500ms"
-        >
+        <div className="row mb-55">
           <div className="col-lg-12">
             <div className="section-title-5 text-center">
               <span>Solutions We Offer</span>

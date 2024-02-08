@@ -26,7 +26,7 @@ function ServiceDetailsPage() {
                       Web <br /> Development
                     </h2>
                   </div>
-                  <p>
+                  <p style={{textAlign:"justify"}}>
                     Our web development service specializes in creating dynamic
                     web applications that seamlessly incorporate essential
                     features for a robust online presence. Overlooking key
