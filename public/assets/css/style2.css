@@ -5115,90 +5115,6 @@ video {
   color: var(--white-color);
 }
 
-.home3-solution-section .solution-card {
-  background-image: url(../img/home-3/pricing-bg-32.png),
-    linear-gradient(#1e1e1e, #1e1e1e);
-  background-size: cover;
-  background-repeat: no-repeat;
-  padding: 30px;
-  border-radius: 5px;
-  transition: 0.5s;
-}
-@media (max-width: 576px) {
-  .home3-solution-section .solution-card {
-    padding: 25px;
-  }
-}
-.home3-solution-section .solution-card .icon {
-  margin-bottom: 30px;
-}
-.home3-solution-section .solution-card .icon svg {
-  fill: var(--theme-color);
-}
-.home3-solution-section .solution-card .solution-content h4 {
-  margin-bottom: 15px;
-}
-.home3-solution-section .solution-card .solution-content h4 a {
-  font-family: var(--font-saira);
-  font-weight: 600;
-  font-size: 27px;
-  letter-spacing: 0.02em;
-  text-transform: capitalize;
-  color: #e4e4e4;
-  transition: 0.5s;
-}
-@media (max-width: 767px) {
-  .home3-solution-section .solution-card .solution-content h4 a {
-    font-size: 24px;
-  }
-}
-.home3-solution-section .solution-card .solution-content h4 a:hover {
-  color: var(--theme-color);
-}
-.home3-solution-section .solution-card .solution-content p {
-  font-family: var(--font-saira);
-  font-weight: 300;
-  font-size: 14px;
-  line-height: 30px;
-  letter-spacing: 0.03em;
-  color: #e4e4e4;
-}
-.home3-solution-section .solution-card .solution-content .solution-feature {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  padding-top: 28px;
-}
-.home3-solution-section .solution-card .solution-content .solution-feature li {
-  font-family: var(--font-saira);
-  font-weight: 500;
-  font-size: 15px;
-  letter-spacing: 0.02em;
-  color: #ffffff;
-  margin-bottom: 10px;
-  display: flex;
-  align-items: center;
-  gap: 12px;
-}
-.home3-solution-section
-  .solution-card
-  .solution-content
-  .solution-feature
-  li
-  svg {
-  fill: var(--theme-color);
-}
-.home3-solution-section
-  .solution-card
-  .solution-content
-  .solution-feature
-  li:last-child {
-  margin-bottom: 0;
-}
-.home3-solution-section .solution-card:hover {
-  background-image: url(../img/home-3/pricing-bg-32.png),
-    linear-gradient(rgba(117, 218, 180, 0.1), rgba(117, 218, 180, 0.1));
-}
 
 .home3-about-section {
   padding: 0px 13%;
@@ -6796,9 +6712,22 @@ video {
   background-image: unset;
   padding: 0;
 }
+
+.services-wrapper{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}
+
 .home5-services-section .solution-card {
   background: #171717;
-  min-height: 530px;
+  display: flex;
+  max-width: 390px;
+  gap: 0.9rem;
+  flex-direction: column;
+  justify-content:space-between;
   border: 1px solid rgba(255, 255, 255, 0.07);
   border-radius: 5px;
   padding: 30px 30px;
@@ -6851,7 +6780,7 @@ video {
   line-height: 30px;
   letter-spacing: 0.03em;
   color: #b5b5b5;
-  margin-bottom: 40px;
+  margin-bottom: 10px;
 }
 .home5-services-section .solution-card:hover {
   border: 1px solid rgba(117, 218, 180, 0.5);

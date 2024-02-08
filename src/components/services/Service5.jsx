@@ -18,7 +18,7 @@ function Service5() {
             </div>
           </div>
         </div>
-        <div className="row g-4 justify-content-center">
+        <div className="services-wrapper">
           {data.map((item) => (
             <Card items={item} key={item.id} />
           ))}

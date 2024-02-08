@@ -2,12 +2,9 @@ import React from "react";
 import Link from "next/link";
 const Card = (props) => {
   return (
-    <div
-      className="col-xl-4 col-md-6 col-sm-10  wow animate fadeInUp"
-      data-wow-delay="200ms"
-      data-wow-duration="1500ms"
+    <div className="solution-card wow animate fadeInUp magnetic-item" data-wow-delay="200ms" data-wow-duration="1500ms"
     >
-      <div className="solution-card magnetic-item">
+       <div>
         <div className="icon">
           <div className="icon-bg">
             <svg
@@ -119,7 +116,13 @@ const Card = (props) => {
               {props.items.f2_desc}
             </li>
           </ul>
-          <div className="learn-btn">
+        </div>
+
+       </div>
+
+       
+              
+        <div className="learn-btn">
             <Link legacyBehavior href="/service-details">
               <a className="primary-btn8">
                 Learn More
@@ -135,8 +138,6 @@ const Card = (props) => {
               </a>
             </Link>
           </div>
-        </div>
-      </div>
     </div>
   );
 };
