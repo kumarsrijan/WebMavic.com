@@ -4540,95 +4540,8 @@ video {
   color: var(--black-color2);
 }
 
-.home4-experts-section .single-team {
-  position: relative;
-  padding: 25px 20px 20px;
-  z-index: 1;
-  transition: 0.5s;
-}
-.home4-experts-section .single-team::after {
-  content: "";
-  background-image: url(../img/home-3/team-bg-1.png),
-    linear-gradient(#1e1e1e, #1e1e1e);
-  border: 1px solid transparent;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  border-radius: 5px;
-  transition: 0.5s;
-  z-index: -1;
-}
-.home4-experts-section .single-team .team-img {
-  position: relative;
-  transition: 0.5s;
-}
-.home4-experts-section .single-team .team-img .social-area {
-  transition: 0.5s;
-  opacity: 0;
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%) scale(0);
-  bottom: 15px;
-}
-.home4-experts-section .single-team .team-img .social-area ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  display: flex;
-  align-items: center;
-  gap: 20px;
-}
-.home4-experts-section .single-team .team-img .social-area ul li a {
-  color: #fff;
-  height: 30px;
-  width: 30px;
-  border-radius: 5px;
-  border: 1px solid var(--theme-color);
-  background-color: var(--theme-color);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  transition: 0.5s;
-}
-.home4-experts-section .single-team .team-img .social-area ul li a:hover {
-  color: var(--black-color2);
-}
-.home4-experts-section .single-team .team-img img {
-  border-radius: 5px;
-  width: 100%;
-}
-.home4-experts-section .single-team .team-content {
-  padding-top: 17px;
-  text-align: center;
-}
-.home4-experts-section .single-team .team-content h5 {
-  font-family: var(--font-saira);
-  font-weight: 600;
-  font-size: 20px;
-  line-height: 30px;
-  color: var(--white-color);
-  margin-bottom: 0;
-}
-.home4-experts-section .single-team .team-content span {
-  font-family: var(--font-saira);
-  font-weight: 400;
-  font-size: 15px;
-  color: #b5b5b5;
-}
-.home4-experts-section .single-team:hover::after {
-  background-image: url(../img/home-3/team-bg-2.png),
-    linear-gradient(#1e1e1e, #1e1e1e);
-  border: 1px solid rgba(255, 255, 255, 0.1);
-}
-.home4-experts-section .single-team:hover .team-img .social-area {
-  opacity: 1;
-  transform: translateX(-50%) scale(1);
-}
+
+
 .home4-experts-section .swiper-pagination22 {
   position: absolute;
   left: 50%;
@@ -6076,95 +5989,7 @@ video {
   stroke: var(--black-color2);
 }
 
-.home3-team-area .single-team {
-  position: relative;
-  padding: 25px 20px 20px;
-  z-index: 1;
-  transition: 0.5s;
-}
-.home3-team-area .single-team::after {
-  content: "";
-  background-image: url(../img/home-3/team-bg-1.png),
-    linear-gradient(#1e1e1e, #1e1e1e);
-  border: 1px solid transparent;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  border-radius: 5px;
-  transition: 0.5s;
-  z-index: -1;
-}
-.home3-team-area .single-team .team-img {
-  position: relative;
-  transition: 0.5s;
-}
-.home3-team-area .single-team .team-img .social-area {
-  transition: 0.5s;
-  opacity: 0;
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%) scale(0);
-  bottom: 15px;
-}
-.home3-team-area .single-team .team-img .social-area ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  display: flex;
-  align-items: center;
-  gap: 20px;
-}
-.home3-team-area .single-team .team-img .social-area ul li a {
-  color: #fff;
-  height: 30px;
-  width: 30px;
-  border-radius: 5px;
-  border: 1px solid var(--theme-color);
-  background-color: var(--theme-color);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  transition: 0.5s;
-}
-.home3-team-area .single-team .team-img .social-area ul li a:hover {
-  color: var(--black-color2);
-}
-.home3-team-area .single-team .team-img img {
-  border-radius: 5px;
-  width: 100%;
-}
-.home3-team-area .single-team .team-content {
-  padding-top: 17px;
-  text-align: center;
-}
-.home3-team-area .single-team .team-content h5 {
-  font-family: var(--font-saira);
-  font-weight: 600;
-  font-size: 20px;
-  line-height: 30px;
-  color: var(--white-color);
-  margin-bottom: 0;
-}
-.home3-team-area .single-team .team-content span {
-  font-family: var(--font-saira);
-  font-weight: 400;
-  font-size: 15px;
-  color: #b5b5b5;
-}
-.home3-team-area .single-team:hover::after {
-  background-image: url(../img/home-3/team-bg-2.png),
-    linear-gradient(#1e1e1e, #1e1e1e);
-  border: 1px solid rgba(255, 255, 255, 0.1);
-}
-.home3-team-area .single-team:hover .team-img .social-area {
-  opacity: 1;
-  transform: translateX(-50%) scale(1);
-}
+
 .home3-team-area .swiper-pagination22 {
   position: absolute;
   left: 50%;
@@ -7554,20 +7379,37 @@ video {
     padding-right: 70px;
   }
 }
+
+
+.teamlist{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  list-style: none;
+  justify-content: center;
+  align-items: center;
+  gap:1rem;
+}
+
+.teamlist li{
+  cursor: pointer;
+}
+
+
 .home5-team-section .single-team {
   background: #121212;
   border: 1px solid rgba(255, 255, 255, 0.2);
   border-radius: 200px 200px 0px 0px;
-  padding: 20px 20px 30px;
+  padding: 10px;
   position: relative;
-  transition: 2s;
+  transition: 0.5s all ease-in-out;
 }
 @media (max-width: 1199px) {
   .home5-team-section .single-team {
     padding: 20px 15px 30px;
   }
 }
-.home5-team-section .single-team .social-area {
+/* .home5-team-section .single-team .social-area {
   border: 1px solid rgba(255, 255, 255, 0.2);
   max-width: 42px;
   width: 100%;
@@ -7581,7 +7423,7 @@ video {
   transform-origin: right;
   background-color: #121212;
   z-index: 99999;
-}
+} */
 @media (max-width: 991px) {
   .home5-team-section .single-team .social-area {
     left: 0;
@@ -7624,11 +7466,11 @@ video {
 .home5-team-section .single-team .team-img {
   border-radius: 200px 200px 0px 0px;
   margin-bottom: 30px;
-  transition: 0.5s;
+
 }
 .home5-team-section .single-team .team-img img {
   border-radius: 200px 200px 0px 0px;
-  transition: 0.5s;
+  transition: 0.2s all ease-in-out;
 }
 @media (max-width: 991px) {
   .home5-team-section .single-team .team-img img {
@@ -7659,7 +7501,7 @@ video {
   line-height: 1;
 }
 .home5-team-section .single-team:hover {
-  border-radius: 0;
+  border-radius: 0px;
 }
 .home5-team-section .single-team:hover .social-area {
   opacity: 1;
