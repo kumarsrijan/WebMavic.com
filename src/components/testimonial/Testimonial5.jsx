@@ -124,15 +124,15 @@ function Testimonial5() {
                     </div>
                     <div className="testimonial-content">
                       <p>
-                        “I cannot express enough how satisfied I am with the web
-                        developmet services provided by Egens Lab. They are very
-                        good and User friendly and they work very nice and
-                        creative”
+                        “It was really nice to avail the services of Srijan and
+                        his team. My expectations were not only met but the team
+                        provided extra also. The group is really hard working
+                        and tries to provide services with some uniqueness”
                       </p>
                     </div>
                     <div className="testimonial-btm">
                       <div className="author-content">
-                        <h4>Watson Bekaryn</h4>
+                        <h4>Abhinav</h4>
                         <span>CEO At atlantis.com</span>
                       </div>
                       <div className="quote-icon">

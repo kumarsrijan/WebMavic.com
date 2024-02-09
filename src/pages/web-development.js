@@ -26,7 +26,7 @@ function ServiceDetailsPage() {
                       Web <br /> Development
                     </h2>
                   </div>
-                  <p style={{textAlign:"justify"}}>
+                  <p style={{ textAlign: "justify" }}>
                     Our web development service specializes in creating dynamic
                     web applications that seamlessly incorporate essential
                     features for a robust online presence. Overlooking key
@@ -142,7 +142,7 @@ function ServiceDetailsPage() {
                 <div className="service-img magnetic-item">
                   <img
                     className="img-fluid"
-                    src="assets/img/inner-pages/about-service-img.png"
+                    src="assets/img/inner-pages/web-development-1.jpg"
                     alt=""
                   />
                 </div>
@@ -287,7 +287,7 @@ function ServiceDetailsPage() {
                 <div className="driscription-img magnetic-item">
                   <img
                     className="img-fluid"
-                    src="assets/img/inner-pages/service-driscription-img-1.png"
+                    src="assets/img/inner-pages/web-development-2.jpg"
                     alt=""
                   />
                 </div>

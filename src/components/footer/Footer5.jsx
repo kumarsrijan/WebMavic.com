@@ -101,7 +101,7 @@ function Footer5() {
               </div> */}
             </div>
           </div>
-          <div className="col-lg-3 col-sm-6 d-flex justify-content-lg-start justify-content-sm-end">
+          {/* <div className="col-lg-3 col-sm-6 d-flex justify-content-lg-start justify-content-sm-end">
             <div className="footer-widget">
               <div className="widget-title">
                 <h4>Our Solutions</h4>
@@ -141,8 +141,8 @@ function Footer5() {
                 </ul>
               </div>
             </div>
-          </div>
-          <div className="col-lg-2 col-sm-6 d-flex justify-content-lg-center">
+          </div> */}
+          <div className="col-lg-5 col-sm-6 d-flex justify-content-lg-center">
             <div className="footer-widget">
               <div className="widget-title">
                 <h4>Company</h4>
@@ -154,29 +154,23 @@ function Footer5() {
                       <a>About Us</a>
                     </Link>
                   </li>
+
                   <li>
-                    <Link legacyBehavior href="/case-study">
-                      <a>Case Study</a>
-                    </Link>
-                  </li>
-                  <li>
-                    <Link legacyBehavior href="/blog">
-                      <a>News &amp; Article</a>
-                    </Link>
-                  </li>
-                  <li>
-                    <Link legacyBehavior href="/team1">
+                    <Link legacyBehavior href="/team">
                       <a>Our Team</a>
                     </Link>
                   </li>
                   <li>
-                    <Link legacyBehavior href="/project">
-                      <a>All Portfolio</a>
+                    <Link legacyBehavior href="faq">
+                      <a>
+                        Frequently Asked <br />
+                        Questions
+                      </a>
                     </Link>
                   </li>
                   <li>
-                    <Link legacyBehavior href="/pricing">
-                      <a>Pricing Plan</a>
+                    <Link legacyBehavior href="/contact">
+                      <a>Work With Us</a>
                     </Link>
                   </li>
                 </ul>
@@ -186,28 +180,38 @@ function Footer5() {
           <div className="col-lg-3 col-sm-6 d-flex justify-content-sm-end">
             <div className="footer-widget">
               <div className="widget-title">
-                <h4>Resources</h4>
+                <h4>Our Solutions</h4>
               </div>
               <div className="menu-container">
                 <ul>
                   <li>
-                    <a href="#">Support Area</a>
+                    <Link legacyBehavior href="/web-design">
+                      <a>Web Design</a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="#">Support Policy</a>
+                    <Link legacyBehavior href="/web-development">
+                      <a>Web Development</a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="#">Terms &amp; Conditions</a>
+                    <Link legacyBehavior href="/app-development">
+                      <a>Software Development</a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="#">Privacy Policy</a>
+                    <Link legacyBehavior href="/graphic-design">
+                      <a>Graphic Design</a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="#">Career</a>
+                    <Link legacyBehavior href="/copywriting">
+                      <a>Copy Writting</a>
+                    </Link>
                   </li>
                   <li>
-                    <Link legacyBehavior href="/pricing">
-                      <a>Pricing Plan</a>
+                    <Link legacyBehavior href="/seo">
+                      <a>S E O</a>
                     </Link>
                   </li>
                 </ul>

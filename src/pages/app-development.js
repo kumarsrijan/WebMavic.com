@@ -26,7 +26,7 @@ function ServiceDetailsPage() {
                       App <br /> Development
                     </h2>
                   </div>
-                  <p style={{textAlign:"justify"}}>
+                  <p style={{ textAlign: "justify" }}>
                     At our agency we provide a range of app development services
                     that are specifically designed to cater to the requirements
                     of businesses and entrepreneurs. Our expertise lies in
@@ -115,7 +115,7 @@ function ServiceDetailsPage() {
                 <div className="service-img magnetic-item">
                   <img
                     className="img-fluid"
-                    src="assets/img/inner-pages/about-service-img.png"
+                    src="assets/img/inner-pages/app-development-1.jpg"
                     alt=""
                   />
                 </div>
@@ -260,7 +260,7 @@ function ServiceDetailsPage() {
                 <div className="driscription-img magnetic-item">
                   <img
                     className="img-fluid"
-                    src="assets/img/inner-pages/service-driscription-img-1.png"
+                    src="assets/img/inner-pages/app-development-2.jpg"
                     alt=""
                   />
                 </div>
@@ -329,7 +329,7 @@ function ServiceDetailsPage() {
                 <div className="faq-img magnetic-item">
                   <img
                     className="img-fluid"
-                    src="assets/img/inner-pages/service-faq-img-01.png"
+                    src="assets/img/inner-pages/app-development-3.jpg"
                     alt=""
                   />
                 </div>
