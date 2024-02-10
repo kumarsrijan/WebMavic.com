@@ -64,7 +64,7 @@ function Review6() {
             <div className="single-counter">
               <div className="content">
                 <div className="number">
-                  <h3 className="counter"><CountUp end={48} duration={8}/></h3>
+                  <h3 className="counter"><CountUp end={48} duration={5} style={{fontSize:"40px"}}/></h3>
                   <span>Hours</span>
                 </div>
                 <p>If required even deliver projects with 48.</p>
@@ -75,7 +75,7 @@ function Review6() {
             <div className="single-counter">
               <div className="content">
                 <div className="number">
-                  <h3 className="counter"><CountUp start={0} end={1500} duration={8} suffix=" +" /></h3>
+                  <h3 className="counter"><CountUp start={0} end={1500} duration={5} suffix=" +" style={{fontSize:"40px"}}/></h3>
                   <span>Customer</span>
                 </div>
                 <p>Satisfied Customer</p>
@@ -86,7 +86,7 @@ function Review6() {
             <div className="single-counter">
               <div className="content">
                 <div className="number">
-                  <h3 className="counter"><CountUp end={800} duration={8}/></h3>
+                  <h3 className="counter"><CountUp end={800} duration={5} style={{fontSize:"40px"}}/></h3>
                   <span>Project</span>
                 </div>
                 <p>We Have Completed</p>
@@ -97,7 +97,7 @@ function Review6() {
             <div className="single-counter">
               <div className="content">
                 <div className="number">
-                  <h3 className="counter"><CountUp end={15} duration={8}/></h3>
+                  <h3 className="counter"><CountUp end={15} duration={5} style={{fontSize:"40px"}}/></h3>
                   <span>Awards</span>
                 </div>
                 <p>Achievement For Service</p>

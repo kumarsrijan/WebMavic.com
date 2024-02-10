@@ -17,7 +17,7 @@ function AboutPage() {
         title="Get To Know About WebMavic"
         pageName="ABOUT"
       />
-      <About3 />
+      <About3  />
       <Choose6 />
       {/* <Feature4 /> */}
       {/* <Partnar4 /> */}
