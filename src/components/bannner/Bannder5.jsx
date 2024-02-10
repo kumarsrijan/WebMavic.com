@@ -57,8 +57,18 @@ function Bannder5() {
         </div> */}
         <div className="banner-title">
           <h1>
-            HAVING A ROUGH TIME BUILDING YOUR {" "}
-            <ReactTyped style={{ color: "var(--theme-color)" }} strings={["Credibility in the market", "Website for the business", "Graphics for banding"]} typeSpeed={40} backSpeed={50} loop></ReactTyped>
+            HAVING A ROUGH TIME BUILDING YOUR{" "}
+            <ReactTyped
+              style={{ color: "var(--theme-color)" }}
+              strings={[
+                "Credibility in the market",
+                "Website for the business",
+                "Graphics for banding",
+              ]}
+              typeSpeed={40}
+              backSpeed={50}
+              loop
+            ></ReactTyped>
           </h1>
         </div>
         <div className="banner-content">
@@ -101,28 +111,28 @@ function Bannder5() {
                 <Swiper {...slider} className="swiper banner5-slider">
                   <div className="swiper-wrapper">
                     <SwiperSlide className="swiper-slide">
-                      <div className="banner-img">
+                      <div>
                         <img
                           className="img-fluid"
-                          src="assets/img/home-5/h5-banner-img1.png"
+                          src="assets/img/home-5/webmavic-mockup.png"
                           alt=""
                         />
                       </div>
                     </SwiperSlide>
                     <SwiperSlide className="swiper-slide">
-                      <div className="banner-img">
+                      <div>
                         <img
                           className="img-fluid"
-                          src="assets/img/home-5/h5-banner-img2.png"
+                          src="assets/img/home-5/webmavic-mockup.png"
                           alt=""
                         />
                       </div>
                     </SwiperSlide>
                     <SwiperSlide className="swiper-slide">
-                      <div className="banner-img">
+                      <div>
                         <img
                           className="img-fluid"
-                          src="assets/img/home-5/h5-banner-img3.png"
+                          src="assets/img/home-5/webmavic-mockup.png"
                           alt=""
                         />
                       </div>

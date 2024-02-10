@@ -24,7 +24,7 @@ function ServiceDetailsPage() {
                   <div className="section-title-5">
                     <h2>Graphic Design</h2>
                   </div>
-                  <p style={{textAlign:"justify"}}>
+                  <p style={{ textAlign: "justify" }}>
                     Our graphic design service specializes in crafting visually
                     captivating designs that elevate brands and captivate
                     audiences across various mediums. We understand that
@@ -121,7 +121,7 @@ function ServiceDetailsPage() {
                 <div className="service-img magnetic-item">
                   <img
                     className="img-fluid"
-                    src="assets/img/inner-pages/about-service-img.png"
+                    src="assets/img/inner-pages/graphic-design-1.jpg"
                     alt=""
                   />
                 </div>
@@ -140,7 +140,7 @@ function ServiceDetailsPage() {
                 <div className="driscription-img magnetic-item">
                   <img
                     className="img-fluid"
-                    src="assets/img/inner-pages/service-driscription-img-1.png"
+                    src="assets/img/inner-pages/graphic-design-22.jpg"
                     alt=""
                   />
                 </div>
@@ -179,10 +179,10 @@ function ServiceDetailsPage() {
                     </div>
                     <div className="work-content">
                       <h3>Requirements Gathering.</h3>
-                      <p>
+                      {/* <p>
                         Interdum et malesuada fames acchiv Etiam europeat
                         nibhona elementum, accumsan ona.
-                      </p>
+                      </p> */}
                     </div>
                   </div>
                 </div>
@@ -200,10 +200,10 @@ function ServiceDetailsPage() {
                     </div>
                     <div className="work-content">
                       <h3>Analysis and Planning.</h3>
-                      <p>
+                      {/* <p>
                         Interdum et malesuada fames acchiv Etiam europeat
                         nibhona elementum, accumsan ona.
-                      </p>
+                      </p> */}
                     </div>
                   </div>
                 </div>
@@ -221,10 +221,10 @@ function ServiceDetailsPage() {
                     </div>
                     <div className="work-content">
                       <h3>Design &amp; Development.</h3>
-                      <p>
+                      {/* <p>
                         Interdum et malesuada fames acchiv Etiam europeat
                         nibhona elementum, accumsan ona.
-                      </p>
+                      </p> */}
                     </div>
                   </div>
                 </div>
@@ -242,10 +242,10 @@ function ServiceDetailsPage() {
                     </div>
                     <div className="work-content">
                       <h3>Testing Device &amp; Release.</h3>
-                      <p>
+                      {/* <p>
                         Interdum et malesuada fames acchiv Etiam europeat
                         nibhona elementum, accumsan ona.
-                      </p>
+                      </p> */}
                     </div>
                   </div>
                 </div>
@@ -263,10 +263,10 @@ function ServiceDetailsPage() {
                     </div>
                     <div className="work-content">
                       <h3>Maintenance and Support.</h3>
-                      <p>
+                      {/* <p>
                         Interdum et malesuada fames acchiv Etiam europeat
                         nibhona elementum, accumsan ona.
-                      </p>
+                      </p> */}
                     </div>
                   </div>
                 </div>
@@ -341,7 +341,7 @@ function ServiceDetailsPage() {
                 <div className="faq-img magnetic-item">
                   <img
                     className="img-fluid"
-                    src="assets/img/inner-pages/service-faq-img-01.png"
+                    src="assets/img/inner-pages/graphic-design-3.jpg"
                     alt=""
                   />
                 </div>

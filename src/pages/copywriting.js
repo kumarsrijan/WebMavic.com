@@ -24,7 +24,7 @@ function ServiceDetailsPage() {
                   <div className="section-title-5">
                     <h2>Copy Writting</h2>
                   </div>
-                  <p style={{textAlign:"justify"}}>
+                  <p style={{ textAlign: "justify" }}>
                     Enhance your sales potential by utilizing our copywriting
                     services. Our team is dedicated to crafting content that
                     resonates with emotions and effectively showcases the
@@ -119,7 +119,7 @@ function ServiceDetailsPage() {
                 <div className="service-img magnetic-item">
                   <img
                     className="img-fluid"
-                    src="assets/img/inner-pages/about-service-img.png"
+                    src="assets/img/inner-pages/copy-1.jpg"
                     alt=""
                   />
                 </div>

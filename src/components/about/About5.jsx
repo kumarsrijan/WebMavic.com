@@ -84,7 +84,7 @@ function About5() {
               <div className="about-img magnetic-item">
                 <img
                   className="img-fluid"
-                  src="assets/img/home-5/about-img-1.png"
+                  src="assets/img/home-5/home-1.jpg"
                   alt=""
                 />
               </div>

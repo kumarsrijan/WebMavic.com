@@ -16,7 +16,9 @@ function Partner5() {
             </div>
             <div className="section-content">
               <p>
-                We are concerned about the security of our customers.That's why we always keep updating and use best technologies in our products{" "}
+                We are concerned about the security of our customers.That's why
+                we always keep updating and use best technologies in our
+                products{" "}
               </p>
             </div>
           </div>
@@ -115,7 +117,7 @@ function Partner5() {
                     style={{ objectFit: "contain" }}
                     height={84.3}
                     width={84.3}
-                    src="new-assets/vite-logo.png"
+                    src="new-assets/illustartor-logo.png"
                     alt=""
                   />
                 </li>

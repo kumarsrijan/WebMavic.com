@@ -96,7 +96,7 @@ const WhatWeDo5 = () => {
                 <h3>
                   One Stop solutons for your business needs{" "}
                   <span>
-                    By engineers {" "}of<span className="year">BIT.</span>
+                    By engineers of<span className="year">BIT.</span>
                   </span>
                 </h3>
               </div>
@@ -109,7 +109,7 @@ const WhatWeDo5 = () => {
               <div className="achievement-img magnetic-item">
                 <img
                   className="img-fluid"
-                  src="assets/img/home-5/achievement-img.png"
+                  src="assets/img/home-5/home-2.jpg"
                   alt=""
                 />
               </div>
@@ -136,6 +136,6 @@ const WhatWeDo5 = () => {
       </div>
     </div>
   );
-}
+};
 
 export default WhatWeDo5;

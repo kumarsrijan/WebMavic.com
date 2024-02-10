@@ -12,7 +12,7 @@ function Footer5() {
                 <div className="footer-logo">
                   <img
                     className="img-fluid"
-                    src="assets/img/webmavic-logo.png"
+                    src="assets/img/webmavic-logo.svg"
                     alt=""
                     style={{ width: "20vw" }}
                   />

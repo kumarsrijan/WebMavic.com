@@ -362,7 +362,7 @@ function ServiceDetailsPage() {
                 <div className="faq-img magnetic-item">
                   <img
                     className="img-fluid"
-                    src="assets/img/inner-pages/service-faq-img-01.png"
+                    src="assets/img/inner-pages/web-development-3.jpg"
                     alt=""
                   />
                 </div>
