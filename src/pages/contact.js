@@ -1,15 +1,9 @@
 import Breadcrumb from "@/components/common/Breadcrumb";
 import Form from "@/components/form/Form";
 import Layout from "@/components/layout/Layout";
-import { newContact } from "@/utils/appwrite";
-import { useRouter } from "next/navigation";
-import React, { useState } from "react";
+
 
 function Contactpage() {
-
-  
-
-
   return (
     <Layout>
       <Breadcrumb

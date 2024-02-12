@@ -69,10 +69,10 @@ const Back = () => {
           viewBox="0 0 24 24"
           fill="none"
           stroke="currentColor"
-          stroke-width="2"
-          stroke-linecap="round"
-          stroke-linejoin="round"
-          class="lucide lucide-chevron-up-circle"
+          strokeWidth="2"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          className="lucide lucide-chevron-up-circle"
         >
           <circle cx="12" cy="12" r="10" />
           <path d="m8 14 4-4 4 4" />

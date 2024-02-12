@@ -10678,7 +10678,7 @@ footer .footer-btm .footer-btn-content .footer-social ul li a:hover {
   text-transform: capitalize;
   color: var(--white-color);
   margin-bottom: 8px;
-  transition: 0.5s all ease-in-out;
+  /* transition: 0.5s all ease-in-out; */
 }
 
 .contact-page-wrap .contact-form-wrap .contact-form form input,
@@ -10881,3 +10881,60 @@ footer .footer-btm .footer-btn-content .footer-social ul li a:hover {
   display: none;
   visibility: hidden;
 } /*# sourceMappingURL=style2.css.map */
+
+
+.form-inner .checkboxes {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+
+.form-inner .checkboxes .checkbox .checkbox-input + label {
+  padding: 0.75em 1em;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  outline: none;
+  border-radius: 0;
+  border: none;
+  background: none;
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  background: #222222;
+  color: white;
+  position: relative;
+}
+
+.form-inner .checkboxes .checkbox .checkbox-input {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
+.form-inner .checkboxes .checkbox .checkbox-input + label {
+  display: inline-block;
+  width: auto;
+  color: #4e4e4e;
+  position: relative;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  cursor: pointer;
+}
+
+
+.form-inner .checkboxes .checkbox .checkbox-input:checked + label {
+  color: white;
+}
