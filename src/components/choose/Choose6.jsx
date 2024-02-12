@@ -99,7 +99,10 @@ function Choose6() {
                       <div className="single-feature">
                         <div className="progress">
                           <h3>
-                            <span className="counter"><CountUp end={30} duration={5} delay={3}/></span>%
+                            <span className="counter">
+                              <CountUp end={30} duration={5} delay={3} />
+                            </span>
+                            %
                           </h3>
                         </div>
                         <div className="content">
@@ -118,7 +121,10 @@ function Choose6() {
                       <div className="single-feature">
                         <div className="progress">
                           <h3>
-                            <span className="counter"><CountUp end={40} duration={5} delay={3}/></span>%
+                            <span className="counter">
+                              <CountUp end={40} duration={5} delay={3} />
+                            </span>
+                            %
                           </h3>
                         </div>
                         <div className="content">
@@ -135,7 +141,10 @@ function Choose6() {
                       <div className="single-feature">
                         <div className="progress">
                           <h3>
-                            <span className="counter"><CountUp end={30} duration={5} delay={3} /></span>%
+                            <span className="counter">
+                              <CountUp end={30} duration={5} delay={3} />
+                            </span>
+                            %
                           </h3>
                         </div>
                         <div className="content">
