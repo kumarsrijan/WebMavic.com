@@ -116,7 +116,7 @@ function Testimonial5() {
                   <div className="testimonial-wrapper">
                     <div className="testimonial-top">
                       <div className="author-img">
-                        <img src="assets/img/home-5/author-img.png" alt="" />
+                        <img src="assets/img/testis1.png" alt="logo" />
                       </div>
                       <div className="review">
                         <img src="assets/img/home-5/trustpilot-2.svg" alt="" />

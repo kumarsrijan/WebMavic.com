@@ -11,7 +11,7 @@ const Form = () => {
     email: null,
     phone: null,
     message: null,
-    services: null,
+    services: [],
     service: null,
   });
   const [disable, setDisable] = useState(false);
@@ -25,6 +25,12 @@ const Form = () => {
     if (status) router.refresh();
     setDisable(false);
   };
+
+  const onClickHandler = (e) =>{
+    console.log(e.currentTarget.value);
+  }
+
+  
   return (
     <div className="col-lg-6">
       <div className="contact-form-wrap">
@@ -73,6 +79,7 @@ const Form = () => {
                   <label>Is your company GST registered?</label>
 
                   <div className="radio-container">
+                    
                     <input
                       className="radio "
                       name="gst-check"
@@ -150,13 +157,13 @@ const Form = () => {
                   <option value={"SEO"}>SEO</option>
                   <option value={"Other"}>Other</option>
                 </select> */}
-                  <ul className="checkboxes">
-                    <li className="checkbox">
+                  <ul className="checkboxes ">
+                    <li className="checkbox ">
                       <input
-                        className="checkbox-input"
-                        id="choice-0"
+                        className="checkbox-input" onClick={onClickHandler}
+                        id="choice-0" 
                         name="choice"
-                        type="checkbox"
+                        type="checkbox" 
                         value="Web Design"
                       />
                       <label className="checkbox-label" htmlFor="choice-0">
@@ -165,8 +172,8 @@ const Form = () => {
                     </li>
                     <li className="checkbox">
                       <input
-                        className="checkbox-input"
-                        id="choice-1"
+                        className="checkbox-input" onClick={onClickHandler}
+                        id="choice-1" 
                         name="choice"
                         type="checkbox"
                         value="Web Development"
@@ -177,32 +184,32 @@ const Form = () => {
                     </li>
                     <li className="checkbox">
                       <input
-                        className="checkbox-input"
-                        id="choice-2"
+                        className="checkbox-input" onClick={onClickHandler}
+                        id="choice-2" 
                         name="choice"
                         type="checkbox"
                         value="Graphic Design"
                       />
-                      <label className="checkbox-label" htmlFor="choice-3">
+                      <label className="checkbox-label" htmlFor="choice-2">
                       Graphic Design
                       </label>
                     </li>
                     <li className="checkbox">
                       <input
-                        className="checkbox-input"
+                        className="checkbox-input" onClick={onClickHandler}
                         id="choice-3"
                         name="choice"
                         type="checkbox"
                         value="App Development"
                       />
-                      <label className="checkbox-label" htmlFor="choice-2">
+                      <label className="checkbox-label" htmlFor="choice-3">
                       App Development
                       </label>
                     </li>
                     <li className="checkbox">
                       <input
-                        className="checkbox-input"
-                        id="choice-4"
+                        className="checkbox-input" onClick={onClickHandler}
+                        id="choice-4" 
                         name="choice"
                         type="checkbox"
                         value="Copy Writting"
@@ -213,25 +220,25 @@ const Form = () => {
                     </li>
                     <li className="checkbox">
                       <input
-                        className="checkbox-input"
-                        id="choice-5"
+                        className="checkbox-input" onClick={onClickHandler}
+                        id="choice-5" 
                         name="choice"
                         type="checkbox"
                         value="SEO"
                       />
-                      <label className="checkbox-label" htmlFor="choice-4">
+                      <label className="checkbox-label" htmlFor="choice-5">
                       SEO
                       </label>
                     </li>
                     <li className="checkbox">
                       <input
-                        className="checkbox-input"
-                        id="choice-6"
+                        className="checkbox-input" onClick={onClickHandler}
+                        id="choice-6" 
                         name="choice"
                         type="checkbox"
                         value="Other"
                       />
-                      <label className="checkbox-label" htmlFor="choice-4">
+                      <label className="checkbox-label" htmlFor="choice-6">
                       Other
                       </label>
                     </li>

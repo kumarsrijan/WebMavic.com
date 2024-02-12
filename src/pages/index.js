@@ -59,13 +59,14 @@ function HomepageThree() {
           </div>
         </div>
         <div className="main-content">
-          <header className="header5 d-lg-none d-flex">
+          <header className="header5 d-lg-none">
             <div className="header-logo">
               <Link legacyBehavior href="/">
                 <a>
-                  <img src="assets/img/logo.svg" alt="" />
+                  <img src="assets/img/webmavic-logo.png" alt="webmavic" style={{width:"60%",float:"left"}} />
                 </a>
               </Link>
+           
             </div>
             <div
               className="sidebar-button mobile-menu-btn2"
