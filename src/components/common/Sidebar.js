@@ -57,7 +57,7 @@ function Sidebar({ isMenuOpen, toggleMenu }) {
                 <img
                   alt="image"
                   className="img-fluid"
-                  src="assets/img/webmavic-logo.svg"
+                  src="assets/img/webmavic-logo.png"
                   style={{ width: "30vw" }}
                 />
               </a>
