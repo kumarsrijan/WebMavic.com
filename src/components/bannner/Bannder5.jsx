@@ -79,7 +79,7 @@ function Bannder5() {
                 to marketing it and everything in between all here.
               </p>
               <div className="view-btn">
-                <Link legacyBehavior href="/service">
+                <Link legacyBehavior href="/contact">
                   <a className="primary-btn7">
                     <span className="circle2">
                       <svg
@@ -92,7 +92,7 @@ function Bannder5() {
                         <path d="M0 1H12M12 1V13M12 1L0.5 12" />
                       </svg>
                     </span>
-                    <span className="text">VIEW MORE</span>
+                    <span className="text">Book a call</span>
                   </a>
                 </Link>
               </div>

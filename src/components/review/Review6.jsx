@@ -92,7 +92,7 @@ function Review6() {
                       style={{ fontSize: "40px" }}
                     />
                   </h3>
-                  <span>Customer Satisfaction</span>
+                  <span>contented clients</span>
                 </div>
                 <p style={{ textAlign: "center" }}>
                   Our primary objective is to ensure the satisfaction of our
@@ -124,14 +124,16 @@ function Review6() {
                 <div className="number">
                   <h3 className="counter">
                     <CountUp
-                      end={15}
+                      end={7}
                       duration={5}
                       style={{ fontSize: "40px" }}
                     />
                   </h3>
-                  <span>Awards</span>
+                  <span>Members</span>
                 </div>
-                <p>Achievement For Service</p>
+                <p style={{ textAlign: "center" }}>
+                  we have Team members with exceptional skills
+                </p>
               </div>
             </div>
           </li>
