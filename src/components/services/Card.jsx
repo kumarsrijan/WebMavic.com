@@ -123,7 +123,7 @@ const Card = (props) => {
        
               
         <div className="learn-btn">
-            <Link legacyBehavior href="/service-details">
+            <Link legacyBehavior href={`/${props.items.link}`}>
               <a className="primary-btn8">
                 Learn More
                 <svg
