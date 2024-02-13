@@ -268,6 +268,11 @@ function ServiceDetailsPage() {
                 </div>
               </div>
               <div className="driscription-content">
+                <h4 style={{ color: "white", textAlign: "center" }}>
+                  Search Engine Optimization (SEO) plays a role, in enhancing
+                  the visibility and relevance of a website in search engine
+                  results pages (SERPs). It employs techniques to achieve this;
+                </h4>
                 <div className="row">
                   <div
                     className="col-md-6 wow animate fadeInUp"
@@ -275,16 +280,20 @@ function ServiceDetailsPage() {
                     data-wow-duration="1500ms"
                   >
                     <p>
-                      Interdum et malesuada fames ac ante ipsum primis in
-                      faucibus. Etiam eu nibh neque ac, aliquet nunc. In eu
-                      ipsum fringilla, accumsan purus vel, pellentesque purus at
-                      eros interdum, in dignissim nulla vestibulum. Nunc sit
-                      amet finibus neque ac, aliquet nunc. In eu ipsum
-                      fringilla, accumsan purus vel, pellentesque purus at eros
-                      interdum, in dignissim nulla vestibulum. Nunc sit amet
-                      finibus pellentesque quis magna eu vestibulum. Ut sed
-                      commodo neque. Morbi erat ut, hendrerit vel tortor. In
-                      pharetra lectus luctus ornare sollicitudin.
+                      <b>1. Crawling;</b> Search engines utilize crawlers to
+                      explore and index web pages collecting content along the
+                      way.
+                      <br /> <b>2.Indexing: </b>Indexed content is stored within
+                      a database enabling search engines to swiftly retrieve
+                      information when users make queries. <br />
+                      <b>3. Ranking:</b> Search algorithms assess pages based on
+                      factors such as content quality, relevance, authority and
+                      user experience metrics to determine their rankings.{" "}
+                      <br />
+                      <b>4. Optimization:</b> SEO involves optimizing both on
+                      page elements like tags and content well as off page
+                      factors like backlinks with the aim of improving
+                      visibility.
                     </p>
                   </div>
                   <div
@@ -293,13 +302,18 @@ function ServiceDetailsPage() {
                     data-wow-duration="1500ms"
                   >
                     <p>
-                      Interdum et malesuada fames ac ante ipsum primis in
-                      faucibus. Etiam eu nibh neque ac, aliquet nunc. In eu
-                      ipsum fringilla, accumsan purus vel, pellentesque purus at
-                      eros interdum, in dignissim nulla vestibulum. Nunc sit
-                      amet finibus pellentesque quis magna eu vestibulum. Ut sed
-                      commodo neque. Morbi erat ut, hendrerit vel tortor. In
-                      pharetra lectus luctus ornare sollicitudin.
+                      <b> 5. Content:</b> The creation of quality and relevant
+                      content that caters to user intent is crucial for
+                      achieving success in SEO. <br />
+                      <b> 6. Keywords:</b> Conducting keyword research helps
+                      identify terms that can be naturally integrated into
+                      website content to improve search rankings. <br />
+                      <b> 7. Technical Optimization</b> Optimizing site speed
+                      mobile friendliness and crawlability contributes
+                      significantly to improving SEO performance. <br />{" "}
+                      <b>8. User Experience</b> A positive user experience
+                      encompassing fast page loads and mobile responsiveness has
+                      an impact, on search engine rankings.
                     </p>
                   </div>
                 </div>
