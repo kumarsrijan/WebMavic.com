@@ -1,10 +1,10 @@
 import Home5Team from "@/components/Team/Home5Team";
 import About5 from "@/components/about/About5";
 import Review6 from "@/components/review/Review6";
-import Award5 from "@/components/award/Award5";
+// import Award5 from "@/components/award/Award5";
 import Bannder5 from "@/components/bannner/Bannder5";
-import Home5Blog from "@/components/blog/Home5Blog";
-import CaseStudy5 from "@/components/caseStudy/CaseStudy5";
+// import Home5Blog from "@/components/blog/Home5Blog";
+// import CaseStudy5 from "@/components/caseStudy/CaseStudy5";
 import WhatWeDo5 from "@/components/choose/WhatWeDo5";
 import Sidebar from "@/components/common/Sidebar";
 import Footer5 from "@/components/footer/Footer5";
@@ -63,10 +63,13 @@ function HomepageThree() {
             <div className="header-logo">
               <Link legacyBehavior href="/">
                 <a>
-                  <img src="assets/img/webmavic-logo.png" alt="webmavic" style={{width:"60%",float:"left"}} />
+                  <img
+                    src="assets/img/webmavic-logo.png"
+                    alt="webmavic"
+                    style={{ width: "80%", float: "left" }}
+                  />
                 </a>
               </Link>
-           
             </div>
             <div
               className="sidebar-button mobile-menu-btn2"

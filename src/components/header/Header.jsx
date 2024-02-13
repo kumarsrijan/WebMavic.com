@@ -133,7 +133,7 @@ function Header() {
           </div>
           {/* <img src="assets/images/bg/office1.png" alt="image"> */}
         </div>
-        <div className="follow-area">
+        {/* <div className="follow-area">
           <h5 className="blog-widget-title">Follow Us</h5>
           <p className="para">Follow us on Social Network</p>
           <div className="blog-widget-body">
@@ -160,7 +160,7 @@ function Header() {
               </li>
             </ul>
           </div>
-        </div>
+        </div> */}
       </div>
       <header
         ref={headerRef}
@@ -177,7 +177,7 @@ function Header() {
             </a>
           </Link>
         </div>
-        <div className={`main-menu ${state.isSidebarOpen ? "show-menu" : ""}`}>
+        {/* <div className={`main-menu ${state.isSidebarOpen ? "show-menu" : ""}`}>
           <div className="mobile-logo-area d-lg-none d-flex justify-content-between align-items-center">
             <div className="mobile-logo-wrap">
               <Link legacyBehavior href="/">
@@ -716,7 +716,7 @@ function Header() {
               </Link>
             </div>
           </div>
-        </div>
+        </div> */}
         <div className="nav-right d-flex jsutify-content-end align-items-center">
           <div className="sidebar-btn2" onClick={toggleLeftSidebar}>
             <img src="assets/img/home-3/sidebar-btn.svg" alt="" />

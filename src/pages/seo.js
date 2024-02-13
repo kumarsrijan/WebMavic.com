@@ -341,7 +341,7 @@ function ServiceDetailsPage() {
                           aria-expanded="true"
                           aria-controls="collapseOne"
                         >
-                          Aliquam ligula nunc, vehicula at est quis.
+                          How long does it take to see results from SEO efforts?
                         </button>
                       </h6>
                       <div
@@ -351,10 +351,13 @@ function ServiceDetailsPage() {
                         data-bs-parent="#accordionExample"
                       >
                         <div className="accordion-body">
-                          Aptent taciti sociosqu ad litora torquent per conubia
-                          nostra, per inceptos himenaeos. Praesent nec neque at
-                          dolor venenatis consectetur eu quis ex. placerat felis
-                          non aliquam.
+                          The timeline for seeing results from SEO efforts can
+                          vary depending on various factors such as the
+                          competitiveness of your industry, the current state of
+                          your website, and the strategies implemented.
+                          Generally, noticeable improvements can be seen within
+                          a few weeks, but significant results may take one
+                          month to 6 three mpnths or more.
                         </div>
                       </div>
                     </div>
@@ -368,7 +371,8 @@ function ServiceDetailsPage() {
                           aria-expanded="false"
                           aria-controls="collapseTwo"
                         >
-                          In hac habitasse platea dictumst Cras leo.
+                          Do I need to make changes to my website for SEO
+                          purposes?
                         </button>
                       </h6>
                       <div
@@ -378,10 +382,12 @@ function ServiceDetailsPage() {
                         data-bs-parent="#accordionExample"
                       >
                         <div className="accordion-body">
-                          Aptent taciti sociosqu ad litora torquent per conubia
-                          nostra, per inceptos himenaeos. Praesent nec neque at
-                          dolor venenatis consectetur eu quis ex. placerat felis
-                          non aliquam.
+                          Yes, implementing on-page SEO changes is often
+                          necessary to improve your website's search engine
+                          rankings. This may involve optimizing content, meta
+                          tags, headings, and site structure, as well as
+                          addressing technical issues that could impact
+                          performance.
                         </div>
                       </div>
                     </div>
@@ -395,7 +401,7 @@ function ServiceDetailsPage() {
                           aria-expanded="false"
                           aria-controls="collapseThree"
                         >
-                          ornare iaculis tellus. Phasellus venenatis.
+                          How do you measure the success of your SEO campaigns?
                         </button>
                       </h6>
                       <div
@@ -405,10 +411,12 @@ function ServiceDetailsPage() {
                         data-bs-parent="#accordionExample"
                       >
                         <div className="accordion-body">
-                          Aptent taciti sociosqu ad litora torquent per conubia
-                          nostra, per inceptos himenaeos. Praesent nec neque at
-                          dolor venenatis consectetur eu quis ex. placerat felis
-                          non aliquam.
+                          We measure the success of our SEO campaigns using a
+                          combination of key performance indicators (KPIs) such
+                          as organic traffic, keyword rankings, conversion
+                          rates, and return on investment (ROI). We provide
+                          regular reports that outline the performance metrics
+                          and insights gained from our efforts.
                         </div>
                       </div>
                     </div>
@@ -422,7 +430,8 @@ function ServiceDetailsPage() {
                           aria-expanded="false"
                           aria-controls="collapseFour"
                         >
-                          Phasellus a placerat eros In hac habitasse.
+                          What is your approach to link building, and is it
+                          safe?
                         </button>
                       </h6>
                       <div
@@ -432,10 +441,12 @@ function ServiceDetailsPage() {
                         data-bs-parent="#accordionExample"
                       >
                         <div className="accordion-body">
-                          Aptent taciti sociosqu ad litora torquent per conubia
-                          nostra, per inceptos himenaeos. Praesent nec neque at
-                          dolor venenatis consectetur eu quis ex. placerat felis
-                          non aliquam.
+                          Our approach to link building focuses on acquiring
+                          high-quality backlinks from reputable websites through
+                          ethical and white-hat practices. We prioritize
+                          relevance, authority, and natural link acquisition to
+                          ensure the safety and long-term effectiveness of our
+                          link building strategies.
                         </div>
                       </div>
                     </div>

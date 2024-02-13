@@ -1,7 +1,7 @@
 import Breadcrumb from "@/components/common/Breadcrumb";
 import Layout from "@/components/layout/Layout";
+import Form from "@/components/form/Form";
 import React from "react";
-
 
 function Faqpage() {
   return (
@@ -66,6 +66,7 @@ function Faqpage() {
                   <h5>HAVE QUESTION?</h5>
                 </div>
                 <div className="contact-form">
+                  {/* <Form /> */}
                   <form>
                     <div className="row">
                       <div className="col-md-12 mb-20">

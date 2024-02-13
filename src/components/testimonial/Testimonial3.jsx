@@ -107,7 +107,7 @@ function Testimonial3() {
                       <div className="author-area">
                         <div className="author-content">
                           <h4>Abhinav</h4>
-                          <span>CEO At atlantis.com</span>
+                          {/* <span>CEO At atlantis.com</span> */}
                         </div>
                       </div>
                       {/* <div className="review-date-and-time">
@@ -117,7 +117,7 @@ function Testimonial3() {
                     </div>
                   </div>
                   <div className="author-img">
-                    <img src="assets/img/home-3/h3-testi-01.png" alt="" />
+                    <img src="assets/img/testis1.png" alt="" />
                   </div>
                 </SwiperSlide>
                 <SwiperSlide className="swiper-slide">
@@ -151,27 +151,32 @@ function Testimonial3() {
                     </div>
                     <div className="testimonial-content">
                       <p>
-                        “Integer purus odio, placerat nec rhoncus in,
-                        ullamcorper nec dolor. and utoor himenaeos. Praesent nec
-                        neque at dolor venenatis consectetur european gon Donec
-                        lacinia placerat felis non aliquam.”
+                        “I cannot express enough gratitude to WebMavic for their
+                        exceptional service and dedication. Despite being
+                        approached on short notice, they went above and beyond
+                        to accommodate my needs promptly. Their willingness to
+                        undertake revisions until I was completely satisfied
+                        truly sets them apart. The professionalism and
+                        commitment demonstrated by their team are commendable. I
+                        highly recommend WebMavic to anyone seeking reliable and
+                        outstanding service.”
                       </p>
                     </div>
                     <div className="testimonial-btm">
                       <div className="author-area">
                         <div className="author-content">
-                          <h4>Mateo Daniel</h4>
-                          <span>CEO At atlantis.com</span>
+                          <h4>Pranav Sharma</h4>
+                          {/* <span>CEO At atlantis.com</span> */}
                         </div>
                       </div>
-                      <div className="review-date-and-time">
+                      {/* <div className="review-date-and-time">
                         <p>May 9, 2023</p>
                         <span>10.30 PM</span>
-                      </div>
+                      </div> */}
                     </div>
                   </div>
                   <div className="author-img">
-                    <img src="assets/img/home-3/h3-testi-02.png" alt="" />
+                    <img src="assets/img/testis2.jpg" alt="" />
                   </div>
                 </SwiperSlide>
                 <SwiperSlide className="swiper-slide">
@@ -192,27 +197,27 @@ function Testimonial3() {
                     </div>
                     <div className="testimonial-content">
                       <p>
-                        “Integer purus odio, placerat nec rhoncus in,
-                        ullamcorper nec dolor. and utoor himenaeos. Praesent nec
-                        neque at dolor venenatis consectetur european gon Donec
-                        lacinia placerat felis non aliquam.”
+                        “It was really nice to avail the services of Srijan and
+                        his team. My expectations were not only met but the team
+                        provided extra also. The group is really hard working
+                        and tries to provide services with some uniqueness.”
                       </p>
                     </div>
                     <div className="testimonial-btm">
                       <div className="author-area">
                         <div className="author-content">
-                          <h4>Mateo Daniel</h4>
-                          <span>CEO At atlantis.com</span>
+                          <h4>Abhinav</h4>
+                          {/* <span>CEO At atlantis.com</span> */}
                         </div>
                       </div>
-                      <div className="review-date-and-time">
+                      {/* <div className="review-date-and-time">
                         <p>May 9, 2023</p>
                         <span>10.30 PM</span>
-                      </div>
+                      </div> */}
                     </div>
                   </div>
                   <div className="author-img">
-                    <img src="assets/img/home-3/h3-testi-03.png" alt="" />
+                    <img src="assets/img/testis1.png" alt="" />
                   </div>
                 </SwiperSlide>
                 <SwiperSlide className="swiper-slide">
@@ -246,27 +251,32 @@ function Testimonial3() {
                     </div>
                     <div className="testimonial-content">
                       <p>
-                        “Integer purus odio, placerat nec rhoncus in,
-                        ullamcorper nec dolor. and utoor himenaeos. Praesent nec
-                        neque at dolor venenatis consectetur european gon Donec
-                        lacinia placerat felis non aliquam.”
+                        “I cannot express enough gratitude to [Agency's Name]
+                        for their exceptional service and dedication. Despite
+                        being approached on short notice, they went above and
+                        beyond to accommodate my needs promptly. Their
+                        willingness to undertake revisions until I was
+                        completely satisfied truly sets them apart. The
+                        professionalism and commitment demonstrated by their
+                        team are commendable. I highly recommend [Agency's Name]
+                        to anyone seeking reliable and outstanding service..”
                       </p>
                     </div>
                     <div className="testimonial-btm">
                       <div className="author-area">
                         <div className="author-content">
-                          <h4>Mateo Daniel</h4>
-                          <span>CEO At atlantis.com</span>
+                          <h4>Pranav Sharma</h4>
+                          {/* <span>CEO At atlantis.com</span> */}
                         </div>
                       </div>
-                      <div className="review-date-and-time">
+                      {/* <div className="review-date-and-time">
                         <p>May 9, 2023</p>
                         <span>10.30 PM</span>
-                      </div>
+                      </div> */}
                     </div>
                   </div>
                   <div className="author-img">
-                    <img src="assets/img/home-3/h3-testi-02.png" alt="" />
+                    <img src="assets/img/testis2.jpg" alt="" />
                   </div>
                 </SwiperSlide>
               </div>
