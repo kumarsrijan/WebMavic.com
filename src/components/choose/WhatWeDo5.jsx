@@ -94,7 +94,7 @@ const WhatWeDo5 = () => {
               <div className="achievement-content">
                 <h2>#1</h2>
                 <h3>
-                  One Stop solutons for your business needs{" "}
+                  One Stop solution for your business needs{" "}
                   <span>
                     By engineers of<span className="year">BIT.</span>
                   </span>

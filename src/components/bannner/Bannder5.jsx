@@ -75,8 +75,8 @@ function Bannder5() {
           <div className="row">
             <div className="col-lg-5">
               <p>
-                Take a deeep breath You get everything. From Launching a website
-                to marketing it and everything in between all here.
+                Take a deeep breath. You've got everything. From Launching a
+                website to marketing it and everything in between all here.
               </p>
               <div className="view-btn">
                 <Link legacyBehavior href="/contact">

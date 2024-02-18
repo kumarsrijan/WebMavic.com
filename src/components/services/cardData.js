@@ -15,10 +15,10 @@ const data = [
     ),
     title: "Web Design",
     description:
-      "We specialize in designing and developing powerful websites that not only catches attention but also brings money in your account. If you want a professional hassle-free and eye-catching website like our clients then Contact Us.",
+      "We specialize in designing and developing powerful websites that not only catch attention but also bring money in your account. If you want a professional hassle-free and eye-catching website like our clients then Contact Us..",
     f1_desc: "Advance Animations",
     f2_desc: "Responsive Web Design",
-    link:"web-design"
+    link: "web-design",
   },
   {
     id: "2",
@@ -32,10 +32,10 @@ const data = [
     ),
     title: "Web Development",
     description:
-      "We not only excel in crafting static websites but dynamic websites too. Whether you are just starting out or been in theinsustry for long; you the the important of having a Smooth-running website. Our focus is on delivering the website of ur desire without any technical glitch. ",
+      "We not only excel in crafting static websites but dynamic websites too. Whether you are just starting or have been in the industry for a long; you the importance of having a Smooth-running website. Our focus is on delivering the website of ur desire without any technical glitches. ",
     f1_desc: "Latest Technologies",
     f2_desc: " Custom features",
-    link : "web-development"
+    link: "web-development",
   },
   {
     id: "3",
@@ -49,10 +49,10 @@ const data = [
     ),
     title: "App Development",
     description:
-      "Whether you'r a startup looking to launch its first app or a large enterprise seeking to enhance its mobile presence, our agency is equipped to deliver exceptional app development services that drive innovation, engagement, and business growth.",
+      "Whether you are a startup looking to launch it's first app or a large enterprise seeking to enhance its mobile presence, our agency is equipped to deliver exceptional app development services that drive innovation, engagement, and business growth.",
     f1_desc: "Andriod Applications",
     f2_desc: "iOS Applications",
-    link : "app-development"
+    link: "app-development",
   },
   {
     id: "4",
@@ -66,20 +66,20 @@ const data = [
     ),
     title: "Graphic Design",
     description:
-      "Transforming ideas into visual masterpieces. Our graphic design services bring creativity, precision, and a touch of innovation . Elevate your brand with our professional design expertise.",
+      "Transforming ideas into visual masterpieces. Our graphic design services bring creativity, precision, and a touch of innovation. Elevate your brand with our professional design expertise.",
     f1_desc: "Creative Visual Solutions",
     f2_desc: " Tailored Design for Impact",
-    link : "graphic-design"
+    link: "graphic-design",
   },
   {
     id: "5",
     icon: <img height={60} width={60} src="new-assets/copy-logo.png" alt="" />,
-    title: "Copy Writting",
+    title: "Copy Writing",
     description:
-      "Boost your sales with our copy writting services that perfectly blend with human emotions and the benefits of your services. Giving you instatnt credibility that people would trust.",
+      "Boost your sales with our copywriting services that perfectly blend with human emotions and the benefits of your services. Giving you instant credibility that people would trust.",
     f1_desc: "Website / Sales page copy",
     f2_desc: " Sales Funnel",
-    link : "copywriting"
+    link: "copywriting",
   },
   {
     id: "6",
@@ -89,7 +89,7 @@ const data = [
       "Boost your online visibility with our SEO services. We optimize websites to rank higher on search engines, driving targeted traffic to enhance your digital presence. Stay ahead in the digital landscape with our strategic SEO solutions.",
     f1_desc: "Global SEO",
     f2_desc: "Local SEO",
-    link : "seo"
+    link: "seo",
   },
 ];
 

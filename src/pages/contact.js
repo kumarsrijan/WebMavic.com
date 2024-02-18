@@ -2,7 +2,6 @@ import Breadcrumb from "@/components/common/Breadcrumb";
 import Form from "@/components/form/Form";
 import Layout from "@/components/layout/Layout";
 
-
 function Contactpage() {
   return (
     <Layout>
@@ -32,8 +31,8 @@ function Contactpage() {
                     </div>
                     <div className="info">
                       <p>
-                        168/170, Avenue 01, Old York <br /> Drive Rich Mirpur
-                        DOHS, Bangladesh
+                        We have the flexibility to operate from anywhere
+                        globally; we welcome opportunities to work worldwide.
                       </p>
                     </div>
                   </div>
@@ -86,11 +85,11 @@ function Contactpage() {
                 </div> */}
               </div>
             </div>
-            <Form/>
+            <Form />
           </div>
         </div>
-      </div >
-    </Layout >
+      </div>
+    </Layout>
   );
 }
 

@@ -74,7 +74,7 @@ function Review6() {
                   <span>Hours</span>
                 </div>
                 <p style={{ textAlign: "center" }}>
-                  If required even deliver projects with 48.
+                  If necessary, we can also complete projects within 48 hours.
                 </p>
               </div>
             </div>
@@ -132,7 +132,8 @@ function Review6() {
                   <span>Members</span>
                 </div>
                 <p style={{ textAlign: "center" }}>
-                  we have Team members with exceptional skills
+                  We possess team members who are experts in their respective
+                  fields.
                 </p>
               </div>
             </div>
