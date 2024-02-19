@@ -178,7 +178,7 @@ function ServiceDetailsPage() {
                       />
                     </div>
                     <div className="work-content">
-                      <h3>Requirements Gathering.</h3>
+                      <h3>Developing Strategy .</h3>
                       {/* <p>
                         Interdum et malesuada fames acchiv Etiam europeat
                         nibhona elementum, accumsan ona.
@@ -199,7 +199,7 @@ function ServiceDetailsPage() {
                       />
                     </div>
                     <div className="work-content">
-                      <h3>Analysis and Planning.</h3>
+                      <h3>Initial Design .</h3>
                       {/* <p>
                         Interdum et malesuada fames acchiv Etiam europeat
                         nibhona elementum, accumsan ona.
@@ -220,7 +220,7 @@ function ServiceDetailsPage() {
                       />
                     </div>
                     <div className="work-content">
-                      <h3>Design &amp; Development.</h3>
+                      <h3>Concepts Presentation .</h3>
                       {/* <p>
                         Interdum et malesuada fames acchiv Etiam europeat
                         nibhona elementum, accumsan ona.
@@ -241,7 +241,7 @@ function ServiceDetailsPage() {
                       />
                     </div>
                     <div className="work-content">
-                      <h3>Testing Device &amp; Release.</h3>
+                      <h3>Feedback & Revisions.</h3>
                       {/* <p>
                         Interdum et malesuada fames acchiv Etiam europeat
                         nibhona elementum, accumsan ona.
@@ -262,7 +262,7 @@ function ServiceDetailsPage() {
                       />
                     </div>
                     <div className="work-content">
-                      <h3>Maintenance and Support.</h3>
+                      <h3>Delivery.</h3>
                       {/* <p>
                         Interdum et malesuada fames acchiv Etiam europeat
                         nibhona elementum, accumsan ona.

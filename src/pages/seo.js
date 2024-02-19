@@ -117,7 +117,7 @@ function ServiceDetailsPage() {
                 <div className="service-img magnetic-item">
                   <img
                     className="img-fluid"
-                    src="assets/img/inner-pages/about-service-img.png"
+                    src="assets/img/inner-pages/seo-1.jpg"
                     alt=""
                   />
                 </div>
@@ -262,7 +262,7 @@ function ServiceDetailsPage() {
                 <div className="driscription-img magnetic-item">
                   <img
                     className="img-fluid"
-                    src="assets/img/inner-pages/service-driscription-img-1.png"
+                    src="assets/img/inner-pages/seo-2.jpg"
                     alt=""
                   />
                 </div>
@@ -332,7 +332,7 @@ function ServiceDetailsPage() {
                 <div className="faq-img magnetic-item">
                   <img
                     className="img-fluid"
-                    src="assets/img/inner-pages/service-faq-img-01.png"
+                    src="assets/img/inner-pages/seo-3.jpg"
                     alt=""
                   />
                 </div>

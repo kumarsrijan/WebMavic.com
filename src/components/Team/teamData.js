@@ -3,12 +3,12 @@ export const teamData = [
     id: 1,
     name: "Kumar Srijan",
     role: "Developer",
-    avatar: "assets/img/home-5/home5-team-01.png",
+    avatar: "assets/img/home-5/srijan.jpg",
   },
   {
     id: 2,
     name: "Ashish Anand",
-    role: "Web Designer & Graphic Designer",
+    role: "Web & Graphic Designer",
     avatar: "assets/img/home-5/ashish.jpg",
   },
   {

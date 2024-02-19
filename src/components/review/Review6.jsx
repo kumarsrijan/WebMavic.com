@@ -107,14 +107,14 @@ function Review6() {
                 <div className="number">
                   <h3 className="counter">
                     <CountUp
-                      end={800}
+                      end={1000}
                       duration={5}
                       style={{ fontSize: "40px" }}
                     />
                   </h3>
-                  <span>Project</span>
+                  <span>+</span>
                 </div>
-                <p>We Have Completed</p>
+                <p>Work Hours</p>
               </div>
             </div>
           </li>

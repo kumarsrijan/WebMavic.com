@@ -74,7 +74,7 @@ const data = [
   {
     id: "5",
     icon: <img height={60} width={60} src="new-assets/copy-logo.png" alt="" />,
-    title: "Copy Writing",
+    title: "CopyWriting",
     description:
       "Boost your sales with our copywriting services that perfectly blend with human emotions and the benefits of your services. Giving you instant credibility that people would trust.",
     f1_desc: "Website / Sales page copy",

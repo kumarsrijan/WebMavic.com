@@ -34,7 +34,7 @@ function About3() {
               >
                 <img
                   className="img-fluid magnetic-item"
-                  src="assets/img/home-3/home3-about-1.png"
+                  src="assets/img/inner-pages/about-4.jpg"
                   alt=""
                 />
               </div>

@@ -8,7 +8,7 @@ function ServiceDetailsPage() {
     <Layout>
       <Breadcrumb
         pageList="Servives Details"
-        title="Copy Writting"
+        title="CopyWriting"
         pageName="SERVIVES DETAILS"
       />
       <div className="service-details ">
@@ -22,7 +22,7 @@ function ServiceDetailsPage() {
               >
                 <div className="about-content">
                   <div className="section-title-5">
-                    <h2>Copy Writting</h2>
+                    <h2>CopyWriting</h2>
                   </div>
                   <p style={{ textAlign: "justify" }}>
                     Enhance your sales potential by utilizing our copywriting
@@ -124,6 +124,62 @@ function ServiceDetailsPage() {
                   />
                 </div>
               </div>
+            </div>
+          </div>
+        </div>
+        <div className="service-sort-driscription-area sec-mar">
+          <div className="container">
+            <div className="row">
+              <div
+                className="col-lg-12 wow animate fadeInUp"
+                data-wow-delay="200ms"
+                data-wow-duration="1500ms"
+              >
+                <div className="driscription-img magnetic-item">
+                  <img
+                    className="img-fluid"
+                    src="assets/img/inner-pages/copy-2.jpg"
+                    alt=""
+                  />
+                </div>
+              </div>
+              {/* <div className="driscription-content">
+                <div className="row">
+                  <div
+                    className="col-md-6 wow animate fadeInUp"
+                    data-wow-delay="200ms"
+                    data-wow-duration="1500ms"
+                  >
+                    <p>
+                      Interdum et malesuada fames ac ante ipsum primis in
+                      faucibus. Etiam eu nibh neque ac, aliquet nunc. In eu
+                      ipsum fringilla, accumsan purus vel, pellentesque purus at
+                      eros interdum, in dignissim nulla vestibulum. Nunc sit
+                      amet finibus neque ac, aliquet nunc. In eu ipsum
+                      fringilla, accumsan purus vel, pellentesque purus at eros
+                      interdum, in dignissim nulla vestibulum. Nunc sit amet
+                      finibus pellentesque quis magna eu vestibulum. Ut sed
+                      commodo neque. Morbi erat ut, hendrerit vel tortor. In
+                      pharetra lectus luctus ornare sollicitudin.
+                    </p>
+                  </div>
+                  <div
+                    className="col-md-6 wow animate fadeInUp"
+                    data-wow-delay="300ms"
+                    data-wow-duration="1500ms"
+                  >
+                    <p>
+                      Interdum et malesuada fames ac ante ipsum primis in
+                      faucibus. Etiam eu nibh neque ac, aliquet nunc. In eu
+                      ipsum fringilla, accumsan purus vel, pellentesque purus at
+                      eros interdum, in dignissim nulla vestibulum. Nunc sit
+                      amet finibus pellentesque quis magna eu vestibulum. Ut sed
+                      commodo neque. Morbi erat ut, hendrerit vel tortor. In
+                      pharetra lectus luctus ornare sollicitudin.
+                    </p>
+                  </div>
+                </div>
+              </div> */}
             </div>
           </div>
         </div>
@@ -261,15 +317,15 @@ function ServiceDetailsPage() {
                 data-wow-delay="200ms"
                 data-wow-duration="1500ms"
               >
-                <div className="driscription-img magnetic-item">
+                {/* <div className="driscription-img magnetic-item">
                   <img
                     className="img-fluid"
                     src="assets/img/inner-pages/copy-2.jpg"
                     alt=""
                   />
-                </div>
+                </div> */}
               </div>
-              <div className="driscription-content">
+              {/* <div className="driscription-content">
                 <div className="row">
                   <div
                     className="col-md-6 wow animate fadeInUp"
@@ -305,7 +361,7 @@ function ServiceDetailsPage() {
                     </p>
                   </div>
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
