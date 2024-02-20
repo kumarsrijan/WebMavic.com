@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import { newContact } from "@/utils/appwrite";
 import { useRouter } from "next/navigation";
+import jwt from "jwt-encode"
 
 const Form = () => {
   const [data, setData] = useState({
@@ -19,18 +19,28 @@ const Form = () => {
 
   const contactHandler = async (e) => {
     e.preventDefault();
+    if (!data.name || !data.email) return (setDisable(false), alert("Name or Email Missing"))
     setDisable(true);
-    const { status, message } = await newContact(data);
-    alert(message);
-    if (status) router.refresh();
+
+    let token = jwt(data, "tlBw1zvErBZAhT6nTVmrfhrQiYI+ItwPpKVR6l/oq+phDykxE2RqbDCiEqfgmbIA0pDDZ2JVgzZiRRdEVw6nEg==", {
+      typ: "JWT"
+    })
+
+    const { status, message } = await (await fetch("http://localhost:8080/mail", {
+      method: "POST",
+      headers: {
+        "Authorization": `Bearer ${token}`
+      }
+    })).json();
+    alert(JSON.stringify(message));
+    if (status === 201) router.refresh();
     setDisable(false);
   };
 
-  const onClickHandler = (e) =>{
+  const onClickHandler = (e) => {
     console.log(e.currentTarget.value);
   }
 
-  
   return (
     <div className="col-lg-6">
       <div className="contact-form-wrap">
@@ -79,7 +89,7 @@ const Form = () => {
                   <label>Is your company GST registered?</label>
 
                   <div className="radio-container">
-                    
+
                     <input
                       className="radio "
                       name="gst-check"
@@ -161,37 +171,37 @@ const Form = () => {
                     <li className="checkbox ">
                       <input
                         className="checkbox-input" onClick={onClickHandler}
-                        id="choice-0" 
+                        id="choice-0"
                         name="choice"
-                        type="checkbox" 
+                        type="checkbox"
                         value="Web Design"
                       />
                       <label className="checkbox-label" htmlFor="choice-0">
-                      Web Design
+                        Web Design
                       </label>
                     </li>
                     <li className="checkbox">
                       <input
                         className="checkbox-input" onClick={onClickHandler}
-                        id="choice-1" 
+                        id="choice-1"
                         name="choice"
                         type="checkbox"
                         value="Web Development"
                       />
                       <label className="checkbox-label" htmlFor="choice-1">
-                      Web Development
+                        Web Development
                       </label>
                     </li>
                     <li className="checkbox">
                       <input
                         className="checkbox-input" onClick={onClickHandler}
-                        id="choice-2" 
+                        id="choice-2"
                         name="choice"
                         type="checkbox"
                         value="Graphic Design"
                       />
                       <label className="checkbox-label" htmlFor="choice-2">
-                      Graphic Design
+                        Graphic Design
                       </label>
                     </li>
                     <li className="checkbox">
@@ -203,43 +213,43 @@ const Form = () => {
                         value="App Development"
                       />
                       <label className="checkbox-label" htmlFor="choice-3">
-                      App Development
+                        App Development
                       </label>
                     </li>
                     <li className="checkbox">
                       <input
                         className="checkbox-input" onClick={onClickHandler}
-                        id="choice-4" 
+                        id="choice-4"
                         name="choice"
                         type="checkbox"
                         value="Copy Writting"
                       />
                       <label className="checkbox-label" htmlFor="choice-4">
-                      Copy Writting
+                        Copy Writting
                       </label>
                     </li>
                     <li className="checkbox">
                       <input
                         className="checkbox-input" onClick={onClickHandler}
-                        id="choice-5" 
+                        id="choice-5"
                         name="choice"
                         type="checkbox"
                         value="SEO"
                       />
                       <label className="checkbox-label" htmlFor="choice-5">
-                      SEO
+                        SEO
                       </label>
                     </li>
                     <li className="checkbox">
                       <input
                         className="checkbox-input" onClick={onClickHandler}
-                        id="choice-6" 
+                        id="choice-6"
                         name="choice"
                         type="checkbox"
                         value="Other"
                       />
                       <label className="checkbox-label" htmlFor="choice-6">
-                      Other
+                        Other
                       </label>
                     </li>
                   </ul>
