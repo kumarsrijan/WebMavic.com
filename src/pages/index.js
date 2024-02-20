@@ -49,7 +49,7 @@ function HomepageThree() {
               </a>
             </Link>
           </div>
-          <div className="sidebar-button mobile-menu-btn" onClick={toggleMenu}>
+          <div className="sidebar-button" onClick={toggleMenu}>
             <span />
           </div>
           <div className="header-btn">
@@ -72,7 +72,7 @@ function HomepageThree() {
               </Link>
             </div>
             <div
-              className="sidebar-button mobile-menu-btn2"
+              className="sidebar-button"
               onClick={toggleMenu}
             >
               <span />

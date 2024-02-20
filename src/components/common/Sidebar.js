@@ -78,9 +78,7 @@ function Sidebar({ isMenuOpen, toggleMenu }) {
             </li>
 
             <li className="menu-item-has-children menu-item">
-              {/* <Link legacyBehavior href="/blog-grid"> */}
-              <a data-hover="Our Services">Our Services</a>
-              {/* </Link> */}
+              <a data-hover="Our Services" onClick={() => collapseMenu("service")}>Our Services</a>
               <i
                 className={`bi  dropdown-icon2 ${
                   state.activeMenu === "service" ? "bi-dash-lg" : "bi-plus-lg"

@@ -1929,7 +1929,7 @@ video {
   z-index: 9999;
   transition: 0.55s ease;
   display: flex;
-  justify-content: space-between;
+  justify-content:space-between;
   align-items: center;
   padding: 20px 4%;
   border-bottom: 1px solid rgba(255, 255, 255, 0.3);
@@ -1945,6 +1945,7 @@ video {
 .main-container .main-content .header5 .sidebar-button {
   height: 42px;
   width: 42px;
+  /* margin-left: 1rem; */
   border: 1px solid var(--white-color);
   display: flex;
   align-items: center;
@@ -1955,6 +1956,7 @@ video {
 }
 .main-container .main-content .header5 .sidebar-button span {
   width: 20px;
+  margin: 10px;
   height: 1px;
   background-color: var(--white-color);
   display: inline-block;
@@ -6796,10 +6798,15 @@ footer .footer-top .footer-top-content {
   justify-content: space-between;
   padding: 25px 0px;
 }
+
+footer .footer-top .footer-top-content .footer-logo img{
+  height: 46px;
+}
 @media (max-width: 576px) {
   footer .footer-top .footer-top-content {
     flex-wrap: wrap;
     gap: 20px;
+    justify-content: center;
   }
 }
 footer .footer-top .footer-top-content .footer-contect {
@@ -7008,6 +7015,13 @@ footer .footer-btm .footer-btn-content .footer-social ul li a:hover {
 .review-and-counter-area {
   display: flex;
   align-items: center;
+  justify-content: center;
+
+}
+
+.review-and-counter-area .counter-area {
+  padding: 50px 30px;
+  width: 100%;
 }
 @media (max-width: 1199px) {
   .review-and-counter-area {
@@ -7111,10 +7125,7 @@ footer .footer-btm .footer-btn-content .footer-social ul li a:hover {
   font-size: 10px;
   color: #f9bf00;
 }
-.review-and-counter-area .counter-area {
-  padding: 69px 30px;
-  width: 100%;
-}
+
 @media (max-width: 1399px) {
   .review-and-counter-area .counter-area {
     padding: 69px 10px;
@@ -7131,12 +7142,14 @@ footer .footer-btm .footer-btn-content .footer-social ul li a:hover {
   list-style: none;
   -moz-columns: 4;
   columns: 4;
-  gap: 0;
+  gap: 10px;
+  display: flex;
+  
 }
 @media (max-width: 767px) {
   .review-and-counter-area .counter-area ul {
-    -moz-columns: 2;
-    columns: 2;
+    flex-wrap: wrap;
+  justify-content: center;
   }
 }
 @media (max-width: 576px) {
@@ -7149,6 +7162,9 @@ footer .footer-btm .footer-btn-content .footer-social ul li a:hover {
   display: flex;
   justify-content: center;
   position: relative;
+  align-items: flex-start;
+  text-align: center;
+  padding-right: 10px;
 }
 @media (max-width: 767px) {
   .review-and-counter-area .counter-area ul li {
@@ -7168,11 +7184,12 @@ footer .footer-btm .footer-btn-content .footer-social ul li a:hover {
 }
 .review-and-counter-area .counter-area ul li::after {
   content: "";
-  width: 2px;
+  width: 3px;
   height: 100%;
   position: absolute;
   right: 0;
   top: 0;
+
   background-color: rgba(255, 255, 255, 0.1);
 }
 @media (max-width: 767px) {
@@ -7192,7 +7209,9 @@ footer .footer-btm .footer-btn-content .footer-social ul li a:hover {
 }
 .review-and-counter-area .counter-area .single-counter .number {
   display: flex;
-  align-items: baseline;
+  align-items: center;
+  justify-content: center;
+ 
 }
 @media (max-width: 576px) {
   .review-and-counter-area .counter-area .single-counter .number {

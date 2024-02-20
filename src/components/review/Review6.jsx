@@ -114,7 +114,7 @@ function Review6() {
                   </h3>
                   <span>+</span>
                 </div>
-                <p>Work Hours</p>
+                <p style={{ textAlign: "center" }}>Work Hours</p>
               </div>
             </div>
           </li>

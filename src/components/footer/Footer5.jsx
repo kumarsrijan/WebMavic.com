@@ -13,8 +13,8 @@ function Footer5() {
                   <img
                     className="img-fluid"
                     src="assets/img/webmavic-logo.png"
-                    alt=""
-                    style={{ width: "20vw" }}
+                    alt="logo"
+                    // style={{ width: "20vw" }}
                   />
                 </div>
                 <div className="footer-contect">

@@ -57,9 +57,8 @@ function Layout({ children }) {
           <header className="header5 d-lg-none d-flex">
             <div className="header-logo">
               <Link legacyBehavior href="/">
-                <a>
-                  <img src="assets/img/logo.svg" alt="" />
-                </a>
+                <a><img src="assets/img/webmavic-logo.png" alt="logo" style={{height:"40px"}}/> </a>
+                
               </Link>
             </div>
             <div

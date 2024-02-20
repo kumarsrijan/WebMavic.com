@@ -1,7 +1,7 @@
-import React, { useState } from "react";
+import React from "react";
 
 function About5() {
-  const [isOpen, setOpen] = useState(false);
+
   return (
     <div className="home5-about-area pt-130 mb-130" id="home5-about-area">
       <div className="container">
@@ -92,7 +92,7 @@ function About5() {
           </div>
         </div>
       </div>
-      <React.Fragment></React.Fragment>
+     
     </div>
   );
 }
