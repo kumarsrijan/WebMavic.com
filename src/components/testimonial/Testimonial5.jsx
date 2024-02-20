@@ -118,8 +118,11 @@ function Testimonial5() {
                       <div className="author-img">
                         <img src="assets/img/testis1.png" alt="logo" />
                       </div>
-                      <div className="review">
-                        <img src="assets/img/home-5/trustpilot-2.svg" alt="" />
+                      <div className="review-right">
+                        <img
+                          src="assets/img/home-4/trastpilot-star.svg"
+                          alt=""
+                        />
                       </div>
                     </div>
                     <div className="testimonial-content">
@@ -147,8 +150,11 @@ function Testimonial5() {
                       <div className="author-img">
                         <img src="assets/img/testis2.jpg" alt="" />
                       </div>
-                      <div className="review">
-                        <img src="assets/img/home-5/trustpilot-2.svg" alt="" />
+                      <div className="review-right">
+                        <img
+                          src="assets/img/home-4/trastpilot-star.svg"
+                          alt=""
+                        />
                       </div>
                     </div>
                     <div className="testimonial-content">
@@ -181,8 +187,11 @@ function Testimonial5() {
                       <div className="author-img">
                         <img src="assets/img/testis1.png" alt="" />
                       </div>
-                      <div className="review">
-                        <img src="assets/img/home-5/trustpilot-2.svg" alt="" />
+                      <div className="review-right">
+                        <img
+                          src="assets/img/home-4/trastpilot-star.svg"
+                          alt=""
+                        />
                       </div>
                     </div>
                     <div className="testimonial-content">

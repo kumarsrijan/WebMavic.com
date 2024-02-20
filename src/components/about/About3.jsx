@@ -77,11 +77,11 @@ function About3() {
               >
                 <img
                   className="img-fluid magnetic-item"
-                  src="assets/img/home-3/home3-about-2.png"
+                  src="assets/img/inner-pages/about-1.jpg"
                   alt=""
                 />
               </div>
-              <div
+              {/* <div
                 className="about-exprience d-flex align-items-center justify-content-center wow animate fadeInUp"
                 data-wow-delay="300ms"
                 data-wow-duration="1500ms"
@@ -96,7 +96,7 @@ function About3() {
                     <span>Years</span>
                   </h2>
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>

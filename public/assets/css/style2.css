@@ -1929,7 +1929,7 @@ video {
   z-index: 9999;
   transition: 0.55s ease;
   display: flex;
-  justify-content:space-between;
+  justify-content: space-between;
   align-items: center;
   padding: 20px 4%;
   border-bottom: 1px solid rgba(255, 255, 255, 0.3);
@@ -6799,7 +6799,7 @@ footer .footer-top .footer-top-content {
   padding: 25px 0px;
 }
 
-footer .footer-top .footer-top-content .footer-logo img{
+footer .footer-top .footer-top-content .footer-logo img {
   height: 46px;
 }
 @media (max-width: 576px) {
@@ -7016,7 +7016,6 @@ footer .footer-btm .footer-btn-content .footer-social ul li a:hover {
   display: flex;
   align-items: center;
   justify-content: center;
-
 }
 
 .review-and-counter-area .counter-area {
@@ -7144,12 +7143,11 @@ footer .footer-btm .footer-btn-content .footer-social ul li a:hover {
   columns: 4;
   gap: 10px;
   display: flex;
-  
 }
 @media (max-width: 767px) {
   .review-and-counter-area .counter-area ul {
     flex-wrap: wrap;
-  justify-content: center;
+    justify-content: center;
   }
 }
 @media (max-width: 576px) {
@@ -7211,7 +7209,6 @@ footer .footer-btm .footer-btn-content .footer-social ul li a:hover {
   display: flex;
   align-items: center;
   justify-content: center;
- 
 }
 @media (max-width: 576px) {
   .review-and-counter-area .counter-area .single-counter .number {
@@ -8338,8 +8335,6 @@ footer .footer-btm .footer-btn-content .footer-social ul li a:hover {
   background-size: contain;
   transition: transform 0.2s ease-in-out;
 }
-
-
 
 .breadcrumbs {
   position: relative;
@@ -10613,7 +10608,7 @@ footer .footer-btm .footer-btn-content .footer-social ul li a:hover {
 }
 
 @media (max-width: 768px) {
-  .contact-page-wrap .contact-form-wrap .contact-form .radio-container label{
+  .contact-page-wrap .contact-form-wrap .contact-form .radio-container label {
     width: 50%;
   }
 }
@@ -10652,12 +10647,12 @@ footer .footer-btm .footer-btn-content .footer-social ul li a:hover {
   border: 5px solid rgba(255, 255, 255, 0.05);
   border-radius: 5px;
   /* height: 51px; */
-  font-size: 18px;  
+  font-size: 18px;
   color: var(--theme-color);
   padding: 10px 15px;
 }
 
-.contact-page-wrap .contact-form-wrap .contact-form .radio-container label{
+.contact-page-wrap .contact-form-wrap .contact-form .radio-container label {
   margin-bottom: 0;
 }
 

@@ -85,9 +85,9 @@ function Testimonial3() {
                       <img src="assets/img/home-4/left-quote.svg" alt="" />
                     </div>
                     <div className="testimonial-top">
-                      <div className="review-left">
+                      {/* <div className="review-left">
                         <img src="assets/img/home-4/trustpilot.svg" alt="" />
-                      </div>
+                      </div> */}
                       <div className="review-right">
                         <img
                           src="assets/img/home-4/trastpilot-star.svg"
@@ -126,9 +126,9 @@ function Testimonial3() {
                       <img src="assets/img/home-4/left-quote.svg" alt="" />
                     </div>
                     <div className="testimonial-top">
-                      <div className="review-left">
+                      {/* <div className="review-left">
                         <img src="assets/img/home-4/google.svg" alt="" />
-                      </div>
+                      </div> */}
                       <div className="review-right">
                         <ul className="star">
                           <li>
@@ -185,9 +185,9 @@ function Testimonial3() {
                       <img src="assets/img/home-4/left-quote.svg" alt="" />
                     </div>
                     <div className="testimonial-top">
-                      <div className="review-left">
+                      {/* <div className="review-left">
                         <img src="assets/img/home-4/trustpilot.svg" alt="" />
-                      </div>
+                      </div> */}
                       <div className="review-right">
                         <img
                           src="assets/img/home-4/trastpilot-star.svg"
@@ -226,9 +226,9 @@ function Testimonial3() {
                       <img src="assets/img/home-4/left-quote.svg" alt="" />
                     </div>
                     <div className="testimonial-top">
-                      <div className="review-left">
+                      {/* <div className="review-left">
                         <img src="assets/img/home-4/google.svg" alt="" />
-                      </div>
+                      </div> */}
                       <div className="review-right">
                         <ul className="star">
                           <li>
