@@ -153,7 +153,7 @@ function Bannder5() {
               Creative &amp; Clean Design
               <img src="assets/img/home-5/star.svg" alt="" />
               We Help To Achieve <img src="assets/img/home-5/star.svg" alt="" />
-              We are Design Agency
+              Latest Tech Assurance
               <img src="assets/img/home-5/star.svg" alt="" />
               Creative &amp; Clean Design
               <img src="assets/img/home-5/star.svg" alt="" />
@@ -164,7 +164,7 @@ function Bannder5() {
               Creative &amp; Clean Design
               <img src="assets/img/home-5/star.svg" alt="" />
               We Help To Achieve <img src="assets/img/home-5/star.svg" alt="" />
-              We are Design Agency
+              Latest Tech Assurance
               <img src="assets/img/home-5/star.svg" alt="" />
               Creative &amp; Clean Design
               <img src="assets/img/home-5/star.svg" alt="" />
