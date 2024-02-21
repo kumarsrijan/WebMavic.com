@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { useRouter } from "next/navigation";
-import jwt from "jwt-encode"
+import jwt from "jwt-encode";
 
 const Form = () => {
   const [data, setData] = useState({
@@ -19,19 +19,26 @@ const Form = () => {
 
   const contactHandler = async (e) => {
     e.preventDefault();
-    if (!data.name || !data.email) return (setDisable(false), alert("Name or Email Missing"))
+    if (!data.name || !data.email)
+      return setDisable(false), alert("Name or Email Missing");
     setDisable(true);
 
-    let token = jwt(data, "tlBw1zvErBZAhT6nTVmrfhrQiYI+ItwPpKVR6l/oq+phDykxE2RqbDCiEqfgmbIA0pDDZ2JVgzZiRRdEVw6nEg==", {
-      typ: "JWT"
-    })
-
-    const { status, message } = await (await fetch("http://localhost:8080/mail", {
-      method: "POST",
-      headers: {
-        "Authorization": `Bearer ${token}`
+    let token = jwt(
+      data,
+      "tlBw1zvErBZAhT6nTVmrfhrQiYI+ItwPpKVR6l/oq+phDykxE2RqbDCiEqfgmbIA0pDDZ2JVgzZiRRdEVw6nEg==",
+      {
+        typ: "JWT",
       }
-    })).json();
+    );
+
+    const { status, message } = await (
+      await fetch("https://expressmail-1-z2086761.deta.app/mail", {
+        method: "POST",
+        headers: {
+          Authorization: `Bearer ${token}`,
+        },
+      })
+    ).json();
     alert(JSON.stringify(message));
     if (status === 201) router.refresh();
     setDisable(false);
@@ -39,7 +46,7 @@ const Form = () => {
 
   const onClickHandler = (e) => {
     console.log(e.currentTarget.value);
-  }
+  };
 
   return (
     <div className="col-lg-6">
@@ -89,7 +96,6 @@ const Form = () => {
                   <label>Is your company GST registered?</label>
 
                   <div className="radio-container">
-
                     <input
                       className="radio "
                       name="gst-check"
@@ -170,7 +176,8 @@ const Form = () => {
                   <ul className="checkboxes ">
                     <li className="checkbox ">
                       <input
-                        className="checkbox-input" onClick={onClickHandler}
+                        className="checkbox-input"
+                        onClick={onClickHandler}
                         id="choice-0"
                         name="choice"
                         type="checkbox"
@@ -182,7 +189,8 @@ const Form = () => {
                     </li>
                     <li className="checkbox">
                       <input
-                        className="checkbox-input" onClick={onClickHandler}
+                        className="checkbox-input"
+                        onClick={onClickHandler}
                         id="choice-1"
                         name="choice"
                         type="checkbox"
@@ -194,7 +202,8 @@ const Form = () => {
                     </li>
                     <li className="checkbox">
                       <input
-                        className="checkbox-input" onClick={onClickHandler}
+                        className="checkbox-input"
+                        onClick={onClickHandler}
                         id="choice-2"
                         name="choice"
                         type="checkbox"
@@ -206,7 +215,8 @@ const Form = () => {
                     </li>
                     <li className="checkbox">
                       <input
-                        className="checkbox-input" onClick={onClickHandler}
+                        className="checkbox-input"
+                        onClick={onClickHandler}
                         id="choice-3"
                         name="choice"
                         type="checkbox"
@@ -218,7 +228,8 @@ const Form = () => {
                     </li>
                     <li className="checkbox">
                       <input
-                        className="checkbox-input" onClick={onClickHandler}
+                        className="checkbox-input"
+                        onClick={onClickHandler}
                         id="choice-4"
                         name="choice"
                         type="checkbox"
@@ -230,7 +241,8 @@ const Form = () => {
                     </li>
                     <li className="checkbox">
                       <input
-                        className="checkbox-input" onClick={onClickHandler}
+                        className="checkbox-input"
+                        onClick={onClickHandler}
                         id="choice-5"
                         name="choice"
                         type="checkbox"
@@ -242,7 +254,8 @@ const Form = () => {
                     </li>
                     <li className="checkbox">
                       <input
-                        className="checkbox-input" onClick={onClickHandler}
+                        className="checkbox-input"
+                        onClick={onClickHandler}
                         id="choice-6"
                         name="choice"
                         type="checkbox"
