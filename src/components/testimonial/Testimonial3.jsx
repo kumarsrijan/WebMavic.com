@@ -251,15 +251,15 @@ function Testimonial3() {
                     </div>
                     <div className="testimonial-content">
                       <p>
-                        “I cannot express enough gratitude to [Agency's Name]
-                        for their exceptional service and dedication. Despite
-                        being approached on short notice, they went above and
-                        beyond to accommodate my needs promptly. Their
-                        willingness to undertake revisions until I was
-                        completely satisfied truly sets them apart. The
-                        professionalism and commitment demonstrated by their
-                        team are commendable. I highly recommend [Agency's Name]
-                        to anyone seeking reliable and outstanding service..”
+                        “I cannot express enough gratitude to Srijan for his
+                        exceptional service and dedication. Despite being
+                        approached on short notice, they went above and beyond
+                        to accommodate my needs promptly. Their willingness to
+                        undertake revisions until I was completely satisfied
+                        truly sets them apart. The professionalism and
+                        commitment demonstrated by their team are commendable. I
+                        highly recommend WebMavic to anyone seeking reliable and
+                        outstanding service..”
                       </p>
                     </div>
                     <div className="testimonial-btm">
