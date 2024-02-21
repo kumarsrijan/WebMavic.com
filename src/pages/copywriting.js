@@ -9,7 +9,7 @@ function ServiceDetailsPage() {
       <Breadcrumb
         pageList="Servives Details"
         title="CopyWriting"
-        pageName="starts at 999/-"
+        pageName="starts at 1500/-"
       />
       <div className="service-details ">
         <div className="about-services sec-mar">
