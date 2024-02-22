@@ -150,18 +150,18 @@ function Footer5() {
               <div className="menu-container">
                 <ul>
                   <li>
-                    <Link legacyBehavior href="/about">
+                    <Link legacyBehavior href="/about.html">
                       <a>About Us</a>
                     </Link>
                   </li>
 
                   <li>
-                    <Link legacyBehavior href="/team">
+                    <Link legacyBehavior href="/team.html">
                       <a>Our Team</a>
                     </Link>
                   </li>
                   <li>
-                    <Link legacyBehavior href="faq">
+                    <Link legacyBehavior href="faq.html">
                       <a>
                         Frequently Asked <br />
                         Questions
@@ -169,7 +169,7 @@ function Footer5() {
                     </Link>
                   </li>
                   <li>
-                    <Link legacyBehavior href="/contact">
+                    <Link legacyBehavior href="/contact.html">
                       <a>Work With Us</a>
                     </Link>
                   </li>
@@ -185,32 +185,32 @@ function Footer5() {
               <div className="menu-container">
                 <ul>
                   <li>
-                    <Link legacyBehavior href="/web-design">
+                    <Link legacyBehavior href="/web-design.html">
                       <a>Web Design</a>
                     </Link>
                   </li>
                   <li>
-                    <Link legacyBehavior href="/web-development">
+                    <Link legacyBehavior href="/web-development.html">
                       <a>Web Development</a>
                     </Link>
                   </li>
                   <li>
-                    <Link legacyBehavior href="/app-development">
+                    <Link legacyBehavior href="/app-development.html">
                       <a>Software Development</a>
                     </Link>
                   </li>
                   <li>
-                    <Link legacyBehavior href="/graphic-design">
+                    <Link legacyBehavior href="/graphic-design.html">
                       <a>Graphic Design</a>
                     </Link>
                   </li>
                   <li>
-                    <Link legacyBehavior href="/copywriting">
+                    <Link legacyBehavior href="/copywriting.html">
                       <a>Copy Writting</a>
                     </Link>
                   </li>
                   <li>
-                    <Link legacyBehavior href="/seo">
+                    <Link legacyBehavior href="/seo.html">
                       <a>S E O</a>
                     </Link>
                   </li>

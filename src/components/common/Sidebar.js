@@ -67,12 +67,12 @@ function Sidebar({ isMenuOpen, toggleMenu }) {
         <div className="sidebar-menu-area">
           <ul className="menu-list">
             <li className="menu-item">
-              <Link legacyBehavior href="/">
+              <Link legacyBehavior href="#">
                 <a data-hover="home">home</a>
               </Link>
             </li>
             <li className="menu-item">
-              <Link legacyBehavior href="/about">
+              <Link legacyBehavior href="/about.html">
                 <a data-hover="About us">About Us</a>
               </Link>
             </li>
@@ -91,32 +91,32 @@ function Sidebar({ isMenuOpen, toggleMenu }) {
                 }`}
               >
                 <li>
-                  <Link legacyBehavior href="/web-design">
+                  <Link legacyBehavior href="/web-design.html">
                     <a>Web Design</a>
                   </Link>
                 </li>
                 <li>
-                  <Link legacyBehavior href="/web-development">
+                  <Link legacyBehavior href="/web-development.html">
                     <a>Web Development</a>
                   </Link>
                 </li>
                 <li>
-                  <Link legacyBehavior href="/app-development">
+                  <Link legacyBehavior href="/app-development.html">
                     <a>App Development</a>
                   </Link>
                 </li>
                 <li>
-                  <Link legacyBehavior href="/graphic-design">
+                  <Link legacyBehavior href="/graphic-design.html">
                     <a>Graphic Design</a>
                   </Link>
                 </li>
                 <li>
-                  <Link legacyBehavior href="/copywriting">
+                  <Link legacyBehavior href="/copywriting.html">
                     <a>Copywriting</a>
                   </Link>
                 </li>
                 <li>
-                  <Link legacyBehavior href="/seo">
+                  <Link legacyBehavior href="/seo.html">
                     <a>S E O</a>
                   </Link>
                 </li>
@@ -124,17 +124,17 @@ function Sidebar({ isMenuOpen, toggleMenu }) {
             </li>
 
             <li className="menu-item">
-              <Link legacyBehavior href="/team">
+              <Link legacyBehavior href="/team.html">
                 <a data-hover="The team">The team</a>
               </Link>
             </li>
             <li className="menu-item">
-              <Link legacyBehavior href="/faq">
+              <Link legacyBehavior href="/faq.html">
                 <a data-hover="FAQs">FAQs</a>
               </Link>
             </li>
             <li className="menu-item">
-              <Link legacyBehavior href="/contact">
+              <Link legacyBehavior href="/contact.html">
                 <a data-hover="Work With US">Work With Us</a>
               </Link>
             </li>
