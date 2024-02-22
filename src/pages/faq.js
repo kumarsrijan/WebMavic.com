@@ -1,9 +1,47 @@
 import Breadcrumb from "@/components/common/Breadcrumb";
 import Layout from "@/components/layout/Layout";
-import Form from "@/components/form/Form";
-import React from "react";
+import jwt from "jwt-encode";
+import React, { useState } from "react";
+import { useRouter } from "next/navigation";
 
 function Faqpage() {
+  const [data, setData] = useState({
+    name: null,
+    email: null,
+    phone: null,
+    message: null,
+  });
+  const [disable, setDisable] = useState(false);
+  const router = useRouter();
+
+  const faqHandler = async (e) => {
+    e.preventDefault();
+    if (!data.name || !data.email || !data.phone)
+      return setDisable(false), alert("Name or Email or Phone Missing");
+    setDisable(true);
+
+    let token = jwt(
+      data,
+      "tlBw1zvErBZAhT6nTVmrfhrQiYI+ItwPpKVR6l/oq+phDykxE2RqbDCiEqfgmbIA0pDDZ2JVgzZiRRdEVw6nEg==",
+      {
+        typ: "JWT",
+      }
+    );
+
+    const { status, message } = await (
+      await fetch("https://expressmail-1-z2086761.deta.app/faq", {
+        method: "POST",
+        headers: {
+          Authorization: `Bearer ${token}`,
+        },
+      })
+    ).json();
+
+    alert(JSON.stringify(message));
+    if (status === 201) router.refresh();
+    setDisable(false);
+  };
+
   return (
     <Layout>
       <Breadcrumb
@@ -67,37 +105,52 @@ function Faqpage() {
                 </div>
                 <div className="contact-form">
                   {/* <Form /> */}
-                  <form>
+                  <form onSubmit={faqHandler}>
                     <div className="row">
                       <div className="col-md-12 mb-20">
                         <div className="form-inner">
                           <label>name</label>
-                          <input type="text" />
+                          <input
+                            value={data.name}
+                            onChange={(e) => setData({ ...data, name: e.target.value })}
+                            type="text" />
                         </div>
                       </div>
 
                       <div className="col-lg-12 mb-20">
                         <div className="form-inner">
                           <label>Email</label>
-                          <input type="email" />
+                          <input
+                            value={data.email}
+                            onChange={(e) => setData({ ...data, email: e.target.value })}
+                            type="email" />
                         </div>
                       </div>
                       <div className="col-lg-12 mb-20">
                         <div className="form-inner">
                           <label>Phone</label>
-                          <input type="email" />
+                          <input
+                            value={data.phone}
+                            onChange={(e) => setData({ ...data, phone: e.target.value })}
+                            type="number" />
                         </div>
                       </div>
                       <div className="col-lg-12 mb-20">
                         <div className="form-inner">
                           <label>Message</label>
-                          <textarea defaultValue={""} />
+                          <textarea
+                            value={data.message}
+                            onChange={(e) => setData({ ...data, message: e.target.value })} />
                         </div>
                       </div>
                       <div className="col-lg-12">
                         <div className="form-inner">
-                          <button className="primary-btn3" type="submit">
-                            Submit
+                          <button
+                            disabled={disable}
+                            className="primary-btn3"
+                            type="submit"
+                          >
+                            {disable ? "Loading..." : "Submit"}
                           </button>
                         </div>
                       </div>

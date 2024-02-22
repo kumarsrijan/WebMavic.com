@@ -45,7 +45,7 @@ const Form = () => {
   };
 
   const onClickHandler = (e) => {
-    console.log(e.currentTarget.value);
+    data.services.includes(e.currentTarget.value) ? setData({ ...data, services: data.services.push(e.currentTarget.value) }) : setData({ ...data, services: data.services.filter(e => e !== e.currentTarget.value) })
   };
 
   return (
