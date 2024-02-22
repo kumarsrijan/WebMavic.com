@@ -570,7 +570,7 @@ function ServiceDetailsPage() {
                 <h2 className="title">Work With Us</h2>
                 <h2 className="content">Let’s Talk</h2>
                 <div className="contact-btn">
-                  <Link legacyBehavior href="/contact.html">
+                  <Link legacyBehavior href="/contact">
                     <a className="magnetic-item">
                       Contact With Us.
                       <svg

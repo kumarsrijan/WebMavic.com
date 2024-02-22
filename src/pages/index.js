@@ -53,7 +53,7 @@ function HomepageThree() {
             <span />
           </div>
           <div className="header-btn">
-            <Link legacyBehavior href="/contact.html">
+            <Link legacyBehavior href="/contact">
               <a className="primary-btn6">Get A Quote</a>
             </Link>
           </div>
@@ -71,7 +71,10 @@ function HomepageThree() {
                 </a>
               </Link>
             </div>
-            <div className="sidebar-button" onClick={toggleMenu}>
+            <div
+              className="sidebar-button"
+              onClick={toggleMenu}
+            >
               <span />
             </div>
           </header>
