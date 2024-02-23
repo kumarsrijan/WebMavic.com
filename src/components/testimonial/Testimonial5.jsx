@@ -181,38 +181,6 @@ function Testimonial5() {
                     </div>
                   </div>
                 </SwiperSlide>
-                <SwiperSlide className="swiper-slide">
-                  <div className="testimonial-wrapper">
-                    <div className="testimonial-top">
-                      <div className="author-img">
-                        <img src="assets/img/testis1.png" alt="" />
-                      </div>
-                      <div className="review-right">
-                        <img
-                          src="assets/img/home-4/trastpilot-star.svg"
-                          alt=""
-                        />
-                      </div>
-                    </div>
-                    <div className="testimonial-content">
-                      <p>
-                        “It was really nice to avail the services of Srijan and
-                        his team. My expectations were not only met but the team
-                        provided extra also. The group is really hard working
-                        and tries to provide services with some uniqueness”
-                      </p>
-                    </div>
-                    <div className="testimonial-btm">
-                      <div className="author-content">
-                        <h4>Abhinav</h4>
-                        {/* <span>CEO At atlantis.com</span> */}
-                      </div>
-                      <div className="quote-icon">
-                        <img src="assets/img/home-5/left-quote.svg" alt="" />
-                      </div>
-                    </div>
-                  </div>
-                </SwiperSlide>
               </div>
             </Swiper>
             <div className="swiper-btn-group">
