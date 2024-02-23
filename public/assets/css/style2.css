@@ -2243,6 +2243,7 @@ video {
     .banner-area
     .banner-title {
     padding-left: 15px;
+    min-height: 300px;
   }
 }
 .main-container
