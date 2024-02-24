@@ -69,6 +69,8 @@ function Review6() {
                       end={48}
                       duration={5}
                       style={{ fontSize: "40px" }}
+                      enableScrollSpy = {true}
+                    
                     />
                   </h3>
                   <span>Hours</span>
@@ -90,6 +92,8 @@ function Review6() {
                       duration={5}
                       suffix=" %"
                       style={{ fontSize: "40px" }}
+                      enableScrollSpy = {true}
+                    
                     />
                   </h3>
                   <span>contented clients</span>
@@ -110,6 +114,8 @@ function Review6() {
                       end={1000}
                       duration={5}
                       style={{ fontSize: "40px" }}
+                      enableScrollSpy = {true}
+                    
                     />
                   </h3>
                   <span>+</span>
@@ -127,6 +133,8 @@ function Review6() {
                       end={7}
                       duration={5}
                       style={{ fontSize: "40px" }}
+                      enableScrollSpy = {true}
+                     
                     />
                   </h3>
                   <span>Members</span>

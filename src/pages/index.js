@@ -71,10 +71,7 @@ function HomepageThree() {
                 </a>
               </Link>
             </div>
-            <div
-              className="sidebar-button"
-              onClick={toggleMenu}
-            >
+            <div className="sidebar-button"onClick={toggleMenu}>
               <span />
             </div>
           </header>
