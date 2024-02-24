@@ -50,8 +50,10 @@ function Contactpage() {
                       <i className="far fa-envelope" />
                     </div>
                     <div className="info">
-                      <a href="mailto: info@example.com">hello@webmavic.com</a>
-                      <a href="mailto: info@support.com">info@support.com</a>
+                      <a href="mailto:hello@webmavic.com">hello@webmavic.com</a>
+                      <a href="mailto:srijan@webmavic.com">
+                        srijan@webmavic.com
+                      </a>
                     </div>
                   </div>
                 </div>
