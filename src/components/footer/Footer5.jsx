@@ -76,9 +76,9 @@ function Footer5() {
                   </svg>
                   Get Connected
                 </h4>
-                <a href="mailto:ifo@example.com">hello@webmavic.com</a>
+                <a href="mailto:hello@webmavic.com">hello@webmavic.com</a>
                 <br />
-                <a href="mailto:info@support.com">srijan@webmavic.com</a>
+                <a href="mailto:srijan@webmavic.com">srijan@webmavic.com</a>
               </div>
               {/* <div className="footer-contact">
                 <h6>See Our New updates</h6>
