@@ -67,10 +67,9 @@ function Review6() {
                   <h3 className="counter">
                     <CountUp
                       end={48}
-                      duration={5}
+                      duration={3}
                       style={{ fontSize: "40px" }}
-                      enableScrollSpy = {true}
-                    
+                      enableScrollSpy={true}
                     />
                   </h3>
                   <span>Hours</span>
@@ -89,11 +88,10 @@ function Review6() {
                     <CountUp
                       start={0}
                       end={100}
-                      duration={5}
+                      duration={3}
                       suffix=" %"
                       style={{ fontSize: "40px" }}
-                      enableScrollSpy = {true}
-                    
+                      enableScrollSpy={true}
                     />
                   </h3>
                   <span>contented clients</span>
@@ -112,10 +110,9 @@ function Review6() {
                   <h3 className="counter">
                     <CountUp
                       end={1000}
-                      duration={5}
+                      duration={3}
                       style={{ fontSize: "40px" }}
-                      enableScrollSpy = {true}
-                    
+                      enableScrollSpy={true}
                     />
                   </h3>
                   <span>+</span>
@@ -131,10 +128,9 @@ function Review6() {
                   <h3 className="counter">
                     <CountUp
                       end={7}
-                      duration={5}
+                      duration={3}
                       style={{ fontSize: "40px" }}
-                      enableScrollSpy = {true}
-                     
+                      enableScrollSpy={true}
                     />
                   </h3>
                   <span>Members</span>

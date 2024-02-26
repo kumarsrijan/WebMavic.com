@@ -54,15 +54,15 @@ function About3() {
                 <ul className="about-feature">
                   <li>
                     <h5>Customized Solutions</h5>
-                    <p style={{ textAlign: "center" }}>
-                      Services are professional w offerings provided.
-                    </p>
+                    {/* <p style={{ textAlign: "center" }}>
+                      Services are professional offerings provided.
+                    </p> */}
                   </li>
                   <li>
                     <h5>Attention to detail</h5>
-                    <p style={{ textAlign: "center" }}>
-                      Services are professional w offerings provided.
-                    </p>
+                    {/* <p style={{ textAlign: "center" }}>
+                      Services are professional offerings provided.
+                    </p> */}
                   </li>
                 </ul>
               </div>

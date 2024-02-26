@@ -32,7 +32,7 @@ const WhatWeDo5 = () => {
               <div className="content">
                 <h3>Research &amp; Discovery</h3>
                 <p>
-                  Achieving optimal results involves delving deep into a
+                  Achieving optimal results involves diving deep into a
                   comprehensive understanding of both the specific requirements
                   and the anticipated outcomes associated with each task.
                 </p>
@@ -52,7 +52,7 @@ const WhatWeDo5 = () => {
                 <h3>Industry Expertise</h3>
                 <p>
                   As individuals living in the 21st century, we instinctively
-                  favor the technologies that characterize our time. This
+                  favour the technologies that characterize our time. This
                   inclination is a deliberate effort to keep our products
                   current and adaptable, ensuring their continued relevance and
                   security in the decades to come.
@@ -96,7 +96,8 @@ const WhatWeDo5 = () => {
                 <h3>
                   One Stop solution for your business needs{" "}
                   <span>
-                    By engineers of<span className="year">BIT.</span>
+                    By BIT Mesra Alumni.
+                    {/* By <span className="year">BIT Mesra Alumni.</span> */}
                   </span>
                 </h3>
               </div>

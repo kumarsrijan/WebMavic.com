@@ -33,9 +33,9 @@ function ServiceDetailsPage() {
                     creating applications that're user friendly, innovative and
                     capable of scaling across different platforms such, as iOS,
                     Android and hybrid solutions. With our team of developers,
-                    designers and project managers we guarantee top notch
-                    deliverables that align with our clients goals and
-                    contribute to their success, in the market.
+                    designers and testers we guarantee top notch deliverables
+                    that align with our clients goals and contribute to their
+                    success, in the market.
                   </p>
                   <ul className="about-featue">
                     <li>
@@ -340,7 +340,7 @@ function ServiceDetailsPage() {
                 data-wow-duration="1500ms"
               >
                 <div className="faq-content-area">
-                  <h2>We Are Working With Creative User.</h2>
+                  <h2>It’s all about innovate your business</h2>
                   <div className="accordion" id="accordionExample">
                     <div className="accordion-item">
                       <h6 className="accordion-header" id="headingOne">
@@ -380,8 +380,8 @@ function ServiceDetailsPage() {
                           aria-expanded="false"
                           aria-controls="collapseTwo"
                         >
-                          Can you guide us through the process of setting up
-                          developer accounts on app stores?
+                          Do you provide ongoing analytics and performance
+                          monitoring for the app?
                         </button>
                       </h6>
                       <div
@@ -391,10 +391,12 @@ function ServiceDetailsPage() {
                         data-bs-parent="#accordionExample"
                       >
                         <div className="accordion-body">
-                          Aptent taciti sociosqu ad litora torquent per conubia
-                          nostra, per inceptos himenaeos. Praesent nec neque at
-                          dolor venenatis consectetur eu quis ex. placerat felis
-                          non aliquam.
+                          We use analytics tools and monitoring solutions to
+                          gather information, about how users interact with our
+                          applications. This helps us understand their behavior
+                          improve application performance and identify any
+                          issues that may arise allowing us to continuously
+                          enhance our offerings.
                         </div>
                       </div>
                     </div>
@@ -408,8 +410,8 @@ function ServiceDetailsPage() {
                           aria-expanded="false"
                           aria-controls="collapseThree"
                         >
-                          What are the requirements for hosting the backend
-                          infrastructure of the app?
+                          How do you handle feedback and iteration during the
+                          development process?
                         </button>
                       </h6>
                       <div
@@ -419,10 +421,11 @@ function ServiceDetailsPage() {
                         data-bs-parent="#accordionExample"
                       >
                         <div className="accordion-body">
-                          Aptent taciti sociosqu ad litora torquent per conubia
-                          nostra, per inceptos himenaeos. Praesent nec neque at
-                          dolor venenatis consectetur eu quis ex. placerat felis
-                          non aliquam.
+                          We maintain open communication channels, actively
+                          collect feedback, and prioritize changes based on
+                          impact and user needs. Our iterative approach allows
+                          for continuous refinement, ensuring the final product
+                          meets expectations effectively.
                         </div>
                       </div>
                     </div>
@@ -436,8 +439,8 @@ function ServiceDetailsPage() {
                           aria-expanded="false"
                           aria-controls="collapseFour"
                         >
-                          Do you provide hosting services for the app's backend
-                          infrastructure?
+                          What security measures are in place to protect app
+                          data and user privacy on the backend infrastructure?
                         </button>
                       </h6>
                       <div
@@ -447,10 +450,12 @@ function ServiceDetailsPage() {
                         data-bs-parent="#accordionExample"
                       >
                         <div className="accordion-body">
-                          Aptent taciti sociosqu ad litora torquent per conubia
-                          nostra, per inceptos himenaeos. Praesent nec neque at
-                          dolor venenatis consectetur eu quis ex. placerat felis
-                          non aliquam.
+                          We implement robust encryption protocols, access
+                          controls, and regular security audits to safeguard app
+                          data and user privacy. Additionally, we adhere to
+                          industry standards and compliance regulations to
+                          ensure comprehensive protection against potential
+                          threats.
                         </div>
                       </div>
                     </div>

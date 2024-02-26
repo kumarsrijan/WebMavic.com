@@ -271,7 +271,7 @@ function ServiceDetailsPage() {
                 <h4 style={{ color: "white", textAlign: "center" }}>
                   Search Engine Optimization (SEO) plays a role, in enhancing
                   the visibility and relevance of a website in search engine
-                  results pages (SERPs). It employs techniques to achieve this;
+                  results pages (SERPs). It employs techniques to achieve this:
                 </h4>
                 <div className="row">
                   <div
@@ -371,7 +371,7 @@ function ServiceDetailsPage() {
                           your website, and the strategies implemented.
                           Generally, noticeable improvements can be seen within
                           a few weeks, but significant results may take one
-                          month to 6 three mpnths or more.
+                          month to three months or more.
                         </div>
                       </div>
                     </div>

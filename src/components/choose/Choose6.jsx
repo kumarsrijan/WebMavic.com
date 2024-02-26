@@ -100,7 +100,12 @@ function Choose6() {
                         <div className="progress">
                           <h3>
                             <span className="counter">
-                              <CountUp end={30} duration={5} delay={3} />
+                              <CountUp
+                                end={30}
+                                duration={3}
+                                delay={3}
+                                enableScrollSpy={true}
+                              />
                             </span>
                             %
                           </h3>
@@ -122,7 +127,12 @@ function Choose6() {
                         <div className="progress">
                           <h3>
                             <span className="counter">
-                              <CountUp end={40} duration={5} delay={3} />
+                              <CountUp
+                                end={40}
+                                duration={3}
+                                delay={3}
+                                enableScrollSpy={true}
+                              />
                             </span>
                             %
                           </h3>
@@ -142,7 +152,12 @@ function Choose6() {
                         <div className="progress">
                           <h3>
                             <span className="counter">
-                              <CountUp end={30} duration={5} delay={3} />
+                              <CountUp
+                                end={30}
+                                duration={3}
+                                delay={3}
+                                enableScrollSpy={true}
+                              />
                             </span>
                             %
                           </h3>

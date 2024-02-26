@@ -24,7 +24,7 @@ function ServiceDetailsPage() {
                   <div className="section-title-5">
                     <h2>Web Design</h2>
                   </div>
-                  <p style={{textAlign:"justify"}}>
+                  <p style={{ textAlign: "justify" }}>
                     We specialize in delivering contemporary and refined designs
                     that seamlessly incorporate scalability. Overlooking
                     scalability in web development may impose future
@@ -362,7 +362,7 @@ function ServiceDetailsPage() {
                 data-wow-duration="1500ms"
               >
                 <div className="faq-content-area">
-                  <h2>We Are Working With Creative User.</h2>
+                  <h2>It’s all about innovate your business</h2>
                   <div className="accordion" id="accordionExample">
                     <div className="accordion-item">
                       <h6 className="accordion-header" id="headingOne">
@@ -384,7 +384,7 @@ function ServiceDetailsPage() {
                         data-bs-parent="#accordionExample"
                       >
                         <div className="accordion-body">
-                          The web design process starts with discovery, where I
+                          The web design process starts with discovery, where we
                           understand your goals and requirements, followed by
                           design, development, testing, and deployment. Each
                           phase is meticulously executed to create a visually
@@ -413,10 +413,10 @@ function ServiceDetailsPage() {
                         data-bs-parent="#accordionExample"
                       >
                         <div className="accordion-body">
-                          Not necessarily. I'm here to help you shape your
+                          Not necessarily. We're here to help you shape your
                           vision. We'll begin with a discussion to understand
-                          your goals, and from there, we'll collaborate to
-                          refine and bring your ideas to life.
+                          your goals, and from there, collaborate to refine and
+                          bring your ideas to life.
                         </div>
                       </div>
                     </div>
@@ -440,10 +440,10 @@ function ServiceDetailsPage() {
                         data-bs-parent="#accordionExample"
                       >
                         <div className="accordion-body">
-                          After the launch, I offer ongoing support,
-                          maintenance, and optimization services. I will ensure
-                          your website remains up-to-date, secure, and performs
-                          at its best, so you can focus on your core business.
+                          After the launch, we offer ongoing support,
+                          maintenance, and optimization services. ensuring your
+                          website remains up-to-date, secure, and performs at
+                          its best, so you can focus on your core business.
                         </div>
                       </div>
                     </div>

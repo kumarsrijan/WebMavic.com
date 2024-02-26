@@ -32,7 +32,7 @@ const data = [
     ),
     title: "Web Development",
     description:
-      "We not only excel in crafting static websites but dynamic websites too. Whether you are just starting or have been in the industry for a long; you the importance of having a Smooth-running website. Our focus is on delivering the website of ur desire without any technical glitches. ",
+      "We not only excel in crafting static websites but dynamic websites too. Whether you are just starting or have been in the industry for a long, you know the importance of having a Smooth-running website. Our focus is on delivering the website of your desire without any technical glitches. ",
     f1_desc: "Latest Technologies",
     f2_desc: " Custom features",
     link: "web-development",

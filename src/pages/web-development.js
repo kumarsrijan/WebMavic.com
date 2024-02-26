@@ -373,7 +373,7 @@ function ServiceDetailsPage() {
                 data-wow-duration="1500ms"
               >
                 <div className="faq-content-area">
-                  <h2>We Are Working With Creative User.</h2>
+                  <h2>It’s all about innovate your business</h2>
                   <div className="accordion" id="accordionExample">
                     <div className="accordion-item">
                       <h6 className="accordion-header" id="headingOne">
