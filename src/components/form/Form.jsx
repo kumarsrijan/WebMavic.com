@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { useRouter } from "next/navigation";
-import jwt from "jwt-encode";
+import emailjs from "@emailjs/browser";
 
 const Form = () => {
   const [data, setData] = useState({
@@ -11,10 +11,9 @@ const Form = () => {
     email: null,
     phone: null,
     message: null,
-    services: [],
-    service: null,
   });
   const [disable, setDisable] = useState(false);
+  const [services, setServices] = useState([]);
   const router = useRouter();
 
   const contactHandler = async (e) => {
@@ -23,37 +22,40 @@ const Form = () => {
       return setDisable(false), alert("Name or Email Missing");
     setDisable(true);
 
-    let token = jwt(
-      data,
-      "tlBw1zvErBZAhT6nTVmrfhrQiYI+ItwPpKVR6l/oq+phDykxE2RqbDCiEqfgmbIA0pDDZ2JVgzZiRRdEVw6nEg==",
-      {
-        typ: "JWT",
-      }
-    );
-
-    const { status, message } = await (
-      await fetch("https://expressmail-1-z2086761.deta.app/mail", {
-        method: "POST",
-        headers: {
-          Authorization: `Bearer ${token}`,
+    emailjs
+      .send(
+        process.env.NEXT_PUBLIC_SERVICE_ID,
+        process.env.NEXT_PUBLIC_TEMPLATE_ID1,
+        {
+          ...data,
+          services : services.join(", ")
         },
-      })
-    ).json();
-    alert(JSON.stringify(message));
-    if (status === 201) router.refresh();
-    setDisable(false);
+        {
+          publicKey : process.env.NEXT_PUBLIC_PUBLIC_KEY
+        }
+      )
+      .then(
+        (result) => {
+          alert("Application sent successfully");
+          if (result.status === 200) router.refresh();
+          setDisable(false);
+        },
+        (error) => {
+          alert("Something went wrong");
+          console.log(error);
+          setDisable(false);
+        },
+      );
   };
 
   const onClickHandler = (e) => {
-    data.services.includes(e.currentTarget.value)
-      ? setData({
-          ...data,
-          services: data.services.push(e.currentTarget.value),
-        })
-      : setData({
-          ...data,
-          services: data.services.filter((e) => e !== e.currentTarget.value),
-        });
+    let value = e.target.value
+    if(services.includes(value)){
+       let updatedServices = services.filter(item => item != value)
+        setServices(updatedServices)
+    }else{
+      setServices([...services, value])
+    }
   };
 
   return (

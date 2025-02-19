@@ -1,8 +1,5 @@
 import Breadcrumb from "@/components/common/Breadcrumb";
-import Marquee from "react-fast-marquee";
-import Link from "next/link";
 import Layout from "@/components/layout/Layout";
-
 import React from "react";
 import Team from "@/components/Team/Team";
 

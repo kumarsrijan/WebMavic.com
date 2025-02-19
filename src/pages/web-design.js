@@ -9,7 +9,7 @@ function ServiceDetailsPage() {
       <Breadcrumb
         pageList="Services Details"
         title="Web Design"
-        pageName="satrts   at   7500/-"
+        
       />
       <div className="service-details ">
         <div className="about-services sec-mar">

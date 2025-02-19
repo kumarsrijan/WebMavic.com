@@ -1,9 +1,8 @@
 import Breadcrumb from "@/components/common/Breadcrumb";
 import Layout from "@/components/layout/Layout";
-import jwt from "jwt-encode";
 import React, { useState } from "react";
 import { useRouter } from "next/navigation";
-
+import { send } from "@emailjs/browser";
 function Faqpage() {
   const [data, setData] = useState({
     name: null,
@@ -20,26 +19,26 @@ function Faqpage() {
       return setDisable(false), alert("Name or Email or Phone Missing");
     setDisable(true);
 
-    let token = jwt(
-      data,
-      "tlBw1zvErBZAhT6nTVmrfhrQiYI+ItwPpKVR6l/oq+phDykxE2RqbDCiEqfgmbIA0pDDZ2JVgzZiRRdEVw6nEg==",
-      {
-        typ: "JWT",
-      }
-    );
-
-    const { status, message } = await (
-      await fetch("https://expressmail-1-z2086761.deta.app/faq", {
-        method: "POST",
-        headers: {
-          Authorization: `Bearer ${token}`,
+    send(
+        process.env.NEXT_PUBLIC_SERVICE_ID,
+        process.env.NEXT_PUBLIC_TEMPLATE_ID2,
+        data,
+        {
+          publicKey : process.env.NEXT_PUBLIC_PUBLIC_KEY
+        }
+      )
+      .then(
+        (result) => {
+          alert("Message sent successfully");
+          if (result.status === 200) router.refresh();
+          setDisable(false);
         },
-      })
-    ).json();
-
-    alert(JSON.stringify(message));
-    if (status === 201) router.refresh();
-    setDisable(false);
+        (error) => {
+          alert("Something went wrong, please try again later");
+          console.log(error);
+          setDisable(false);
+        },
+      );
   };
 
   return (

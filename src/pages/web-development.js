@@ -6,11 +6,7 @@ import React from "react";
 function ServiceDetailsPage() {
   return (
     <Layout>
-      <Breadcrumb
-        pageList="Servives Details"
-        title="Web Development"
-        pageName="starts at 15,000/-"
-      />
+      <Breadcrumb pageList="Servives Details" title="Web Development"/>
       <div className="service-details ">
         <div className="about-services sec-mar">
           <div className="container">

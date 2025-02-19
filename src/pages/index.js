@@ -17,14 +17,16 @@ import Head from "next/head";
 import Link from "next/link";
 import React, { useState } from "react";
 
+
 function HomepageThree() {
   const [isMenuOpen, setMenuOpen] = useState(false);
 
   const toggleMenu = () => {
     setMenuOpen(!isMenuOpen);
   };
-
+  
   useBodyClass("bg-dark-5");
+
   return (
     <>
       <Head>

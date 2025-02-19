@@ -36,21 +36,20 @@ function Contactpage() {
                       </p>
                     </div>
                   </div>
-                  <div className="single-info">
+                  {/* <div className="single-info">
                     <div className="icon">
                       <i className="fas fa-phone-alt" />
                     </div>
-                    <div className="info">
+                     <div className="info">
                       <a href="tel:07979772017">+91 7979-77-2017</a>
-                      {/* <a href="tel:06571111576">+880 657 1111 576</a> */}
-                    </div>
-                  </div>
+                      <a href="tel:06571111576">+880 657 1111 576</a>
+                    </div> 
+                  </div> */}
                   <div className="single-info">
                     <div className="icon">
                       <i className="far fa-envelope" />
                     </div>
                     <div className="info">
-                      <a href="mailto:hello@webmavic.com">hello@webmavic.com</a>
                       <a href="mailto:srijan@webmavic.com">
                         srijan@webmavic.com
                       </a>

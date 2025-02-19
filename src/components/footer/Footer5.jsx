@@ -17,7 +17,7 @@ function Footer5() {
                     // style={{ width: "20vw" }}
                   />
                 </div>
-                <div className="footer-contect">
+                {/* <div className="footer-contect">
                   <div className="icon">
                     <svg
                       width={33}
@@ -38,7 +38,7 @@ function Footer5() {
                       <a href="tel: 7979772017">7979-77-2017</a>
                     </h6>
                   </div>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
@@ -76,8 +76,7 @@ function Footer5() {
                   </svg>
                   Get Connected
                 </h4>
-                <a href="mailto:hello@webmavic.com">hello@webmavic.com</a>
-                <br />
+                
                 <a href="mailto:srijan@webmavic.com">srijan@webmavic.com</a>
               </div>
               {/* <div className="footer-contact">
@@ -227,7 +226,7 @@ function Footer5() {
               <div className="footer-btn-content">
                 <div className="copyright-area">
                   <p>
-                    ©Copyright 2024 <a href="#">WebMavic</a>
+                    ©Copyright {new Date().getFullYear().toString()} <a href="#">WebMavic</a>
                   </p>
                 </div>
                 {/* <div className="footer-social">

@@ -9,7 +9,6 @@ function ServiceDetailsPage() {
       <Breadcrumb
         pageList="Servives Details"
         title="app Development"
-        pageName="starts at 39,999/-"
       />
       <div className="service-details ">
         <div className="about-services sec-mar">

@@ -17,7 +17,7 @@ function Breadcrumb({ title, pageName, pageList }) {
           <div className="col-12">
             <div className="breadcrumb-wrapper">
               <div className="breadcrumb-cnt">
-                <span>{pageName}</span>
+                {pageName && <span>{pageName}</span>}
                 <h1>"{title}"</h1>
                 <div className="breadcrumb-list">
                   <Link legacyBehavior href="/">

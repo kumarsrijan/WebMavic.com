@@ -6,7 +6,7 @@ import SwiperCore, {
   Pagination,
 } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
-import Link from "next/link";
+import { testimolial_Data } from "./tsData";
 SwiperCore.use([Pagination, Autoplay, EffectFade, Navigation]);
 
 function Testimonial5() {
@@ -54,63 +54,31 @@ function Testimonial5() {
         >
           <Swiper {...slider} className="swiper ">
             <div className="swiper-wrapper">
-              <SwiperSlide className="swiper-slide">
+              {testimolial_Data.map((item, index) => (
+                <SwiperSlide className="swiper-slide">
                 <div className="testimonial-container">
                   <div className="testimonial-top">
                     <div className="author-img">
-                      <img src="assets/img/testis1.png" alt="logo" />
+                      <img src={item.authorImg} alt="logo" />
                     </div>
                     <div className="review-right">
                       <img src="assets/img/home-4/trastpilot-star.svg" alt="" />
                     </div>
                   </div>
                   <div className="testimonial-content">
-                    <p>
-                      “It was really nice to avail the services of Srijan and
-                      his team. My expectations were not only met but the team
-                      provided extra also. The group is really hard working and
-                      tries to provide services with some uniqueness”
-                    </p>
+                    <p>“{item.review}”</p>
                   </div>
                   <div className="testimonial-btm">
                     <div className="author-content">
                       {" "}
-                      <h4>Abhinav</h4>
+                      <h4>{item.author}</h4>
+                      {index === 0 && <span>Founder at Vistadrone</span>}
                     </div>
                   </div>
                 </div>
               </SwiperSlide>
-              <SwiperSlide className="swiper-slide">
-                <div className="testimonial-container">
-                  <div className="testimonial-top">
-                    <div className="author-img">
-                      <img src="assets/img/testis2.jpg" alt="" />
-                    </div>
-                    <div className="review-right">
-                      <img src="assets/img/home-4/trastpilot-star.svg" alt="" />
-                    </div>
-                  </div>
-                  <div className="testimonial-content">
-                    <p>
-                      “I cannot express enough gratitude to WebMavic for their
-                      exceptional service and dedication. Despite being
-                      approached on short notice, they went above and beyond to
-                      accommodate my needs promptly. Their willingness to
-                      undertake revisions until I was completely satisfied truly
-                      sets them apart. The professionalism and commitment
-                      demonstrated by their team are commendable. I highly
-                      recommend WebMavic to anyone seeking reliable and
-                      outstanding service.”
-                    </p>
-                  </div>
-                  <div className="testimonial-btm">
-                    <div className="author-content">
-                      <h4>Pranav Sharma</h4>
-                      {/* <span>CEO At atlantis.com</span>  */}
-                    </div>
-                  </div>
-                </div>
-              </SwiperSlide>
+              ))}
+            
             </div>
           </Swiper>
           <div className="swiper-btn-group">
