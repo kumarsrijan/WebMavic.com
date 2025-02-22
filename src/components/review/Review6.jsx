@@ -121,7 +121,7 @@ function Review6() {
               </div>
             </div>
           </li>
-          {/* <li>
+          <li>
             <div className="single-counter">
               <div className="content">
                 <div className="number">
@@ -141,7 +141,7 @@ function Review6() {
                 </p>
               </div>
             </div>
-          </li> */}
+          </li>
         </ul>
       </div>
     </div>

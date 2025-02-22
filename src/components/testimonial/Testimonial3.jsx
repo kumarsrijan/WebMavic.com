@@ -82,7 +82,7 @@ function Testimonial3() {
               <div className="swiper-wrapper">
                 
                {testimolial_Data.map((item,index)=>(
-                 <SwiperSlide className="swiper-slide">
+                 <SwiperSlide key={index} className="swiper-slide">
                  <div className="testimonial-card3">
                    <div className="quate-icon">
                      <img src="assets/img/home-4/left-quote.svg" alt="ratings-icon" />

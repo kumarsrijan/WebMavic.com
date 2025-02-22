@@ -106,7 +106,7 @@ function Bannder5() {
                 <div className="swiper-pagination1 two " />
               </div>
             </div>
-            <div className="col-lg-7">
+            {/* <div className="col-lg-7">
               <div className="banner-img-wrap">
                 <Swiper {...slider} className="swiper banner5-slider">
                   <div className="swiper-wrapper">
@@ -140,7 +140,7 @@ function Bannder5() {
                   </div>
                 </Swiper>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
         <div className="banner-text-slider">

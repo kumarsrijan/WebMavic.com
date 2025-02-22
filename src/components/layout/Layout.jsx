@@ -5,7 +5,7 @@ import Head from "next/head";
 import Link from "next/link";
 import Sidebar from "../common/Sidebar";
 import Back from "./Back";
-
+import { Analytics } from "@vercel/analytics/react"
 function Layout({ children }) {
   useBodyClass("home-dark2");
   const [isMenuOpen, setMenuOpen] = useState(false);
@@ -73,6 +73,7 @@ function Layout({ children }) {
           <Back />
         </div>
       </div>
+      <Analytics />
     </>
   );
 }

@@ -55,7 +55,7 @@ function Testimonial5() {
           <Swiper {...slider} className="swiper ">
             <div className="swiper-wrapper">
               {testimolial_Data.map((item, index) => (
-                <SwiperSlide className="swiper-slide">
+                <SwiperSlide key={index} className="swiper-slide">
                 <div className="testimonial-container">
                   <div className="testimonial-top">
                     <div className="author-img">
@@ -72,7 +72,7 @@ function Testimonial5() {
                     <div className="author-content">
                       {" "}
                       <h4>{item.author}</h4>
-                      {index === 0 && <span>Founder at Vistadrone</span>}
+                      {index === 0 && <span>Founder at Vistadrone, Abu Dhabi</span>}
                     </div>
                   </div>
                 </div>

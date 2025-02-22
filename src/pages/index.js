@@ -4,7 +4,7 @@ import Review6 from "@/components/review/Review6";
 // import Award5 from "@/components/award/Award5";
 import Bannder5 from "@/components/bannner/Bannder5";
 // import Home5Blog from "@/components/blog/Home5Blog";
-// import CaseStudy5 from "@/components/caseStudy/CaseStudy5";
+import CaseStudy5 from "@/components/caseStudy/CaseStudy5";
 import WhatWeDo5 from "@/components/choose/WhatWeDo5";
 import Sidebar from "@/components/common/Sidebar";
 import Footer5 from "@/components/footer/Footer5";
@@ -16,7 +16,7 @@ import useBodyClass from "@/hooks/useBodyClass";
 import Head from "next/head";
 import Link from "next/link";
 import React, { useState } from "react";
-
+import { Analytics } from "@vercel/analytics/react"
 
 function HomepageThree() {
   const [isMenuOpen, setMenuOpen] = useState(false);
@@ -29,6 +29,7 @@ function HomepageThree() {
 
   return (
     <>
+      <Analytics/>
       <Head>
         <title>
           WebMavic- Revolutionize Your Digital Presence with Innovation,
@@ -83,7 +84,7 @@ function HomepageThree() {
           <Service5 />
           <WhatWeDo5 />
           <Partner5 />
-          {/* <CaseStudy5 /> */}
+          <CaseStudy5 />
           <Testimonial5 />
           {/* <Award5 /> */}
           <Home5Team />

@@ -2017,6 +2017,7 @@ video {
 @media (min-width: 1400px) and (max-width: 1599px) {
   .main-container .main-content .banner-area-wrapper .company-name {
     max-width: 220px;
+    min-height: 100vh;
   }
 }
 @media (max-width: 1399px) {
@@ -10816,6 +10817,7 @@ footer .footer-btm .footer-btn-content .footer-social ul li a:hover {
 .form-inner .checkboxes .checkbox {
   margin: 0;
   padding: 0;
+  
 }
 
 .form-inner .checkboxes .checkbox .checkbox-input + label {
