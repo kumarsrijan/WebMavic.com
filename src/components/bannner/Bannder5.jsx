@@ -1,30 +1,10 @@
-import React, { useMemo } from "react";
-import SwiperCore, { Autoplay, EffectFade, Pagination } from "swiper";
-import { Swiper, SwiperSlide } from "swiper/react";
+import React, { memo} from "react";
 import { ReactTyped } from "react-typed";
 import Link from "next/link";
 import Marquee from "react-fast-marquee";
-SwiperCore.use([Pagination, Autoplay, EffectFade]);
+
 function Bannder5() {
-  const slider = useMemo(() => {
-    return {
-      loop: true,
-      slidesPerView: 1,
-      spaceBetween: 30,
-      speed: 3000,
-      effect: "fade",
-      autoplay: {
-        delay: 2500,
-      },
-      pagination: {
-        el: ".swiper-pagination1",
-        clickable: true,
-      },
-      fadeEffect: {
-        crossFade: true,
-      },
-    };
-  }, []);
+ 
   return (
     <div className="banner-area-wrapper">
       <div className="company-name">
@@ -79,7 +59,7 @@ function Bannder5() {
                 website to marketing it and everything in between all here.
               </p>
               <div className="view-btn">
-                <Link legacyBehavior href="/contact">
+                <Link legacyBehavior href="/contact" >
                   <a className="primary-btn7">
                     <span className="circle2">
                       <svg
@@ -172,9 +152,10 @@ function Bannder5() {
             </h2>
           </Marquee>
         </div>
+       
       </div>
     </div>
   );
 }
 
-export default Bannder5;
+export default memo(Bannder5);
