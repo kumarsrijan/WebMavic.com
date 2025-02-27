@@ -16,6 +16,7 @@ import useBodyClass from "@/hooks/useBodyClass";
 import Head from "next/head";
 import Link from "next/link";
 import React, { useState } from "react";
+import { Analytics } from "@vercel/analytics/react"
 
 function HomepageThree() {
   const [isMenuOpen, setMenuOpen] = useState(false);
@@ -28,7 +29,7 @@ function HomepageThree() {
 
   return (
     <>
-      {/* <Analytics/> */}
+      <Analytics/>
       <Head>
         <title>
           WebMavic- Revolutionize Your Digital Presence with Innovation,
