@@ -21,7 +21,7 @@ function AboutPage() {
       <Choose6 />
       {/* <Feature4 /> */}
       {/* <Partnar4 /> */}
-      <Testimonial3 />
+      {/* <Testimonial3 /> */}
       <Home5Team />
       <Home3Contact />
       {/* <Home3Blog /> */}

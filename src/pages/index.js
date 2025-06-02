@@ -85,7 +85,7 @@ function HomepageThree() {
           <WhatWeDo5 />
           <Partner5 />
           <CaseStudy5 />
-          <Testimonial5 />
+          {/* <Testimonial5 /> */}
           {/* <Award5 /> */}
           <Home5Team />
           {/* <Home5Blog /> */}

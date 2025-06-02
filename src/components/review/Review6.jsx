@@ -75,7 +75,7 @@ function Review6() {
                   <span>Hours</span>
                 </div>
                 <p style={{ textAlign: "center" }}>
-                  If necessary, we can also complete projects within 48 hours.
+                  We can deliver projects within 48 hours if needed.
                 </p>
               </div>
             </div>
@@ -89,7 +89,7 @@ function Review6() {
                       start={0}
                       end={100}
                       duration={3}
-                      suffix=" %"
+                      suffix="%"
                       style={{ fontSize: "40px" }}
                       enableScrollSpy={true}
                     />
@@ -97,8 +97,7 @@ function Review6() {
                   <span>contented clients</span>
                 </div>
                 <p style={{ textAlign: "center" }}>
-                  Our primary objective is to ensure the satisfaction of our
-                  clients.
+                  Prioritizing client satisfaction.
                 </p>
               </div>
             </div>
@@ -127,13 +126,13 @@ function Review6() {
                 <div className="number">
                   <h3 className="counter">
                     <CountUp
-                      end={7}
+                      end={10}
                       duration={3}
                       style={{ fontSize: "40px" }}
                       enableScrollSpy={true}
                     />
                   </h3>
-                  <span>Members</span>
+                  <span>+ Members</span>
                 </div>
                 <p style={{ textAlign: "center" }}>
                   We possess team members who are experts in their respective

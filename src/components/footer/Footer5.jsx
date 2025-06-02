@@ -195,7 +195,7 @@ function Footer5() {
                   </li>
                   <li>
                     <Link legacyBehavior href="/app-development">
-                      <a>Software Development</a>
+                      <a>App Development</a>
                     </Link>
                   </li>
                   <li>

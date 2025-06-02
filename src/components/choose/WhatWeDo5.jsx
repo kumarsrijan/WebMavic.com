@@ -84,7 +84,7 @@ const WhatWeDo5 = () => {
             </div>
           </div>
         </div>
-        <div className="achievement-area">
+        {/* <div className="achievement-area">
           <div className="row g-lg-4 gy-5">
             <div
               className="col-xl-7 col-lg-6 d-flex align-items-center wow animate fadeInLeft"
@@ -97,7 +97,7 @@ const WhatWeDo5 = () => {
                   One Stop solution for your business needs{" "}
                   <span>
                     By BIT Mesra Alumni.
-                    {/* By <span className="year">BIT Mesra Alumni.</span> */}
+                     By <span className="year">BIT Mesra Alumni.</span> 
                   </span>
                 </h3>
               </div>
@@ -132,8 +132,8 @@ const WhatWeDo5 = () => {
                 experience<span>#</span>together ani
               </h2>{" "}
             </Marquee>
-          </div> */}
-        </div>
+          </div> 
+        </div> */}
       </div>
     </div>
   );
