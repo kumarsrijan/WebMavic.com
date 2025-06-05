@@ -1,22 +1,20 @@
 import Home5Team from "@/components/Team/Home5Team";
 import About5 from "@/components/about/About5";
 import Review6 from "@/components/review/Review6";
-// import Award5 from "@/components/award/Award5";
 import Bannder5 from "@/components/bannner/Bannder5";
-// import Home5Blog from "@/components/blog/Home5Blog";
 import CaseStudy5 from "@/components/caseStudy/CaseStudy5";
 import WhatWeDo5 from "@/components/choose/WhatWeDo5";
 import Sidebar from "@/components/common/Sidebar";
 import Footer5 from "@/components/footer/Footer5";
 import Partner5 from "@/components/partner/Partner5";
 import Service5 from "@/components/services/Service5";
-import Testimonial5 from "@/components/testimonial/Testimonial5";
 import Back from "@/components/layout/Back";
 import useBodyClass from "@/hooks/useBodyClass";
 import Head from "next/head";
 import Link from "next/link";
 import React, { useState } from "react";
 import { Analytics } from "@vercel/analytics/react"
+import RequestDemoPopup from "@/components/popups/RequestDemoPopup";
 
 function HomepageThree() {
   const [isMenuOpen, setMenuOpen] = useState(false);
@@ -30,6 +28,9 @@ function HomepageThree() {
   return (
     <>
       <Analytics/>
+      <RequestDemoPopup 
+      delay={10000}
+      cooldownPeriod={1} />
       <Head>
         <title>
           WebMavic- Revolutionize Your Digital Presence with Innovation,

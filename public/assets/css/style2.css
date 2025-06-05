@@ -5916,8 +5916,8 @@ video {
   margin: 0;
   padding: 0;
   list-style: none;
-  -moz-columns: 6;
-  columns: 6;
+  /* -moz-columns: 6; */
+  columns: 2;
   gap: 0;
 }
 @media (max-width: 991px) {
@@ -5966,6 +5966,23 @@ video {
     padding-right: 70px;
   }
 }
+
+
+.tech-stack-card {
+  background-color:  rgba(0, 0, 0, 0.6) ;
+  transition: 500ms;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 120px;
+  height: 120px;
+}
+
+.tech-stack-card:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
 .home5-case-study .primary-btn3 {
   background-color: transparent;
   color: var(--theme-color);
@@ -7097,7 +7114,7 @@ footer .footer-btm .footer-btn-content .footer-social ul li a:hover {
 }
 @media (max-width: 1199px) {
   .review-and-counter-area .counter-area {
-    padding: 0px 10px;
+    padding: 0px 10px 10px 10px
   }
 }
 .review-and-counter-area .counter-area ul {
@@ -7168,6 +7185,7 @@ footer .footer-btm .footer-btn-content .footer-social ul li a:hover {
 @media (max-width: 576px) {
   .review-and-counter-area .counter-area .single-counter {
     text-align: center;
+    width : auto;
   }
 }
 .review-and-counter-area .counter-area .single-counter .number {
@@ -7221,6 +7239,10 @@ footer .footer-btm .footer-btn-content .footer-social ul li a:hover {
   .review-and-counter-area .counter-area .single-counter p {
     text-align: center;
   }
+}
+
+.review-and-counter-area .counter-area .single-counter {
+  width: 320px;
 }
 
 .home6-solution-section {

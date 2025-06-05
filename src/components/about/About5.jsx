@@ -3,7 +3,7 @@ import React from "react";
 function About5() {
 
   return (
-    <div className="home5-about-area pt-130 mb-130" id="home5-about-area">
+    <div className="home5-about-area pt-130 mb-50" id="home5-about-area">
       <div className="container">
         <div className="row g-4 gy-5">
           <div
