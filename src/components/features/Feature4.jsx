@@ -1,5 +1,5 @@
 import React from "react";
-import { CountUp } from "use-count-up";
+import CountUp from "react-countup";
 function Feature4() {
   return (
     <div className="home4-feature-area">
@@ -187,7 +187,7 @@ function Feature4() {
                     <div className="content">
                       <div className="number">
                         <h3 className="counter">
-                          <CountUp isCounting end={800} duration={3} />
+                          <CountUp end={800} duration={3} />
                         </h3>
                         <span>Project</span>
                       </div>

@@ -1,3 +1,4 @@
+import Reveal from "@/animations/Reveal";
 import React from "react";
 
 function Partner5() {
@@ -8,10 +9,9 @@ function Partner5() {
     >
       <div className="container">
         <div
-          className="row mb-55 wow animate fadeInUp"
-          data-wow-delay="200ms"
-          data-wow-duration="1500ms"
+          className="row mb-55 "
         >
+          <Reveal fadeInUp>
           <div className="col-lg-12 d-flex align-items-center justify-content-between flex-wrap gap-2">
             <div className="section-title-5">
               <span>Technologies</span>
@@ -25,11 +25,11 @@ function Partner5() {
               </p>
             </div>
           </div>
+          </Reveal>
         </div>
+        <Reveal fadeInUp>
         <div
-          className="wow animate fadeInUp d-flex gap-5 flex-wrap justify-content-between"
-          data-wow-delay="300ms"
-          data-wow-duration="1500ms"
+          className="d-flex gap-5 flex-wrap justify-content-between"
         >
           {/* Grid 1 */}
           <div
@@ -213,6 +213,7 @@ function Partner5() {
             </div>
           </div>
         </div>
+        </Reveal>
       </div>
     </div>
   );

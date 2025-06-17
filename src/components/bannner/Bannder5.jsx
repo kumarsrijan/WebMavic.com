@@ -11,30 +11,7 @@ function Bannder5() {
         <h2>Webmavic</h2>
       </div>
       <div className="banner-area">
-        {/* <div className="social-area">
-          <ul>
-            <li>
-              <a href="https://www.facebook.com/">
-                <i className="bx bxl-facebook" />
-              </a>
-            </li>
-            <li>
-              <a href="https://twitter.com/">
-                <i className="bx bxl-twitter" />
-              </a>
-            </li>
-            <li>
-              <a href="https://www.pinterest.com/">
-                <i className="bx bxl-pinterest-alt" />
-              </a>
-            </li>
-            <li>
-              <a href="https://www.instagram.com/">
-                <i className="bx bxl-instagram" />
-              </a>
-            </li>
-          </ul>
-        </div> */}
+   
         <div className="banner-title">
           <h1>
             HAVING A ROUGH TIME BUILDING YOUR{" "}
@@ -59,8 +36,7 @@ function Bannder5() {
                 website to SEO and everything in between all here.
               </p>
               <div className="view-btn">
-                <Link legacyBehavior href="/contact" >
-                  <a className="primary-btn7">
+                <Link  className="primary-btn7"  href="/contact" >
                     <span className="circle2">
                       <svg
                         width={13}
@@ -73,54 +49,19 @@ function Bannder5() {
                       </svg>
                     </span>
                     <span className="text">Book a call</span>
-                  </a>
                 </Link>
               </div>
               <div className="scroll-and-social-area">
                 <div className="scroll-down-area">
-                  <a href="#home5-about-area">
+                  <Link href="#home5-about-area">
                     <span />
                     Scroll Down to explore
-                  </a>
+                  </Link>
                 </div>
                 <div className="swiper-pagination1 two " />
               </div>
             </div>
-            {/* <div className="col-lg-7">
-              <div className="banner-img-wrap">
-                <Swiper {...slider} className="swiper banner5-slider">
-                  <div className="swiper-wrapper">
-                    <SwiperSlide className="swiper-slide">
-                      <div>
-                        <img
-                          className="img-fluid"
-                          src="assets/img/home-5/webmavic-mockup.png"
-                          alt=""
-                        />
-                      </div>
-                    </SwiperSlide>
-                    <SwiperSlide className="swiper-slide">
-                      <div>
-                        <img
-                          className="img-fluid"
-                          src="assets/img/home-5/webmavic-mockup.png"
-                          alt=""
-                        />
-                      </div>
-                    </SwiperSlide>
-                    <SwiperSlide className="swiper-slide">
-                      <div>
-                        <img
-                          className="img-fluid"
-                          src="assets/img/home-5/webmavic-mockup.png"
-                          alt=""
-                        />
-                      </div>
-                    </SwiperSlide>
-                  </div>
-                </Swiper>
-              </div>
-            </div> */}
+         
           </div>
         </div>
         <div className="banner-text-slider">

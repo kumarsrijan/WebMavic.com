@@ -1,17 +1,18 @@
 import Link from "next/link";
 import React from "react";
 import Team from "./Team";
+import Reveal from "@/animations/Reveal";
 
 function Home5Team() {
   return (
     <>
       <div className="collaborate-section mb-130">
         <div className="container">
+          <Reveal fadeInUp>
           <div className="row">
             <div
-              className="col-lg-12 wow animate fadeInUp"
-              data-wow-delay="200ms"
-              data-wow-duration="1500ms"
+              className="col-lg-12"
+              
               style={{
                 display: "flex",
                 justifyContent: "space-between",
@@ -34,8 +35,8 @@ function Home5Team() {
                     <span>work with us?</span>
                   </h2>
                   <div className="get-btn">
-                    <Link legacyBehavior href="/contact">
-                      <a className="primary-btn3">Get a quote</a>
+                    <Link className="primary-btn3" href="/contact">
+                      Get a quote
                     </Link>
                   </div>
                 </div>
@@ -58,23 +59,21 @@ function Home5Team() {
                     <span>doubts?</span>
                   </h2>
                   <div className="get-btn">
-                    <Link legacyBehavior href="/faq">
-                      <a className="primary-btn3">Read FAQs</a>
+                    <Link className="primary-btn3" href="/faq">
+                      Read FAQs
                     </Link>
                   </div>
                 </div>
               </div>
             </div>
           </div>
+          </Reveal>
         </div>
       </div>
       <div className="home5-team-section mb-130">
         <div className="container">
-          <div
-            className="row mb-55 wow animate fadeInUp"
-            data-wow-delay="200ms"
-            data-wow-duration="1500ms"
-          >
+          <Reveal fadeInUp>
+          <div className="row mb-55">
             <div className="col-lg-12 ">
               <div className="section-title-5 text-center">
                 <span>Meet Our Team</span>
@@ -82,6 +81,7 @@ function Home5Team() {
               </div>
             </div>
           </div>
+          </Reveal>
         <Team/>
         </div>
       </div>

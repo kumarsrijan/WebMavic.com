@@ -8,6 +8,8 @@ const useBodyClass = (className) => {
       document.body.classList.remove(className);
     };
   }, [className]);
+
+  return null;
 };
 
 export default useBodyClass;

@@ -1,63 +1,10 @@
+"use client";
 import React from "react";
 import CountUp from "react-countup";
 function Review6() {
   return (
     <div className="review-and-counter-area">
-      {/* <div className="customar-review">
-        <h6>Review On</h6>
-        <ul>
-          <li className="single-review">
-            <a href="#">
-              <div className="icon">
-                <img src="assets/img/home-5/trustpilot-1.svg" alt="" />
-              </div>
-              <ul className="star">
-                <li>
-                  <i className="bi bi-star-fill" />
-                </li>
-                <li>
-                  <i className="bi bi-star-fill" />
-                </li>
-                <li>
-                  <i className="bi bi-star-fill" />
-                </li>
-                <li>
-                  <i className="bi bi-star-fill" />
-                </li>
-                <li>
-                  <i className="bi bi-star-fill" />
-                </li>
-                <li>5.0/5.0</li>
-              </ul>
-            </a>
-          </li>
-          <li className="single-review">
-            <a href="#">
-              <div className="icon">
-                <img src="assets/img/home-5/google-1.svg" alt="" />
-              </div>
-              <ul className="star">
-                <li>
-                  <i className="bi bi-star-fill" />
-                </li>
-                <li>
-                  <i className="bi bi-star-fill" />
-                </li>
-                <li>
-                  <i className="bi bi-star-fill" />
-                </li>
-                <li>
-                  <i className="bi bi-star-fill" />
-                </li>
-                <li>
-                  <i className="bi bi-star-fill" />
-                </li>
-                <li>5.0/5.0</li>
-              </ul>
-            </a>
-          </li>
-        </ul>
-      </div> */}
+      
       <div className="counter-area">
         <ul>
           <li>

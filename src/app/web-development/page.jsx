@@ -1,7 +1,14 @@
+import Reveal from "@/animations/Reveal";
 import Breadcrumb from "@/components/common/Breadcrumb";
 import Layout from "@/components/layout/Layout";
 import Link from "next/link";
 import React from "react";
+
+export const metadata = {
+  title: "Web Development | WebMavic",
+  description: "Explore our web development services that combine modern aesthetics with scalability for your business.",
+  keywords: "WebMavic, web development, modern design, scalable web solutions, responsive design, user experience",
+};
 
 function ServiceDetailsPage() {
   return (
@@ -12,10 +19,10 @@ function ServiceDetailsPage() {
           <div className="container">
             <div className="row gy-5">
               <div
-                className="col-lg-6 d-flex align-items-center wow animate fadeInLeft"
-                data-wow-delay="200ms"
-                data-wow-duration="1500ms"
+                className="col-lg-6 d-flex align-items-center"
+                
               >
+                <Reveal direction="left">
                 <div className="about-content">
                   <div className="section-title-5">
                     <h2>
@@ -129,18 +136,20 @@ function ServiceDetailsPage() {
                     </li>
                   </ul>
                 </div>
+                </Reveal>
               </div>
               <div
-                className="col-lg-6 wow animate fadeInRight"
-                data-wow-delay="300ms"
-                data-wow-duration="1500ms"
+                className="col-lg-6 "
+              
               >
                 <div className="service-img magnetic-item">
+                <Reveal direction="right">
                   <img
                     className="img-fluid"
                     src="assets/img/inner-pages/web-development-1.jpg"
                     alt=""
                   />
+                </Reveal>
                 </div>
               </div>
             </div>
@@ -149,24 +158,26 @@ function ServiceDetailsPage() {
         <div className="how-we-work-section sec-mar">
           <div className="container">
             <div
-              className="row mb-60 wow animate fadeInUp"
-              data-wow-delay="200ms"
-              data-wow-duration="1500ms"
+              className="row mb-60 "
+             
             >
+              <Reveal fadeInUp >
               <div className="col-lg-12">
                 <div className="section-title">
                   <h2>How we work</h2>
                 </div>
               </div>
+              </Reveal>
             </div>
           </div>
+          <Reveal fadeInUp >
           <div className="work-item">
             <div className="container-fluid">
-              <div className="row row-cols-xl-5 row-cols-lg-4 row-cols-md-3 row-cols-sm-2 row-cols-1 gy-5 justify-content-center">
+              <div className="row gy-5">
                 <div
-                  className="col magnetic-item wow animate fadeInUp"
-                  data-wow-delay="200ms"
-                  data-wow-duration="1500ms"
+                  className="col magnetic-item "
+                 
+                 
                 >
                   <div className="single-work">
                     <div className="work-icon">
@@ -185,9 +196,8 @@ function ServiceDetailsPage() {
                   </div>
                 </div>
                 <div
-                  className="col magnetic-item wow animate fadeInUp"
-                  data-wow-delay="300ms"
-                  data-wow-duration="1500ms"
+                  className="col magnetic-item "
+                 
                 >
                   <div className="single-work">
                     <div className="work-icon">
@@ -206,9 +216,8 @@ function ServiceDetailsPage() {
                   </div>
                 </div>
                 <div
-                  className="col magnetic-item wow animate fadeInUp"
-                  data-wow-delay="400ms"
-                  data-wow-duration="1500ms"
+                  className="col magnetic-item "
+                 
                 >
                   <div className="single-work">
                     <div className="work-icon">
@@ -227,9 +236,8 @@ function ServiceDetailsPage() {
                   </div>
                 </div>
                 <div
-                  className="col magnetic-item wow animate fadeInUp"
-                  data-wow-delay="500ms"
-                  data-wow-duration="1500ms"
+                  className="col magnetic-item "
+                 
                 >
                   <div className="single-work">
                     <div className="work-icon">
@@ -248,9 +256,8 @@ function ServiceDetailsPage() {
                   </div>
                 </div>
                 <div
-                  className="col magnetic-item wow animate fadeInUp"
-                  data-wow-delay="600ms"
-                  data-wow-duration="1500ms"
+                  className="col magnetic-item "
+                 
                 >
                   <div className="single-work">
                     <div className="work-icon">
@@ -271,31 +278,33 @@ function ServiceDetailsPage() {
               </div>
             </div>
           </div>
+          </Reveal>
         </div>
         <div className="service-sort-driscription-area sec-mar">
           <div className="container">
             <div className="row">
               <div
-                className="col-lg-12 wow animate fadeInUp"
-                data-wow-delay="200ms"
-                data-wow-duration="1500ms"
+                className="col-lg-12 "
+               
               >
                 <div className="driscription-img magnetic-item">
+                <Reveal fadeInUp >
                   <img
                     className="img-fluid"
                     src="assets/img/inner-pages/web-development-2.jpg"
                     alt=""
                   />
+                </Reveal>
                 </div>
               </div>
               <div className="driscription-content">
                 <div className="row">
                   <div
-                    className="col-md-6 wow animate fadeInUp"
-                    data-wow-delay="200ms"
-                    data-wow-duration="1500ms"
+                    className="col-md-6 "
+                   
                   >
-                    <p>
+                    <Reveal fadeInUp >
+                    <p className="space-between-children">
                       <h5>Responsive Design:</h5>
                       The application ensures adaptation, to devices and screen
                       sizes ensuring a consistent user experience, on desktops,
@@ -315,13 +324,14 @@ function ServiceDetailsPage() {
                       sections of the application and safeguard confidential
                       information.
                     </p>
+                    </Reveal>
                   </div>
                   <div
-                    className="col-md-6 wow animate fadeInUp"
-                    data-wow-delay="300ms"
-                    data-wow-duration="1500ms"
+                    className="col-md-6 "
+                   
                   >
-                    <p>
+                     <Reveal fadeInUp >
+                    <p className="space-between-children">
                       <h5>Efficient Data Management:</h5>
                       We make use of databases and caching methods to ensure
                       storage, retrieval and management of data.
@@ -341,6 +351,7 @@ function ServiceDetailsPage() {
                       of customer support solutions to help users with their
                       questions orders and concerns.
                     </p>
+                    </Reveal>
                   </div>
                 </div>
               </div>
@@ -351,23 +362,23 @@ function ServiceDetailsPage() {
           <div className="container">
             <div className="row gy-5">
               <div
-                className="col-lg-6 wow animate fadeInLeft"
-                data-wow-delay="200ms"
-                data-wow-duration="1500ms"
+                className="col-lg-6 "
+                
               >
                 <div className="faq-img magnetic-item">
+                <Reveal direction="left">
                   <img
                     className="img-fluid"
                     src="assets/img/inner-pages/web-development-3.jpg"
                     alt=""
                   />
+                </Reveal>
                 </div>
               </div>
               <div
-                className="col-lg-6 d-flex align-items-center wow animate fadeInRight"
-                data-wow-delay="300ms"
-                data-wow-duration="1500ms"
+                className="col-lg-6 d-flex align-items-center "
               >
+              <Reveal direction="right">
                 <div className="faq-content-area">
                   <h2>It’s all about innovate your business</h2>
                   <div className="accordion" id="accordionExample">
@@ -577,6 +588,7 @@ function ServiceDetailsPage() {
                     </div>
                   </div>
                 </div>
+              </Reveal>
               </div>
             </div>
           </div>
@@ -590,8 +602,7 @@ function ServiceDetailsPage() {
                 <h2 className="title">Work With Us</h2>
                 <h2 className="content">Let’s Talk</h2>
                 <div className="contact-btn">
-                  <Link legacyBehavior href="/contact">
-                    <a className="magnetic-item">
+                  <Link className="magnetic-item" href="/contact">
                       Contact With Us.
                       <svg
                         width={32}
@@ -602,7 +613,6 @@ function ServiceDetailsPage() {
                       >
                         <path d="M0 1H12M12 1V13M12 1L0.5 12" />
                       </svg>
-                    </a>
                   </Link>
                 </div>
               </div>

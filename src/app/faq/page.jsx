@@ -1,3 +1,4 @@
+"use client";
 import Breadcrumb from "@/components/common/Breadcrumb";
 import Layout from "@/components/layout/Layout";
 import React, { useState } from "react";
