@@ -1,21 +1,25 @@
-import { useRouter } from "next/router";
+"use client";
+import Reveal from "@/animations/Reveal";
+import { usePathname } from "next/navigation";
 import React from "react";
 
 function About3() {
-  const currentRoute = useRouter().pathname;
+  const pathname = usePathname()
+  
   return (
     <div
       className={`home3-about-section ${
-        currentRoute === "/about" ? "sec-mar" : ""
+        pathname === "/about" ? "sec-mar" : ""
       }`}
     >
+   
       <div className="container-fluid">
         <div className="row g-lg-4 gy-5">
           <div className="col-lg-9">
+            <Reveal fadeInUp>
             <div
-              className="section-title-3 wow animate fadeInUp"
-              data-wow-delay="200ms"
-              data-wow-duration="1500ms"
+              className="section-title-3"
+              
             >
               <h2>Distinguish Approach</h2>
               <p>
@@ -26,23 +30,24 @@ function About3() {
                 effectively drives sales.
               </p>
             </div>
+            </Reveal>
             <div className="about-left">
               <div
-                className="about-img  wow animate fadeInUp"
-                data-wow-delay="300ms"
-                data-wow-duration="1500ms"
+                className="about-img magnetic-item"
               >
+              <Reveal fadeInUp>
                 <img
-                  className="img-fluid magnetic-item"
+                  className="img-fluid "
                   src="assets/img/inner-pages/about-4.jpg"
                   alt=""
                 />
+              </Reveal>
               </div>
               <div
-                className="about-content wow animate fadeInUp"
-                data-wow-delay="400ms"
-                data-wow-duration="1500ms"
+                className="about-content "
+              
               >
+              <Reveal fadeInUp>
                 <h2>Unlock the potential of your business.</h2>
                 <p>
                   We believe in delivering tailored solutions that are designed
@@ -54,49 +59,32 @@ function About3() {
                 <ul className="about-feature">
                   <li>
                     <h5>Customized Solutions</h5>
-                    {/* <p style={{ textAlign: "center" }}>
-                      Services are professional offerings provided.
-                    </p> */}
+                    
                   </li>
                   <li>
                     <h5>Attention to detail</h5>
-                    {/* <p style={{ textAlign: "center" }}>
-                      Services are professional offerings provided.
-                    </p> */}
+                   
                   </li>
                 </ul>
+              </Reveal>
               </div>
             </div>
           </div>
           <div className="col-lg-3">
             <div className="about-right">
+              <Reveal fadeInUp>
               <div
-                className="about-img wow animate fadeInUp"
-                data-wow-delay="200ms"
-                data-wow-duration="1500ms"
+                className="about-img magnetic-item" 
+                
               >
                 <img
-                  className="img-fluid magnetic-item"
+                  className="img-fluid "
                   src="assets/img/inner-pages/about-1.jpg"
                   alt=""
                 />
               </div>
-              {/* <div
-                className="about-exprience d-flex align-items-center justify-content-center wow animate fadeInUp"
-                data-wow-delay="300ms"
-                data-wow-duration="1500ms"
-              >
-                <div className="exp-text">
-                  <img src="assets/img/home-3/rotate-text.png" alt="" />
-                </div>
-                <div className="years">
-                  <h2>
-                    10
-                    <br />
-                    <span>Years</span>
-                  </h2>
-                </div>
-              </div> */}
+          </Reveal>
+              
             </div>
           </div>
         </div>

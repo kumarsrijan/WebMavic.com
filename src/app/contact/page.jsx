@@ -1,6 +1,13 @@
 import Breadcrumb from "@/components/common/Breadcrumb";
 import Form from "@/components/form/Form";
 import Layout from "@/components/layout/Layout";
+import Link from "next/link";
+
+export const metadata = {
+  title: "Contact | WebMavic",
+  description: "Get in touch with WebMavic for any queries or support.",
+  keywords: "WebMavic, contact us, support, queries, business inquiries",
+};
 
 function Contactpage() {
   return (
@@ -36,54 +43,19 @@ function Contactpage() {
                       </p>
                     </div>
                   </div>
-                  {/* <div className="single-info">
-                    <div className="icon">
-                      <i className="fas fa-phone-alt" />
-                    </div>
-                     <div className="info">
-                      <a href="tel:07979772017">+91 7979-77-2017</a>
-                      <a href="tel:06571111576">+880 657 1111 576</a>
-                    </div> 
-                  </div> */}
+               
                   <div className="single-info">
                     <div className="icon">
                       <i className="far fa-envelope" />
                     </div>
                     <div className="info">
-                      <a href="mailto:srijan@webmavic.com">
+                      <Link href="mailto:srijan@webmavic.com" target="_blank">
                         srijan@webmavic.com
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
-                {/* <div className="follow-area">
-                  <h5 className="blog-widget-title">Follow Us</h5>
-                  <p className="para">Follow us on Social Network</p>
-                  <div className="blog-widget-body">
-                    <ul className="follow-list d-flex flex-row align-items-start gap-4">
-                      <li>
-                        <a href="https://www.facebook.com/">
-                          <i className="bx bxl-facebook" />
-                        </a>
-                      </li>
-                      <li>
-                        <a href="https://www.twitter.com/">
-                          <i className="bx bxl-twitter" />
-                        </a>
-                      </li>
-                      <li>
-                        <a href="https://www.instagram.com/">
-                          <i className="bx bxl-instagram" />
-                        </a>
-                      </li>
-                      <li>
-                        <a href="https://www.pinterest.com/">
-                          <i className="bx bxl-pinterest" />
-                        </a>
-                      </li>
-                    </ul>
-                  </div>
-                </div> */}
+               
               </div>
             </div>
             <Form />

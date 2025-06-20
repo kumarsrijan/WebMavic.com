@@ -1,3 +1,5 @@
+"use client";
+import Reveal from "@/animations/Reveal";
 import Link from "next/link";
 import React from "react";
 import CountUp from "react-countup";
@@ -9,24 +11,22 @@ function Choose6() {
         <div className="row">
           <div className="choose-top">
             <div className="row">
-              <div
-                className="col-lg-6 wow animate fadeInUp"
-                data-wow-delay="200ms"
-                data-wow-duration="1500ms"
-              >
+              <div className="col-lg-6 " >
                 <div className="choose-title">
                   <span>Why Choose Us</span>
                   <h2>Unlock the potential of your business.</h2>
                 </div>
               </div>
               <div className="col-lg-6">
+                  <Reveal fadeInUp>
                 <div className="choose-right-img magnetic-item">
-                  <img
-                    className="img-fluid"
-                    src="assets/img/inner-pages/about-3.jpg"
-                    alt=""
-                  />
+                    <img
+                      className="img-fluid"
+                      src="assets/img/inner-pages/about-3.jpg"
+                      alt=""
+                    />
                 </div>
+                  </Reveal>
               </div>
             </div>
           </div>
@@ -73,8 +73,8 @@ function Choose6() {
                     <h2>#1</h2>
                   </div>
                   <div className="about-btn">
-                    <Link legacyBehavior href="/about">
-                      <a>
+                    <Link  href="/about">
+                      
                         <svg
                           width={7}
                           height={7}
@@ -87,7 +87,7 @@ function Choose6() {
                         Let's Get
                         <br />
                         Started
-                      </a>
+                      
                     </Link>
                   </div>
                 </div>

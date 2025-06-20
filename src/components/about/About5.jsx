@@ -1,3 +1,4 @@
+import Reveal from "@/animations/Reveal";
 import React from "react";
 
 function About5() {
@@ -6,11 +7,8 @@ function About5() {
     <div className="home5-about-area pt-130 mb-50" id="home5-about-area">
       <div className="container">
         <div className="row g-4 gy-5">
-          <div
-            className="col-lg-6 wow animate fadeInLeft"
-            data-wow-delay="200ms"
-            data-wow-duration="1500ms"
-          >
+          <div className="col-lg-6 " >
+            <Reveal>
             <div className="about-content">
               <div className="section-title-5">
                 <span>Our Values &amp; Culture</span>
@@ -74,19 +72,20 @@ function About5() {
                 convert.
               </p>
             </div>
+            </Reveal>
           </div>
           <div
-            className="col-lg-6 wow animate fadeInRight"
-            data-wow-delay="300ms"
-            data-wow-duration="1500ms"
+            className="col-lg-6  "
           >
             <div className="about-img-wrap">
               <div className="about-img magnetic-item">
+          <Reveal direction="right">
                 <img
                   className="img-fluid"
                   src="assets/img/home-5/home-1.jpg"
                   alt=""
                 />
+            </Reveal>
               </div>
             </div>
           </div>

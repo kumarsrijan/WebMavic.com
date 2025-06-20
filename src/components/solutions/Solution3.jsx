@@ -79,7 +79,7 @@ function Solution3() {
                   </svg>
                 </div>
                 <div className="solution-content">
-                  <h4><Link legacyBehavior href="/service-details"><a>Web Development</a></Link></h4>
+                  <h4><Link  href="/service-details">Web Development</Link></h4>
                   <p>Web development is the process of creating websites and web applications for the internet or intranet.</p>
                   <ul className="solution-feature">
                     <li>
@@ -112,7 +112,7 @@ function Solution3() {
                   </svg>
                 </div>
                 <div className="solution-content">
-                  <h4><Link legacyBehavior href="/service-details"><a>Cloud Solutions</a></Link></h4>
+                  <h4><Link  href="/service-details">Cloud Solutions</Link></h4>
                   <p>Cloud solutions refer to the use of cloud computing technology to provide services and solutions over the internet.</p>
                   <ul className="solution-feature">
                     <li>
@@ -147,7 +147,7 @@ function Solution3() {
                   </svg>
                 </div>
                 <div className="solution-content">
-                  <h4><Link legacyBehavior href="/service-details"><a>Cyber Security</a></Link></h4>
+                  <h4><Link  href="/service-details">Cyber Security</Link></h4>
                   <p>Cybersecurity refers to the protection of computer systems, networks, and data from theft, damage, or unauthorized access.</p>
                   <ul className="solution-feature">
                     <li>
@@ -177,7 +177,7 @@ function Solution3() {
                   </svg>
                 </div>
                 <div className="solution-content">
-                  <h4><Link legacyBehavior href="/service-details"><a>Data Analytics</a></Link></h4>
+                  <h4><Link  href="/service-details">Data Analytics</Link></h4>
                   <p>Data analytics refers to the process of examining and interpreting large datasets to extract insights and draw conclusions.</p>
                   <ul className="solution-feature">
                     <li>

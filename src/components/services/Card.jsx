@@ -1,9 +1,9 @@
 import React from "react";
 import Link from "next/link";
+import Reveal from "@/animations/Reveal";
 const Card = (props) => {
   return (
-    <div className="solution-card magnetic-item wow animate fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms"
-    >
+    <div className="solution-card magnetic-item">
        <div>
         <div className="icon">
           <div className="icon-bg">
@@ -62,8 +62,8 @@ const Card = (props) => {
         </div>
         <div className="solution-content">
           <h4>
-            <Link legacyBehavior href="/service-details">
-              <a>{props.items.title}</a>
+            <Link  href="/service-details">
+             {props.items.title}
             </Link>
           </h4>
           <p>{props.items.description}</p>
@@ -118,13 +118,9 @@ const Card = (props) => {
           </ul>
         </div>
 
-       </div>
-
-       
-              
+       </div>  
         <div className="learn-btn">
-            <Link legacyBehavior href={`/${props.items.link}`}>
-              <a className="primary-btn8">
+            <Link className="primary-btn8"  href={`/${props.items.link}`}>
                 Learn More
                 <svg
                   width={12}
@@ -135,9 +131,9 @@ const Card = (props) => {
                 >
                   <path d="M0 1H12M12 1V13M12 1L0.5 12" />
                 </svg>
-              </a>
             </Link>
           </div>
+ 
     </div>
   );
 };
