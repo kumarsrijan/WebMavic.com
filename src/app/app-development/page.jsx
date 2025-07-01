@@ -269,7 +269,7 @@ function ServiceDetailsPage() {
                 <div className="driscription-img magnetic-item">
                   <img
                     className="img-fluid"
-                    src="assets/img/inner-pages/app-development-2.jpg"
+                    src="assets/img/inner-pages/appdevelopment.png"
                     alt=""
                   />
                 </div>

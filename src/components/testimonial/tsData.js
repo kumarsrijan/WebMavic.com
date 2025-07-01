@@ -1,9 +1,9 @@
 export const testimolial_Data = [
-  // {
-  //   author : 'S Shrivastav',
-  //   authorImg : "assets/img/testis3.jpg",
-  //   review : "I initially tried getting the work done elsewhere but was disappointed with the outcome. Returning to Srijan and this team was the right decision—he handled the project with professionalism, patience, and dedication. Despite challenges, he delivered exactly what I needed, ensuring a smooth and satisfying experience. I truly appreciate his commitment and expertise."
-  // },
+  {
+    author : 'S Shrivastav',
+    authorImg : "assets/img/testis3.jpg",
+    review : "I initially tried getting the work done elsewhere but was disappointed with the outcome. Returning to Srijan and this team was the right decision—he handled the project with professionalism, patience, and dedication. Despite challenges, he delivered exactly what I needed, ensuring a smooth and satisfying experience. I truly appreciate his commitment and expertise."
+  },
   {
     author : "Abhinav",
     authorImg : "assets/img/testis1.png",

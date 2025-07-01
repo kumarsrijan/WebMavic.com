@@ -19,6 +19,7 @@ function AboutPage() {
       <Breadcrumb pageList="About" title="Get To Know About WebMavic" pageName="ABOUT"/>
       <About3 />
       <Choose6 />
+      
       <Home5Team />
       <Home3Contact />
     </Layout>
