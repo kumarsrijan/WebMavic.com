@@ -3,7 +3,7 @@ import React from "react";
 
 const WhatWeDo5 = () => {
   return (
-    <div className="home5-process-area mb-130">
+    <div className="home5-process-area pt-130 pb-130">
       <div className="container">
        
           <Reveal fadeInUp>

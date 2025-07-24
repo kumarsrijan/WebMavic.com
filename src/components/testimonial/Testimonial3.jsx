@@ -65,7 +65,20 @@ function Testimonial3() {
                 meet specific needs or solve problems for their customers.
                 Services can range from your budject.
               </p>
+             <div className="testimonial-btm">
+                     <div className="author-area">
+                       <div className="author-content">
+                         
+                        <span>View Letter Of Appreciation</span>
+
+                       </div>
+                     </div>
+                     </div>
+  
+
+ 
             </div>
+            
             <div className="swiper-btn-group">
               <div className="swiper-btn prevbtn2">
                 <i className="bi bi-arrow-left" />
@@ -118,7 +131,8 @@ function Testimonial3() {
                      <div className="author-area">
                        <div className="author-content">
                          <h4>{item.author}</h4>
-                         {/* <span>CEO At atlantis.com</span> */}
+                        <span>{item.position}</span>
+
                        </div>
                      </div>
                      {/* <div className="review-date-and-time">

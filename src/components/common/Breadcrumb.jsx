@@ -6,7 +6,7 @@ function Breadcrumb({ title, pageName, pageList }) {
     <section className="breadcrumbs">
       <div className="breadcrumb-sm-images">
         <div className="inner-banner-1 magnetic-item">
-          <img src="assets/img/inner-pages/about1.jpg" alt="" />
+          <img src="assets/img/inner-pages/about1.png" alt="" />
         </div>
         <div className="inner-banner-2 magnetic-item">
           <img src="assets/img/inner-pages/about2.jpg" alt="" />

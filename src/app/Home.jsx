@@ -14,6 +14,7 @@ const Sidebar = dynamic(() => import("@/components/common/Sidebar"));
 const Footer5 = dynamic(() => import("@/components/footer/Footer5"));
 const Partner5 = dynamic(() => import("@/components/partner/Partner5"));
 const Service5 = dynamic(() => import("@/components/services/Service5"));
+const Testimonial3 = dynamic(()=> import("@/components/testimonial/Testimonial3"));
 const Back = dynamic(() => import("@/components/layout/Back"));
 const RequestDemoPopup = dynamic(() => import("@/components/popups/RequestDemoPopup"));
 
@@ -71,6 +72,7 @@ export default function HomePage() {
           <About5 />
           <Review6 />
           <Service5 />
+         <Testimonial3 /> 
           <WhatWeDo5 />
           <Partner5 />
           <CaseStudy5 />

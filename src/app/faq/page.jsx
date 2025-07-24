@@ -369,8 +369,7 @@ function Faqpage() {
                         data-bs-parent="#accordionExample"
                       >
                         <div className="accordion-body">
-                          We provide multiple payment alternatives, including
-                          UPI, bank transfer, and payment gateway (Razorpay).
+                         We provide multiple payment alternatives, including Wise and bank transfer.
                         </div>
                       </div>
                     </div>
@@ -394,8 +393,9 @@ function Faqpage() {
                         data-bs-parent="#accordionExample"
                       >
                         <div className="accordion-body">
-                          Our payement terms are 60% before starting the work
-                          and remaining 40% on the completion of the preoject.
+                          Our payment terms are 30% before starting the work, 40% upon mid-project milestone, and the remaining 30% upon project completion.
+
+
                         </div>
                       </div>
                     </div>
@@ -427,7 +427,7 @@ function Faqpage() {
                         </div>
                       </div>
                     </div>
-                    <div className="accordion-item">
+                    {/* <div className="accordion-item">
                       <h5 className="accordion-header" id="headingFour1">
                         <button
                           className="accordion-button collapsed"
@@ -453,7 +453,7 @@ function Faqpage() {
                           proper GST invoice for your records and compliance.
                         </div>
                       </div>
-                    </div>
+                    </div> */}
                     {/* <div className="accordion-item">
                       <h5 className="accordion-header" id="headingFive1">
                         <button
